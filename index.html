@@ -4,24 +4,111 @@
     <meta charset="UTF-8">
     <title>OpenRouter Model Catalog (315 models)</title>
     <style>
-        :root { --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--primary-text); margin: 0; padding: 2rem; display: flex; justify-content: center; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        h1 { font-size: 2.5rem; font-weight: 700; text-align: center; margin-bottom: 0.5rem; }
-        .subtitle { text-align: center; color: var(--secondary-text); margin-bottom: 2rem; }
-        a { color: var(--link-color); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .filter-container { position: relative; margin-bottom: 1.5rem; }
-        .filter-container svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--secondary-text); pointer-events: none; }
-        #filter-input { width: 100%; padding: 0.75rem 0.75rem 0.75rem 36px; font-size: 1rem; background-color: #222; border: 1px solid var(--border-color); border-radius: 8px; color: var(--primary-text); box-sizing: border-box; }
-        #filter-input:focus { outline: none; border-color: var(--link-color); box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.3); }
-        table { width: 100%; border-collapse: collapse; background-color: var(--table-bg); border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); }
-        th, td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--border-color); white-space: nowrap; }
-        thead th { background-color: var(--table-header-bg); font-weight: 600; color: var(--secondary-text); text-transform: uppercase; font-size: 0.75rem; cursor: pointer; user-select: none; }
-        tbody tr { cursor: pointer; transition: background-color 0.15s ease-in-out; }
-        tbody tr:hover td { background-color: var(--hover-bg); }
-        tbody tr:last-child td { border-bottom: none; }
-        .sort-arrow { margin-left: .4rem; opacity: 0.7; }
+        :root {
+            --bg-color: #121212;
+            --primary-text: #e0e0e0;
+            --secondary-text: #b0b0b0;
+            --border-color: #333;
+            --table-header-bg: #252525;
+            --table-bg: #1e1e1e;
+            --hover-bg: #2a2a2a;
+            --link-color: #4a90e2;
+            --modal-bg: #282828;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-text);
+            margin: 0;
+            padding: 2rem;
+        }
+        .container {
+            /* --- THIS IS THE FIX --- */
+            max-width: 1600px; /* Increased from 1200px to allow wider content */
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            text-align: center;
+            color: var(--secondary-text);
+            margin-bottom: 2rem;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .filter-container {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        .filter-container svg {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--secondary-text);
+            pointer-events: none;
+        }
+        #filter-input {
+            width: 100%;
+            padding: 0.75rem 0.75rem 0.75rem 36px;
+            font-size: 1rem;
+            background-color: #222;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--primary-text);
+            box-sizing: border-box;
+        }
+        #filter-input:focus {
+            outline: none;
+            border-color: var(--link-color);
+            box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.3);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: var(--table-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+            white-space: nowrap;
+        }
+        thead th {
+            background-color: var(--table-header-bg);
+            font-weight: 600;
+            color: var(--secondary-text);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            cursor: pointer;
+            user-select: none;
+        }
+        tbody tr {
+            cursor: pointer;
+            transition: background-color 0.15s ease-in-out;
+        }
+        tbody tr:hover td {
+            background-color: var(--hover-bg);
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .sort-arrow {
+            margin-left: .4rem;
+            opacity: 0.7;
+        }
         .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.7); }
         .modal-content { background-color: var(--modal-bg); margin: 10% auto; padding: 25px; border: 1px solid #555; border-radius: 8px; width: 80%; max-width: 600px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); }
         .modal-header { padding-bottom: 15px; border-bottom: 1px solid var(--border-color); }
