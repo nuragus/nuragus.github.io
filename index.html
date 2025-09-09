@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (325 models)</title>
+    <title>OpenRouter Model Catalog (327 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (325 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 09-09-2025</p>
+        <h1>OpenRouter Model Catalog (327 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 10-09-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="This is a cloaked model provided to the community to gather feedback. A fast and intelligent general-purpose frontier model with a 2 million token context window. Supports image inputs and parallel tool calling.\n\nNote: It’s free to use during this testing period, and prompts and completions are logged by the model creator for feedback and training.">
+                <tr data-description="NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. \n\nThe model&#39;s reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.">
+            <td data-label="Developer">nvidia</td>
+            <td data-label="Technical Name (ID)">nvidia/nemotron-nano-9b-v2</td>
+            <td data-label="Model Name">NVIDIA: Nemotron Nano 9B V2</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-06</td>
+        </tr>
+<tr data-description="This is a cloaked model provided to the community to gather feedback. A fast and intelligent general-purpose frontier model with a 2 million token context window. Supports image inputs and parallel tool calling.\n\nNote: It’s free to use during this testing period, and prompts and completions are logged by the model creator for feedback and training.">
             <td data-label="Developer">openrouter</td>
             <td data-label="Technical Name (ID)">openrouter/sonoma-dusk-alpha</td>
             <td data-label="Model Name">Sonoma Dusk Alpha</td>
@@ -1478,6 +1487,15 @@
             <td data-label="Price (Completion)">$0.0800064 / 1M tok</td>
             <td data-label="Latest Update">2025-03-18</td>
         </tr>
+<tr data-description="OLMo-2 32B Instruct is a supervised instruction-finetuned variant of the OLMo-2 32B March 2025 base model. It excels in complex reasoning and instruction-following tasks across diverse benchmarks such as GSM8K, MATH, IFEval, and general NLP evaluation. Developed by AI2, OLMo-2 32B is part of an open, research-oriented initiative, trained primarily on English-language datasets to advance the understanding and development of open-source language models.">
+            <td data-label="Developer">allenai</td>
+            <td data-label="Technical Name (ID)">allenai/olmo-2-0325-32b-instruct</td>
+            <td data-label="Model Name">AllenAI: Olmo 2 32B Instruct</td>
+            <td data-label="Context">4096</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-03-15</td>
+        </tr>
 <tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling.">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemma-3-4b-it:free</td>
@@ -1518,9 +1536,9 @@
             <td data-label="Developer">cohere</td>
             <td data-label="Technical Name (ID)">cohere/command-a</td>
             <td data-label="Model Name">Cohere: Command A</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$2 / 1M tok</td>
-            <td data-label="Price (Completion)">$8 / 1M tok</td>
+            <td data-label="Context">256000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2025-03-14</td>
         </tr>
 <tr data-description="GPT-4o mini Search Preview is a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries.">
