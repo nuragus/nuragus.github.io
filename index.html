@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (326 models)</title>
+    <title>OpenRouter Model Catalog (327 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (326 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 17-09-2025</p>
+        <h1>OpenRouter Model Catalog (327 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 18-09-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,25 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="AFM-4.5B is a 4.5 billion parameter instruction-tuned language model developed by Arcee AI. The model was pretrained on approximately 8 trillion tokens, including 6.5 trillion tokens of general data and 1.5 trillion tokens with an emphasis on mathematical reasoning and code generation. ">
+                <tr data-description="Qwen3 Coder Flash is Alibaba&#39;s fast and cost efficient version of their proprietary Qwen3 Coder Plus. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.">
+            <td data-label="Developer">qwen</td>
+            <td data-label="Technical Name (ID)">qwen/qwen3-coder-flash</td>
+            <td data-label="Model Name">Qwen: Qwen3 Coder Flash</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-17</td>
+        </tr>
+<tr data-description="Qwen3 Coder Plus is Alibaba&#39;s proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.">
+            <td data-label="Developer">qwen</td>
+            <td data-label="Technical Name (ID)">qwen/qwen3-coder-plus</td>
+            <td data-label="Model Name">Qwen: Qwen3 Coder Plus</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-17</td>
+        </tr>
+<tr data-description="AFM-4.5B is a 4.5 billion parameter instruction-tuned language model developed by Arcee AI. The model was pretrained on approximately 8 trillion tokens, including 6.5 trillion tokens of general data and 1.5 trillion tokens with an emphasis on mathematical reasoning and code generation. ">
             <td data-label="Developer">arcee-ai</td>
             <td data-label="Technical Name (ID)">arcee-ai/afm-4.5b</td>
             <td data-label="Model Name">Arcee AI: AFM 4.5B</td>
@@ -161,7 +179,7 @@
             <td data-label="Model Name">Qwen: Qwen3 Next 80B A3B Thinking</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.39 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.8 / 1M tok</td>
             <td data-label="Latest Update">2025-09-12</td>
         </tr>
 <tr data-description="Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual use, while remaining robust on alignment and formatting. Compared with prior Qwen3 instruct variants, it focuses on higher throughput and stability on ultra-long inputs and multi-turn dialogues, making it well-suited for RAG, tool use, and agentic workflows that require consistent final answers rather than visible chain-of-thought.\n\nThe model employs scaling-efficient training and decoding to improve parameter efficiency and inference speed, and has been validated on a broad set of public benchmarks where it reaches or approaches larger Qwen3 systems in several categories while outperforming earlier mid-sized baselines. It is best used as a general assistant, code helper, and long-context task solver in production settings where deterministic, instruction-following outputs are preferred.">
@@ -170,7 +188,7 @@
             <td data-label="Model Name">Qwen: Qwen3 Next 80B A3B Instruct</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.39 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.8 / 1M tok</td>
             <td data-label="Latest Update">2025-09-12</td>
         </tr>
 <tr data-description="LongCat-Flash-Chat is a large-scale Mixture-of-Experts (MoE) model with 560B total parameters, of which 18.6B–31.3B (≈27B on average) are dynamically activated per input. It introduces a shortcut-connected MoE design to reduce communication overhead and achieve high throughput while maintaining training stability through advanced scaling strategies such as hyperparameter transfer, deterministic computation, and multi-stage optimization.\n\nThis release, LongCat-Flash-Chat, is a non-thinking foundation model optimized for conversational and agentic tasks. It supports long context windows up to 128K tokens and shows competitive performance across reasoning, coding, instruction following, and domain benchmarks, with particular strengths in tool use and complex multi-step interactions.">
@@ -178,8 +196,8 @@
             <td data-label="Technical Name (ID)">meituan/longcat-flash-chat</td>
             <td data-label="Model Name">Meituan: LongCat Flash Chat</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.75 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
             <td data-label="Latest Update">2025-09-09</td>
         </tr>
 <tr data-description="Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.">
@@ -295,8 +313,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-30b-a3b-thinking-2507</td>
             <td data-label="Model Name">Qwen: Qwen3 30B A3B Thinking 2507</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.09 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.3 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.29 / 1M tok</td>
             <td data-label="Latest Update">2025-08-28</td>
         </tr>
 <tr data-description="Grok Code Fast 1 is a speedy and economical reasoning model that excels at agentic coding. With reasoning traces visible in the response, developers can steer Grok Code for high-quality work flows.">
@@ -313,8 +331,8 @@
             <td data-label="Technical Name (ID)">nousresearch/hermes-4-70b</td>
             <td data-label="Model Name">Nous: Hermes 4 70B</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.11 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.38 / 1M tok</td>
             <td data-label="Latest Update">2025-08-27</td>
         </tr>
 <tr data-description="Hermes 4 is a large-scale reasoning model built on Meta-Llama-3.1-405B and released by Nous Research. It introduces a hybrid reasoning mode, where the model can choose to deliberate internally with &lt;think&gt;...&lt;/think&gt; traces or respond directly, offering flexibility between speed and depth. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model is instruction-tuned with an expanded post-training corpus (~60B tokens) emphasizing reasoning traces, improving performance in math, code, STEM, and logical reasoning, while retaining broad assistant utility. It also supports structured outputs, including JSON mode, schema adherence, function calling, and tool use. Hermes 4 is trained for steerability, lower refusal rates, and alignment toward neutral, user-directed behavior.">
@@ -339,7 +357,7 @@
             <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-chat-v3.1:free</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3.1 (free)</td>
-            <td data-label="Context">32768</td>
+            <td data-label="Context">163840</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-08-21</td>
@@ -439,8 +457,8 @@
             <td data-label="Technical Name (ID)">openai/gpt-5</td>
             <td data-label="Model Name">OpenAI: GPT-5</td>
             <td data-label="Context">400000</td>
-            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$10 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.625 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
             <td data-label="Latest Update">2025-08-08</td>
         </tr>
 <tr data-description="GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost. GPT-5 Mini is the successor to OpenAI&#39;s o4-mini model.">
@@ -474,9 +492,9 @@
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-oss-120b</td>
             <td data-label="Model Name">OpenAI: gpt-oss-120b</td>
-            <td data-label="Context">131000</td>
-            <td data-label="Price (Prompt)">$0.072 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.28 / 1M tok</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.25 / 1M tok</td>
             <td data-label="Latest Update">2025-08-06</td>
         </tr>
 <tr data-description="gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference and deployability on consumer or single-GPU hardware. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs.">
@@ -592,8 +610,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-coder</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder 480B A35B</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.22 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.95 / 1M tok</td>
             <td data-label="Latest Update">2025-07-23</td>
         </tr>
 <tr data-description="UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with reinforcement learning-based reasoning, enabling robust action planning and execution across virtual interfaces.\n\nThis model achieves state-of-the-art results on a range of interactive and grounding benchmarks, including OSworld, WebVoyager, AndroidWorld, and ScreenSpot. It also demonstrates perfect task completion across diverse Poki games and outperforms prior models in Minecraft agent tasks. UI-TARS-1.5 supports thought decomposition during inference and shows strong scaling across variants, with the 1.5 version notably exceeding the performance of earlier 72B and 7B checkpoints.">
@@ -620,7 +638,7 @@
             <td data-label="Model Name">Qwen: Qwen3 235B A22B Instruct 2507</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.39 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2025-07-22</td>
         </tr>
 <tr data-description="Switchpoint AI&#39;s router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library. \n\nAs the world of LLMs advances, our router gets smarter, ensuring you always benefit from the industry&#39;s newest models without changing your workflow.\n\nThis model is configured for a simple, flat rate per response here on OpenRouter. It&#39;s powered by the full routing engine from [Switchpoint AI](https://www.switchpoint.dev).">
@@ -952,8 +970,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-r1-0528</td>
             <td data-label="Model Name">DeepSeek: R1 0528</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.75 / 1M tok</td>
             <td data-label="Latest Update">2025-05-29</td>
         </tr>
 <tr data-description="Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in software engineering, achieving leading results on SWE-bench (72.5%) and Terminal-bench (43.2%). Opus 4 supports extended, agentic workflows, handling thousands of task steps continuously for hours without degradation. \n\nRead more at the [blog post here](https://www.anthropic.com/news/claude-4)">
@@ -1150,8 +1168,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-30b-a3b</td>
             <td data-label="Model Name">Qwen: Qwen3 30B A3B</td>
             <td data-label="Context">40960</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.14 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.06 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.22 / 1M tok</td>
             <td data-label="Latest Update">2025-04-29</td>
         </tr>
 <tr data-description="Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between &quot;thinking&quot; mode for math, coding, and logical inference, and &quot;non-thinking&quot; mode for general conversation. The model is fine-tuned for instruction-following, agent integration, creative writing, and multilingual use across 100+ languages and dialects. It natively supports a 32K token context window and can extend to 131K tokens with YaRN scaling.">
@@ -1613,15 +1631,6 @@
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2025-03-13</td>
         </tr>
-<tr data-description="Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a 32K context length and optimized through reinforcement learning (RLOO), it provides competitive performance comparable to proprietary models within a smaller parameter footprint. Ideal for low-latency, local, or on-device deployments, Reka Flash 3 is compact, supports efficient quantization (down to 11GB at 4-bit precision), and employs explicit reasoning tags (&quot;&lt;reasoning&gt;&quot;) to indicate its internal thought process.\n\nReka Flash 3 is primarily an English model with limited multilingual understanding capabilities. The model weights are released under the Apache 2.0 license.">
-            <td data-label="Developer">rekaai</td>
-            <td data-label="Technical Name (ID)">rekaai/reka-flash-3:free</td>
-            <td data-label="Model Name">Reka: Flash 3 (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-13</td>
-        </tr>
 <tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities, including structured outputs and function calling. Gemma 3 27B is Google&#39;s latest open source model, successor to [Gemma 2](google/gemma-2-27b-it)">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemma-3-27b-it:free</td>
@@ -1906,8 +1915,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen2.5-vl-72b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen2.5 VL 72B Instruct</td>
             <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.5 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.28 / 1M tok</td>
             <td data-label="Latest Update">2025-02-01</td>
         </tr>
 <tr data-description="Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.">
