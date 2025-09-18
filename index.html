@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (327 models)</title>
+    <title>OpenRouter Model Catalog (328 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (327 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 18-09-2025</p>
+        <h1>OpenRouter Model Catalog (328 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 19-09-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Qwen3 Coder Flash is Alibaba&#39;s fast and cost efficient version of their proprietary Qwen3 Coder Plus. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.">
+                <tr data-description="Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It&#39;s optimized for long-horizon, deep information-seeking tasks and delivers state-of-the-art performance on benchmarks like Humanity&#39;s Last Exam, BrowserComp, BrowserComp-ZH, WebWalkerQA, GAIA, xbench-DeepSearch, and FRAMES. This makes it superior for complex agentic search, reasoning, and multi-step problem-solving compared to prior models.\n\nThe model includes a fully automated synthetic data pipeline for scalable pre-training, fine-tuning, and reinforcement learning. It uses large-scale continual pre-training on diverse agentic data to boost reasoning and stay fresh. It also features end-to-end on-policy RL with a customized Group Relative Policy Optimization, including token-level gradients and negative sample filtering for stable training. The model supports ReAct for core ability checks and an IterResearch-based &#39;Heavy&#39; mode for max performance through test-time scaling. It&#39;s ideal for advanced research agents, tool use, and heavy inference workflows.">
+            <td data-label="Developer">alibaba</td>
+            <td data-label="Technical Name (ID)">alibaba/tongyi-deepresearch-30b-a3b</td>
+            <td data-label="Model Name">Tongyi DeepResearch 30B A3B</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.09 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.45 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-18</td>
+        </tr>
+<tr data-description="Qwen3 Coder Flash is Alibaba&#39;s fast and cost efficient version of their proprietary Qwen3 Coder Plus. It is a powerful coding agent model specializing in autonomous programming via tool calling and environment interaction, combining coding proficiency with versatile general-purpose abilities.">
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-coder-flash</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder Flash</td>
@@ -817,8 +826,8 @@
             <td data-label="Technical Name (ID)">mistralai/mistral-small-3.2-24b-instruct</td>
             <td data-label="Model Name">Mistral: Mistral Small 3.2 24B</td>
             <td data-label="Context">128000</td>
-            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.075 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
             <td data-label="Latest Update">2025-06-21</td>
         </tr>
 <tr data-description="MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom &quot;lightning attention&quot; mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.">
@@ -1231,8 +1240,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-235b-a22b</td>
             <td data-label="Model Name">Qwen: Qwen3 235B A22B</td>
             <td data-label="Context">40960</td>
-            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.18 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.54 / 1M tok</td>
             <td data-label="Latest Update">2025-04-29</td>
         </tr>
 <tr data-description="DeepSeek-R1T-Chimera is created by merging DeepSeek-R1 and DeepSeek-V3 (0324), combining the reasoning capabilities of R1 with the token efficiency improvements of V3. It is based on a DeepSeek-MoE Transformer architecture and is optimized for general text generation tasks.\n\nThe model merges pretrained weights from both source models to balance performance across reasoning, efficiency, and instruction-following tasks. It is released under the MIT license and intended for research and commercial use.">
@@ -2571,9 +2580,9 @@
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-3.1-8b-instruct</td>
             <td data-label="Model Name">Meta: Llama 3.1 8B Instruct</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.015 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.02 / 1M tok</td>
+            <td data-label="Context">16384</td>
+            <td data-label="Price (Prompt)">$0.02 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.03 / 1M tok</td>
             <td data-label="Latest Update">2024-07-23</td>
         </tr>
 <tr data-description="The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta&#39;s latest class of model (Llama 3.1) launched with a variety of sizes &amp; flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
