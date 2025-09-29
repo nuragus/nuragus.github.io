@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (326 models)</title>
+    <title>OpenRouter Model Catalog (327 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (326 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 29-09-2025</p>
+        <h1>OpenRouter Model Catalog (327 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 30-09-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,25 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Creative writing model based on Mistral Small 3.2 24B">
+                <tr data-description="Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with improvements across system design, code security, and specification adherence. The model is designed for extended autonomous operation, maintaining task continuity across sessions and providing fact-based progress tracking.\n\nSonnet 4.5 also introduces stronger agentic capabilities, including improved tool orchestration, speculative parallel execution, and more efficient context and memory management. With enhanced context tracking and awareness of token usage across tool calls, it is particularly well-suited for multi-context and long-running workflows. Use cases span software engineering, cybersecurity, financial analysis, research agents, and other domains requiring sustained reasoning and tool use.">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-sonnet-4.5</td>
+            <td data-label="Model Name">Anthropic: Claude Sonnet 4.5</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$3 / 1M tok</td>
+            <td data-label="Price (Completion)">$15 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-29</td>
+        </tr>
+<tr data-description="DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism designed to improve training and inference efficiency in long-context scenarios while maintaining output quality. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)\n\nThe model was trained under conditions aligned with V3.1-Terminus to enable direct comparison. Benchmarking shows performance roughly on par with V3.1 across reasoning, coding, and agentic tool-use tasks, with minor tradeoffs and gains depending on the domain. This release focuses on validating architectural optimizations for extended context lengths rather than advancing raw task accuracy, making it primarily a research-oriented model for exploring efficient transformer designs.">
+            <td data-label="Developer">deepseek</td>
+            <td data-label="Technical Name (ID)">deepseek/deepseek-v3.2-exp</td>
+            <td data-label="Model Name">DeepSeek: DeepSeek V3.2 Exp</td>
+            <td data-label="Context">163840</td>
+            <td data-label="Price (Prompt)">$0.27 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.41 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-29</td>
+        </tr>
+<tr data-description="Creative writing model based on Mistral Small 3.2 24B">
             <td data-label="Developer">thedrummer</td>
             <td data-label="Technical Name (ID)">thedrummer/cydonia-24b-v4.1</td>
             <td data-label="Model Name">TheDrummer: Cydonia 24B V4.1</td>
@@ -304,8 +322,8 @@
             <td data-label="Technical Name (ID)">meituan/longcat-flash-chat</td>
             <td data-label="Model Name">Meituan: LongCat Flash Chat</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-09-09</td>
         </tr>
 <tr data-description="Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.">
@@ -448,8 +466,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-chat-v3.1</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3.1</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.8 / 1M tok</td>
             <td data-label="Latest Update">2025-08-21</td>
         </tr>
 <tr data-description="This is a base model, trained only for raw next-token prediction. Unlike instruct/chat models, it has not been fine-tuned to follow user instructions. Prompts need to be written more like training text or examples rather than simple requests (e.g., “Translate the following sentence…” instead of just “Translate this”).\n\nDeepSeek-V3.1 Base is a 671B parameter open Mixture-of-Experts (MoE) language model with 37B active parameters per forward pass and a context length of 128K tokens. Trained on 14.8T tokens using FP8 mixed precision, it achieves high training efficiency and stability, with strong performance across language, reasoning, math, and coding tasks. \n">
@@ -574,8 +592,8 @@
             <td data-label="Technical Name (ID)">openai/gpt-oss-120b</td>
             <td data-label="Model Name">OpenAI: gpt-oss-120b</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.25 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2025-08-06</td>
         </tr>
 <tr data-description="gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for lower-latency inference and deployability on consumer or single-GPU hardware. The model is trained in OpenAI’s Harmony response format and supports reasoning level configuration, fine-tuning, and agentic capabilities including function calling, tool use, and structured outputs.">
@@ -619,8 +637,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-coder-30b-a3b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder 30B A3B Instruct</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.28 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.06 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.25 / 1M tok</td>
             <td data-label="Latest Update">2025-07-31</td>
         </tr>
 <tr data-description="Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.">
@@ -637,8 +655,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-4.5</td>
             <td data-label="Model Name">Z.AI: GLM 4.5</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.39 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.55 / 1M tok</td>
             <td data-label="Latest Update">2025-07-26</td>
         </tr>
 <tr data-description="GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a &quot;thinking mode&quot; for advanced reasoning and tool use, and a &quot;non-thinking mode&quot; for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)">
@@ -664,8 +682,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-235b-a22b-thinking-2507</td>
             <td data-label="Model Name">Qwen: Qwen3 235B A22B Thinking 2507</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.39 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.11 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
             <td data-label="Latest Update">2025-07-25</td>
         </tr>
 <tr data-description="GLM 4 32B is a cost-effective foundation language model.\n\nIt can efficiently perform complex tasks and has significantly enhanced capabilities in tool use, online search, and code-related intelligent tasks.\n\nIt is made by the same lab behind the thudm models.">
@@ -718,8 +736,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-235b-a22b-2507</td>
             <td data-label="Model Name">Qwen: Qwen3 235B A22B Instruct 2507</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.09 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.55 / 1M tok</td>
             <td data-label="Latest Update">2025-07-22</td>
         </tr>
 <tr data-description="Switchpoint AI&#39;s router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library. \n\nAs the world of LLMs advances, our router gets smarter, ensuring you always benefit from the industry&#39;s newest models without changing your workflow.\n\nThis model is configured for a simple, flat rate per response here on OpenRouter. It&#39;s powered by the full routing engine from [Switchpoint AI](https://www.switchpoint.dev).">
@@ -762,7 +780,7 @@
             <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/devstral-medium</td>
             <td data-label="Model Name">Mistral: Devstral Medium</td>
-            <td data-label="Context">32768</td>
+            <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
             <td data-label="Price (Completion)">$2 / 1M tok</td>
             <td data-label="Latest Update">2025-07-10</td>
@@ -897,9 +915,9 @@
             <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/mistral-small-3.2-24b-instruct</td>
             <td data-label="Model Name">Mistral: Mistral Small 3.2 24B</td>
-            <td data-label="Context">128000</td>
-            <td data-label="Price (Prompt)">$0.075 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.06 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.18 / 1M tok</td>
             <td data-label="Latest Update">2025-06-21</td>
         </tr>
 <tr data-description="MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom &quot;lightning attention&quot; mechanism, allowing it to process long sequences—up to 1 million tokens—while maintaining competitive FLOP efficiency. With 456 billion total parameters and 45.9B active per token, this variant is optimized for complex, multi-step reasoning tasks.\n\nTrained via a custom reinforcement learning pipeline (CISPO), M1 excels in long-context understanding, software engineering, agentic tool use, and mathematical reasoning. Benchmarks show strong performance across FullStackBench, SWE-bench, MATH, GPQA, and TAU-Bench, often outperforming other open models like DeepSeek R1 and Qwen3-235B.">
@@ -1032,7 +1050,7 @@
             <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-r1-0528-qwen3-8b</td>
             <td data-label="Model Name">DeepSeek: Deepseek R1 0528 Qwen3 8B</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.01 / 1M tok</td>
             <td data-label="Price (Completion)">$0.05 / 1M tok</td>
             <td data-label="Latest Update">2025-05-30</td>
@@ -1609,8 +1627,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-chat-v3-0324</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3 0324</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.24 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.84 / 1M tok</td>
             <td data-label="Latest Update">2025-03-24</td>
         </tr>
 <tr data-description="The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide consistently better answers.">
@@ -1729,15 +1747,6 @@
             <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
             <td data-label="Price (Completion)">$0.26 / 1M tok</td>
             <td data-label="Latest Update">2025-03-12</td>
-        </tr>
-<tr data-description="Anubis Pro 105B v1 is an expanded and refined variant of Meta’s Llama 3.3 70B, featuring 50% additional layers and further fine-tuning to leverage its increased capacity. Designed for advanced narrative, roleplay, and instructional tasks, it demonstrates enhanced emotional intelligence, creativity, nuanced character portrayal, and superior prompt adherence compared to smaller models. Its larger parameter count allows for deeper contextual understanding and extended reasoning capabilities, optimized for engaging, intelligent, and coherent interactions.">
-            <td data-label="Developer">thedrummer</td>
-            <td data-label="Technical Name (ID)">thedrummer/anubis-pro-105b-v1</td>
-            <td data-label="Model Name">TheDrummer: Anubis Pro 105B V1</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.5 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-11</td>
         </tr>
 <tr data-description="Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.">
             <td data-label="Developer">thedrummer</td>
@@ -2653,8 +2662,8 @@
             <td data-label="Technical Name (ID)">meta-llama/llama-3.1-70b-instruct</td>
             <td data-label="Model Name">Meta: Llama 3.1 70B Instruct</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.28 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2024-07-23</td>
         </tr>
 <tr data-description="A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.">
@@ -2972,7 +2981,7 @@
             <td data-label="Price (Completion)">$5.5 / 1M tok</td>
             <td data-label="Latest Update">2023-11-10</td>
         </tr>
-<tr data-description="Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.\n\nTo see which model was used, visit [Activity](/activity), or read the `model` attribute of the response. Your response will be priced at the same rate as the routed model.\n\nThe meta-model is powered by [Not Diamond](https://docs.notdiamond.ai/docs/how-not-diamond-works). Learn more in our [docs](/docs/model-routing).\n\nRequests will be routed to the following models:\n- [openai/gpt-4o-2024-08-06](/openai/gpt-4o-2024-08-06)\n- [openai/gpt-4o-2024-05-13](/openai/gpt-4o-2024-05-13)\n- [openai/gpt-4o-mini-2024-07-18](/openai/gpt-4o-mini-2024-07-18)\n- [openai/chatgpt-4o-latest](/openai/chatgpt-4o-latest)\n- [openai/o1-preview-2024-09-12](/openai/o1-preview-2024-09-12)\n- [openai/o1-mini-2024-09-12](/openai/o1-mini-2024-09-12)\n- [anthropic/claude-3.5-sonnet](/anthropic/claude-3.5-sonnet)\n- [anthropic/claude-3.5-haiku](/anthropic/claude-3.5-haiku)\n- [anthropic/claude-3-opus](/anthropic/claude-3-opus)\n- [anthropic/claude-2.1](/anthropic/claude-2.1)\n- [google/gemini-pro-1.5](/google/gemini-pro-1.5)\n- [google/gemini-flash-1.5](/google/gemini-flash-1.5)\n- [mistralai/mistral-large-2407](/mistralai/mistral-large-2407)\n- [mistralai/mistral-nemo](/mistralai/mistral-nemo)\n- [deepseek/deepseek-r1](/deepseek/deepseek-r1)\n- [meta-llama/llama-3.1-70b-instruct](/meta-llama/llama-3.1-70b-instruct)\n- [meta-llama/llama-3.1-405b-instruct](/meta-llama/llama-3.1-405b-instruct)\n- [mistralai/mixtral-8x22b-instruct](/mistralai/mixtral-8x22b-instruct)\n- [cohere/command-r-plus](/cohere/command-r-plus)\n- [cohere/command-r](/cohere/command-r)">
+<tr data-description="Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.\n\nTo see which model was used, visit [Activity](/activity), or read the `model` attribute of the response. Your response will be priced at the same rate as the routed model.\n\nThe meta-model is powered by [Not Diamond](https://docs.notdiamond.ai/docs/how-not-diamond-works). Learn more in our [docs](/docs/model-routing).\n\nRequests will be routed to the following models:\n- [openai/gpt-5](/openai/gpt-5)\n- [openai/gpt-5-mini](/openai/gpt-5-mini)\n- [openai/gpt-5-nano](/openai/gpt-5-nano)\n- [openai/gpt-4.1-nano](/openai/gpt-4.1-nano)\n- [openai/gpt-4.1](/openai/gpt-4.1)\n- [openai/gpt-4.1-mini](/openai/gpt-4.1-mini)\n- [openai/gpt-4.1](/openai/gpt-4.1)\n- [openai/gpt-4o-mini](/openai/gpt-4o-mini)\n- [openai/chatgpt-4o-latest](/openai/chatgpt-4o-latest)\n- [anthropic/claude-3.5-haiku](/anthropic/claude-3.5-haiku)\n- [anthropic/claude-opus-4-1](/anthropic/claude-opus-4-1)\n- [anthropic/claude-sonnet-4-0](/anthropic/claude-sonnet-4-0)\n- [anthropic/claude-3-7-sonnet-latest](/anthropic/claude-3-7-sonnet-latest)\n- [google/gemini-pro-1.5](/google/gemini-pro-1.5)\n- [google/gemini-flash-1.5](/google/gemini-flash-1.5)\n- [google/gemini-2.5-pro](/google/gemini-2.5-pro)\n- [google/gemini-2.5-flash](/google/gemini-2.5-flash)\n- [mistralai/mistral-large](/mistralai/mistral-large)\n- [mistralai/mistral-medium](/mistralai/mistral-medium)\n- [mistralai/mistral-small](/mistralai/mistral-small)\n- [mistralai/mistral-nemo](/mistralai/mistral-nemo)\n- [x-ai/grok-3](/x-ai/grok-3)\n- [x-ai/grok-3-mini](/x-ai/grok-3-mini)\n- [x-ai/grok-4](/x-ai/grok-4)\n- [deepseek/deepseek-r1](/deepseek/deepseek-r1)\n- [meta-llama/llama-3.1-70b-instruct](/meta-llama/llama-3.1-70b-instruct)\n- [meta-llama/llama-3.1-405b-instruct](/meta-llama/llama-3.1-405b-instruct)\n- [mistralai/mixtral-8x22b-instruct](/mistralai/mixtral-8x22b-instruct)\n- [perplexity/sonar](/perplexity/sonar)\n- [cohere/command-r-plus](/cohere/command-r-plus)\n- [cohere/command-r](/cohere/command-r)">
             <td data-label="Developer">openrouter</td>
             <td data-label="Technical Name (ID)">openrouter/auto</td>
             <td data-label="Model Name">Auto Router</td>
