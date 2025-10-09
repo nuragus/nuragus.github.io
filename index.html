@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (325 models)</title>
+    <title>OpenRouter Model Catalog (327 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (325 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 09-10-2025</p>
+        <h1>OpenRouter Model Catalog (327 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 10-10-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Gemini 2.5 Flash Image, a.k.a. &quot;Nano Banana,&quot; is now generally available. It is a state of the art image generation model with contextual understanding. It is capable of image generation, edits, and multi-turn conversations. Aspect ratios can be controlled with the [image_config API Parameter](https://openrouter.ai/docs/features/multimodal/image-generation#image-aspect-ratio-configuration)">
+                <tr data-description="ERNIE-4.5-21B-A3B-Thinking is Baidu&#39;s upgraded lightweight MoE model, refined to boost reasoning depth and quality for top-tier performance in logical puzzles, math, science, coding, text generation, and expert-level academic benchmarks.">
+            <td data-label="Developer">baidu</td>
+            <td data-label="Technical Name (ID)">baidu/ernie-4.5-21b-a3b-thinking</td>
+            <td data-label="Model Name">Baidu: ERNIE 4.5 21B A3B Thinking</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.28 / 1M tok</td>
+            <td data-label="Latest Update">2025-10-10</td>
+        </tr>
+<tr data-description="Gemini 2.5 Flash Image, a.k.a. &quot;Nano Banana,&quot; is now generally available. It is a state of the art image generation model with contextual understanding. It is capable of image generation, edits, and multi-turn conversations. Aspect ratios can be controlled with the [image_config API Parameter](https://openrouter.ai/docs/features/multimodal/image-generation#image-aspect-ratio-configuration)">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-2.5-flash-image</td>
             <td data-label="Model Name">Google: Gemini 2.5 Flash Image (Nano Banana)</td>
@@ -145,6 +154,24 @@
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$2.5 / 1M tok</td>
             <td data-label="Latest Update">2025-10-08</td>
+        </tr>
+<tr data-description="Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels in perception of real-world/synthetic categories, 2D/3D spatial grounding, and long-form visual comprehension, achieving competitive multimodal benchmark results. For agentic use, it handles multi-image multi-turn instructions, video timeline alignments, GUI automation, and visual coding from sketches to debugged UI. Text performance matches flagship Qwen3 models, suiting document AI, OCR, UI assistance, spatial tasks, and agent research.">
+            <td data-label="Developer">qwen</td>
+            <td data-label="Technical Name (ID)">qwen/qwen3-vl-30b-a3b-thinking</td>
+            <td data-label="Model Name">Qwen: Qwen3 VL 30B A3B Thinking</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Latest Update">2025-10-07</td>
+        </tr>
+<tr data-description="Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception of real-world/synthetic categories, 2D/3D spatial grounding, and long-form visual comprehension, achieving competitive multimodal benchmark results. For agentic use, it handles multi-image multi-turn instructions, video timeline alignments, GUI automation, and visual coding from sketches to debugged UI. Text performance matches flagship Qwen3 models, suiting document AI, OCR, UI assistance, spatial tasks, and agent research.">
+            <td data-label="Developer">qwen</td>
+            <td data-label="Technical Name (ID)">qwen/qwen3-vl-30b-a3b-instruct</td>
+            <td data-label="Model Name">Qwen: Qwen3 VL 30B A3B Instruct</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Latest Update">2025-10-07</td>
         </tr>
 <tr data-description="GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like &quot;think hard about this.&quot; Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.">
             <td data-label="Developer">openai</td>
@@ -1910,15 +1937,6 @@
             <td data-label="Price (Completion)">$4.4 / 1M tok</td>
             <td data-label="Latest Update">2025-02-12</td>
         </tr>
-<tr data-description="DeepSeek R1 Distill Llama 8B is a distilled large language model based on [Llama-3.1-8B-Instruct](/meta-llama/llama-3.1-8b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across multiple benchmarks, including:\n\n- AIME 2024 pass@1: 50.4\n- MATH-500 pass@1: 89.1\n- CodeForces Rating: 1205\n\nThe model leverages fine-tuning from DeepSeek R1&#39;s outputs, enabling competitive performance comparable to larger frontier models.\n\nHugging Face: \n- [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B) \n- [DeepSeek-R1-Distill-Llama-8B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-8B)   |">
-            <td data-label="Developer">deepseek</td>
-            <td data-label="Technical Name (ID)">deepseek/deepseek-r1-distill-llama-8b</td>
-            <td data-label="Model Name">DeepSeek: R1 Distill Llama 8B</td>
-            <td data-label="Context">32000</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.04 / 1M tok</td>
-            <td data-label="Latest Update">2025-02-07</td>
-        </tr>
 <tr data-description="Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It introduces notable enhancements in multimodal understanding, coding capabilities, complex instruction following, and function calling. These advancements come together to deliver more seamless and robust agentic experiences.">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-2.0-flash-001</td>
@@ -2221,8 +2239,8 @@
             <td data-label="Technical Name (ID)">meta-llama/llama-3.3-70b-instruct</td>
             <td data-label="Model Name">Meta: Llama 3.3 70B Instruct</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.12 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.39 / 1M tok</td>
             <td data-label="Latest Update">2024-12-07</td>
         </tr>
 <tr data-description="Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite can handle real-time customer interactions, document analysis, and visual question-answering tasks with high accuracy.\n\nWith an input context of 300K tokens, it can analyze multiple images or up to 30 minutes of video in a single input.">
