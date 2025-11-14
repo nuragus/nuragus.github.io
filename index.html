@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (341 models)</title>
+    <title>OpenRouter Model Catalog (344 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (341 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 13-11-2025</p>
+        <h1>OpenRouter Model Catalog (344 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 15-11-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,43 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="KAT-Coder-Pro V1 is KwaiKAT&#39;s most advanced agentic coding model in the KAT-Coder series. Designed specifically for agentic coding tasks, it excels in real-world software engineering scenarios, achieving 73.4% solve rate on the SWE-Bench Verified benchmark. \n\nThe model has been optimized for tool-use capability, multi-turn interaction, instruction following, generalization, and comprehensive capabilities through a multi-stage training process, including mid-training, supervised fine-tuning (SFT), reinforcement fine-tuning (RFT), and scalable agentic RL.">
+                <tr data-description="GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning to allocate computation dynamically, responding quickly to simple queries while spending more depth on complex tasks. The model produces clearer, more grounded explanations with reduced jargon, making it easier to follow even on technical or multi-step problems.\n\nBuilt for broad task coverage, GPT-5.1 delivers consistent gains across math, coding, and structured analysis workloads, with more coherent long-form answers and improved tool-use reliability. It also features refined conversational alignment, enabling warmer, more intuitive responses without compromising precision. GPT-5.1 serves as the primary full-capability successor to GPT-5">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.1</td>
+            <td data-label="Model Name">OpenAI: GPT-5.1</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$10 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-14</td>
+        </tr>
+<tr data-description="GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on harder queries, improving accuracy on math, coding, and multi-step tasks without slowing down typical conversations. The model is warmer and more conversational by default, with better instruction following and more stable short-form reasoning. GPT-5.1 Chat is designed for high-throughput, interactive workloads where responsiveness and consistency matter more than deep deliberation.\n">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.1-chat</td>
+            <td data-label="Model Name">OpenAI: GPT-5.1 Chat</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$10 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-14</td>
+        </tr>
+<tr data-description="GPT-5.1-Codex is a specialized version of GPT-5.1 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks. The model supports building projects from scratch, feature development, debugging, large-scale refactoring, and code review. Compared to GPT-5.1, Codex is more steerable, adheres closely to developer instructions, and produces cleaner, higher-quality code outputs. Reasoning effort can be adjusted with the `reasoning.effort` parameter. Read the [docs here](https://openrouter.ai/docs/use-cases/reasoning-tokens#reasoning-effort-level)\n\nCodex integrates into developer environments including the CLI, IDE extensions, GitHub, and cloud tasks. It adapts reasoning effort dynamically—providing fast responses for small tasks while sustaining extended multi-hour runs for large projects. The model is trained to perform structured code reviews, catching critical flaws by reasoning over dependencies and validating behavior against tests. It also supports multimodal inputs such as images or screenshots for UI development and integrates tool use for search, dependency installation, and environment setup. Codex is intended specifically for agentic coding applications.">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.1-codex</td>
+            <td data-label="Model Name">OpenAI: GPT-5.1-Codex</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$10 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-14</td>
+        </tr>
+<tr data-description="GPT-5.1-Codex-Mini is a smaller and faster version of GPT-5.1-Codex">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.1-codex-mini</td>
+            <td data-label="Model Name">OpenAI: GPT-5.1-Codex-Mini</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$2 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-14</td>
+        </tr>
+<tr data-description="KAT-Coder-Pro V1 is KwaiKAT&#39;s most advanced agentic coding model in the KAT-Coder series. Designed specifically for agentic coding tasks, it excels in real-world software engineering scenarios, achieving 73.4% solve rate on the SWE-Bench Verified benchmark. \n\nThe model has been optimized for tool-use capability, multi-turn interaction, instruction following, generalization, and comprehensive capabilities through a multi-stage training process, including mid-training, supervised fine-tuning (SFT), reinforcement fine-tuning (RFT), and scalable agentic RL.">
             <td data-label="Developer">kwaipilot</td>
             <td data-label="Technical Name (ID)">kwaipilot/kat-coder-pro:free</td>
             <td data-label="Model Name">Kwaipilot: KAT-Coder-Pro V1 (free)</td>
@@ -154,15 +190,6 @@
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$0.6 / 1M tok</td>
             <td data-label="Latest Update">2025-11-08</td>
-        </tr>
-<tr data-description="This is a cloaked model provided to the community to gather feedback. A powerful, general-purpose model that excels across real-world tasks, with standout performance in coding, tool calling, and instruction following.\n\n**Note:** All prompts and completions for this model are logged by the provider and may be used to improve the model.">
-            <td data-label="Developer">openrouter</td>
-            <td data-label="Technical Name (ID)">openrouter/polaris-alpha</td>
-            <td data-label="Model Name">Polaris Alpha</td>
-            <td data-label="Context">256000</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-11-07</td>
         </tr>
 <tr data-description="Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning. Built on the trillion-parameter Mixture-of-Experts (MoE) architecture introduced in Kimi K2, it activates 32 billion parameters per forward pass and supports 256 k-token context windows. The model is optimized for persistent step-by-step thought, dynamic tool invocation, and complex reasoning workflows that span hundreds of turns. It interleaves step-by-step reasoning with tool use, enabling autonomous research, coding, and writing that can persist for hundreds of sequential actions without drift.\n\nIt sets new open-source benchmarks on HLE, BrowseComp, SWE-Multilingual, and LiveCodeBench, while maintaining stable multi-agent behavior through 200–300 tool calls. Built on a large-scale MoE architecture with MuonClip optimization, it combines strong reasoning depth with high inference efficiency for demanding agentic and analytical tasks.">
             <td data-label="Developer">moonshotai</td>
@@ -420,9 +447,9 @@
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-4.6:exacto</td>
             <td data-label="Model Name">Z.AI: GLM 4.6 (exacto)</td>
-            <td data-label="Context">204800</td>
-            <td data-label="Price (Prompt)">$0.6 / 1M tok</td>
-            <td data-label="Price (Completion)">$2.2 / 1M tok</td>
+            <td data-label="Context">202752</td>
+            <td data-label="Price (Prompt)">$0.45 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.9 / 1M tok</td>
             <td data-label="Latest Update">2025-09-30</td>
         </tr>
 <tr data-description="Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with improvements across system design, code security, and specification adherence. The model is designed for extended autonomous operation, maintaining task continuity across sessions and providing fact-based progress tracking.\n\nSonnet 4.5 also introduces stronger agentic capabilities, including improved tool orchestration, speculative parallel execution, and more efficient context and memory management. With enhanced context tracking and awareness of token usage across tool calls, it is particularly well-suited for multi-context and long-running workflows. Use cases span software engineering, cybersecurity, financial analysis, research agents, and other domains requiring sustained reasoning and tool use.">
@@ -889,8 +916,8 @@
             <td data-label="Technical Name (ID)">openai/gpt-oss-120b</td>
             <td data-label="Model Name">OpenAI: gpt-oss-120b</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-08-06</td>
         </tr>
 <tr data-description="gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized to run on a single H100 GPU with native MXFP4 quantization. The model supports configurable reasoning depth, full chain-of-thought access, and native tool use, including function calling, browsing, and structured output generation.">
@@ -962,7 +989,7 @@
             <td data-label="Model Name">Z.AI: GLM 4.5</td>
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.35 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.55 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.5 / 1M tok</td>
             <td data-label="Latest Update">2025-07-26</td>
         </tr>
 <tr data-description="GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact parameter size. GLM-4.5-Air also supports hybrid inference modes, offering a &quot;thinking mode&quot; for advanced reasoning and tool use, and a &quot;non-thinking mode&quot; for real-time interaction. Users can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config)">
@@ -2877,7 +2904,7 @@
             <td data-label="Developer">nousresearch</td>
             <td data-label="Technical Name (ID)">nousresearch/hermes-2-pro-llama-3-8b</td>
             <td data-label="Model Name">NousResearch: Hermes 2 Pro - Llama-3 8B</td>
-            <td data-label="Context">32768</td>
+            <td data-label="Context">8192</td>
             <td data-label="Price (Prompt)">$0.025 / 1M tok</td>
             <td data-label="Price (Completion)">$0.08 / 1M tok</td>
             <td data-label="Latest Update">2024-05-27</td>
