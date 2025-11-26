@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (342 models)</title>
+    <title>OpenRouter Model Catalog (330 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (342 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 26-11-2025</p>
+        <h1>OpenRouter Model Catalog (330 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 27-11-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,25 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and reasoning benchmarks, and improved robustness to prompt injection. The model is designed to operate efficiently across varied effort levels, enabling developers to trade off speed, depth, and token usage depending on task requirements. It comes with a new parameter to control token efficiency, which can be accessed using the OpenRouter Verbosity parameter with low, medium, or high.\n\nOpus 4.5 supports advanced tool use, extended context management, and coordinated multi-agent setups, making it well-suited for autonomous research, debugging, multi-step planning, and spreadsheet/browser manipulation. It delivers substantial gains in structured reasoning, execution reliability, and alignment compared to prior Opus generations, while reducing token overhead and improving performance on long-running tasks.">
+                <tr data-description="TNG-R1T-Chimera is an experimental LLM with a faible for creative storytelling and character interaction. It is a derivate of the original TNG/DeepSeek-R1T-Chimera released in April 2025 and is available exclusively via Chutes and OpenRouter.\n\nCharacteristics and improvements include:\n\nWe think that it has a creative and pleasant personality.\nIt has a preliminary EQ-Bench3 value of about 1305.\nIt is quite a bit more intelligent than the original, albeit a slightly slower.\nIt is much more think-token consistent, i.e. reasoning and answer blocks are properly delineated.\nTool calling is much improved.\n\nTNG Tech, the model authors, ask that users follow the careful guidelines that Microsoft has created for their &quot;MAI-DS-R1&quot; DeepSeek-based model. These guidelines are available on Hugging Face (https://huggingface.co/microsoft/MAI-DS-R1).">
+            <td data-label="Developer">tngtech</td>
+            <td data-label="Technical Name (ID)">tngtech/tng-r1t-chimera:free</td>
+            <td data-label="Model Name">TNG: R1T Chimera (free)</td>
+            <td data-label="Context">163840</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-27</td>
+        </tr>
+<tr data-description="TNG-R1T-Chimera is an experimental LLM with a faible for creative storytelling and character interaction. It is a derivate of the original TNG/DeepSeek-R1T-Chimera released in April 2025 and is available exclusively via Chutes and OpenRouter.\n\nCharacteristics and improvements include:\n\nWe think that it has a creative and pleasant personality.\nIt has a preliminary EQ-Bench3 value of about 1305.\nIt is quite a bit more intelligent than the original, albeit a slightly slower.\nIt is much more think-token consistent, i.e. reasoning and answer blocks are properly delineated.\nTool calling is much improved.\n\nTNG Tech, the model authors, ask that users follow the careful guidelines that Microsoft has created for their &quot;MAI-DS-R1&quot; DeepSeek-based model. These guidelines are available on Hugging Face (https://huggingface.co/microsoft/MAI-DS-R1).">
+            <td data-label="Developer">tngtech</td>
+            <td data-label="Technical Name (ID)">tngtech/tng-r1t-chimera</td>
+            <td data-label="Model Name">TNG: R1T Chimera</td>
+            <td data-label="Context">163840</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-27</td>
+        </tr>
+<tr data-description="Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and reasoning benchmarks, and improved robustness to prompt injection. The model is designed to operate efficiently across varied effort levels, enabling developers to trade off speed, depth, and token usage depending on task requirements. It comes with a new parameter to control token efficiency, which can be accessed using the OpenRouter Verbosity parameter with low, medium, or high.\n\nOpus 4.5 supports advanced tool use, extended context management, and coordinated multi-agent setups, making it well-suited for autonomous research, debugging, multi-step planning, and spreadsheet/browser manipulation. It delivers substantial gains in structured reasoning, execution reliability, and alignment compared to prior Opus generations, while reducing token overhead and improving performance on long-running tasks.">
             <td data-label="Developer">anthropic</td>
             <td data-label="Technical Name (ID)">anthropic/claude-opus-4.5</td>
             <td data-label="Model Name">Anthropic: Claude Opus 4.5</td>
@@ -1291,15 +1309,6 @@
         </tr>
 <tr data-description="Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).">
             <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/mistral-small-3.2-24b-instruct:free</td>
-            <td data-label="Model Name">Mistral: Mistral Small 3.2 24B (free)</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-06-21</td>
-        </tr>
-<tr data-description="Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on WildBench and Arena Hard, reduces infinite generations, and delivers gains in tool use and structured output tasks.\n\nIt supports image and text inputs with structured outputs, function/tool calling, and strong performance across coding (HumanEval+, MBPP), STEM (MMLU, MATH, GPQA), and vision benchmarks (ChartQA, DocVQA).">
-            <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/mistral-small-3.2-24b-instruct</td>
             <td data-label="Model Name">Mistral: Mistral Small 3.2 24B</td>
             <td data-label="Context">131072</td>
@@ -1408,30 +1417,12 @@
         </tr>
 <tr data-description="DeepSeek-R1-0528 is a lightly upgraded release of DeepSeek R1 that taps more compute and smarter post-training tricks, pushing its reasoning and inference to the brink of flagship models like O3 and Gemini 2.5 Pro.\nIt now tops math, programming, and logic leaderboards, showcasing a step-change in depth-of-thought.\nThe distilled variant, DeepSeek-R1-0528-Qwen3-8B, transfers this chain-of-thought into an 8 B-parameter form, beating standard Qwen3 8B by +10 pp and tying the 235 B “thinking” giant on AIME 2024.">
             <td data-label="Developer">deepseek</td>
-            <td data-label="Technical Name (ID)">deepseek/deepseek-r1-0528-qwen3-8b:free</td>
-            <td data-label="Model Name">DeepSeek: DeepSeek R1 0528 Qwen3 8B (free)</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-05-30</td>
-        </tr>
-<tr data-description="DeepSeek-R1-0528 is a lightly upgraded release of DeepSeek R1 that taps more compute and smarter post-training tricks, pushing its reasoning and inference to the brink of flagship models like O3 and Gemini 2.5 Pro.\nIt now tops math, programming, and logic leaderboards, showcasing a step-change in depth-of-thought.\nThe distilled variant, DeepSeek-R1-0528-Qwen3-8B, transfers this chain-of-thought into an 8 B-parameter form, beating standard Qwen3 8B by +10 pp and tying the 235 B “thinking” giant on AIME 2024.">
-            <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-r1-0528-qwen3-8b</td>
             <td data-label="Model Name">DeepSeek: DeepSeek R1 0528 Qwen3 8B</td>
             <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.02 / 1M tok</td>
             <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2025-05-30</td>
-        </tr>
-<tr data-description="May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It&#39;s 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model.">
-            <td data-label="Developer">deepseek</td>
-            <td data-label="Technical Name (ID)">deepseek/deepseek-r1-0528:free</td>
-            <td data-label="Model Name">DeepSeek: R1 0528 (free)</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-05-29</td>
         </tr>
 <tr data-description="May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It&#39;s 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model.">
             <td data-label="Developer">deepseek</td>
@@ -1606,15 +1597,6 @@
         </tr>
 <tr data-description="Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.">
             <td data-label="Developer">qwen</td>
-            <td data-label="Technical Name (ID)">qwen/qwen3-30b-a3b:free</td>
-            <td data-label="Model Name">Qwen: Qwen3 30B A3B (free)</td>
-            <td data-label="Context">40960</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-04-29</td>
-        </tr>
-<tr data-description="Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique ability to switch seamlessly between a thinking mode for complex reasoning and a non-thinking mode for efficient dialogue ensures versatile, high-quality performance.\n\nSignificantly outperforming prior models like QwQ and Qwen2.5, Qwen3 delivers superior mathematics, coding, commonsense reasoning, creative writing, and interactive dialogue capabilities. The Qwen3-30B-A3B variant includes 30.5 billion parameters (3.3 billion activated), 48 layers, 128 experts (8 activated per task), and supports up to 131K token contexts with YaRN, setting a new standard among open-source models.">
-            <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-30b-a3b</td>
             <td data-label="Model Name">Qwen: Qwen3 30B A3B</td>
             <td data-label="Context">40960</td>
@@ -1629,15 +1611,6 @@
             <td data-label="Context">128000</td>
             <td data-label="Price (Prompt)">$0.028 / 1M tok</td>
             <td data-label="Price (Completion)">$0.1104 / 1M tok</td>
-            <td data-label="Latest Update">2025-04-29</td>
-        </tr>
-<tr data-description="Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a &quot;thinking&quot; mode for tasks like math, programming, and logical inference, and a &quot;non-thinking&quot; mode for general-purpose conversation. The model is fine-tuned for instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling.">
-            <td data-label="Developer">qwen</td>
-            <td data-label="Technical Name (ID)">qwen/qwen3-14b:free</td>
-            <td data-label="Model Name">Qwen: Qwen3 14B (free)</td>
-            <td data-label="Context">40960</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-04-29</td>
         </tr>
 <tr data-description="Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a &quot;thinking&quot; mode for tasks like math, programming, and logical inference, and a &quot;non-thinking&quot; mode for general-purpose conversation. The model is fine-tuned for instruction-following, agent tool use, creative writing, and multilingual tasks across 100+ languages and dialects. It natively handles 32K token contexts and can extend to 131K tokens using YaRN-based scaling.">
@@ -1662,7 +1635,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-235b-a22b:free</td>
             <td data-label="Model Name">Qwen: Qwen3 235B A22B (free)</td>
-            <td data-label="Context">40960</td>
+            <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-04-29</td>
@@ -1693,15 +1666,6 @@
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2025-04-27</td>
-        </tr>
-<tr data-description="MAI-DS-R1 is a post-trained variant of DeepSeek-R1 developed by the Microsoft AI team to improve the model’s responsiveness on previously blocked topics while enhancing its safety profile. Built on top of DeepSeek-R1’s reasoning foundation, it integrates 110k examples from the Tulu-3 SFT dataset and 350k internally curated multilingual safety-alignment samples. The model retains strong reasoning, coding, and problem-solving capabilities, while unblocking a wide range of prompts previously restricted in R1.\n\nMAI-DS-R1 demonstrates improved performance on harm mitigation benchmarks and maintains competitive results across general reasoning tasks. It surpasses R1-1776 in satisfaction metrics for blocked queries and reduces leakage in harmful content categories. The model is based on a transformer MoE architecture and is suitable for general-purpose use cases, excluding high-stakes domains such as legal, medical, or autonomous systems.">
-            <td data-label="Developer">microsoft</td>
-            <td data-label="Technical Name (ID)">microsoft/mai-ds-r1:free</td>
-            <td data-label="Model Name">Microsoft: MAI DS R1 (free)</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-04-21</td>
         </tr>
 <tr data-description="MAI-DS-R1 is a post-trained variant of DeepSeek-R1 developed by the Microsoft AI team to improve the model’s responsiveness on previously blocked topics while enhancing its safety profile. Built on top of DeepSeek-R1’s reasoning foundation, it integrates 110k examples from the Tulu-3 SFT dataset and 350k internally curated multilingual safety-alignment samples. The model retains strong reasoning, coding, and problem-solving capabilities, while unblocking a wide range of prompts previously restricted in R1.\n\nMAI-DS-R1 demonstrates improved performance on harm mitigation benchmarks and maintains competitive results across general reasoning tasks. It surpasses R1-1776 in satisfaction metrics for blocked queries and reduces leakage in harmful content categories. The model is based on a transformer MoE architecture and is suitable for general-purpose use cases, excluding high-stakes domains such as legal, medical, or autonomous systems.">
             <td data-label="Developer">microsoft</td>
@@ -1795,15 +1759,6 @@
         </tr>
 <tr data-description="QwQ-32B-ArliAI-RpR-v1 is a 32B parameter model fine-tuned from Qwen/QwQ-32B using a curated creative writing and roleplay dataset originally developed for the RPMax series. It is designed to maintain coherence and reasoning across long multi-turn conversations by introducing explicit reasoning steps per dialogue turn, generated and refined using the base model itself.\n\nThe model was trained using RS-QLORA+ on 8K sequence lengths and supports up to 128K context windows (with practical performance around 32K). It is optimized for creative roleplay and dialogue generation, with an emphasis on minimizing cross-context repetition while preserving stylistic diversity.">
             <td data-label="Developer">arliai</td>
-            <td data-label="Technical Name (ID)">arliai/qwq-32b-arliai-rpr-v1:free</td>
-            <td data-label="Model Name">ArliAI: QwQ 32B RpR v1 (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-04-13</td>
-        </tr>
-<tr data-description="QwQ-32B-ArliAI-RpR-v1 is a 32B parameter model fine-tuned from Qwen/QwQ-32B using a curated creative writing and roleplay dataset originally developed for the RPMax series. It is designed to maintain coherence and reasoning across long multi-turn conversations by introducing explicit reasoning steps per dialogue turn, generated and refined using the base model itself.\n\nThe model was trained using RS-QLORA+ on 8K sequence lengths and supports up to 128K context windows (with practical performance around 32K). It is optimized for creative roleplay and dialogue generation, with an emphasis on minimizing cross-context repetition while preserving stylistic diversity.">
-            <td data-label="Developer">arliai</td>
             <td data-label="Technical Name (ID)">arliai/qwq-32b-arliai-rpr-v1</td>
             <td data-label="Model Name">ArliAI: QwQ 32B RpR v1</td>
             <td data-label="Context">32768</td>
@@ -1858,30 +1813,12 @@
         </tr>
 <tr data-description="Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities. It excels at visual analysis tasks, including object recognition, textual interpretation within images, and precise event localization in extended videos. Qwen2.5-VL-32B demonstrates state-of-the-art performance across multimodal benchmarks such as MMMU, MathVista, and VideoMME, while maintaining strong reasoning and clarity in text-based tasks like MMLU, mathematical problem-solving, and code generation.">
             <td data-label="Developer">qwen</td>
-            <td data-label="Technical Name (ID)">qwen/qwen2.5-vl-32b-instruct:free</td>
-            <td data-label="Model Name">Qwen: Qwen2.5 VL 32B Instruct (free)</td>
-            <td data-label="Context">16384</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-25</td>
-        </tr>
-<tr data-description="Qwen2.5-VL-32B is a multimodal vision-language model fine-tuned through reinforcement learning for enhanced mathematical reasoning, structured outputs, and visual problem-solving capabilities. It excels at visual analysis tasks, including object recognition, textual interpretation within images, and precise event localization in extended videos. Qwen2.5-VL-32B demonstrates state-of-the-art performance across multimodal benchmarks such as MMMU, MathVista, and VideoMME, while maintaining strong reasoning and clarity in text-based tasks like MMLU, mathematical problem-solving, and code generation.">
-            <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen2.5-vl-32b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen2.5 VL 32B Instruct</td>
             <td data-label="Context">16384</td>
             <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
             <td data-label="Price (Completion)">$0.22 / 1M tok</td>
             <td data-label="Latest Update">2025-03-25</td>
-        </tr>
-<tr data-description="DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.">
-            <td data-label="Developer">deepseek</td>
-            <td data-label="Technical Name (ID)">deepseek/deepseek-chat-v3-0324:free</td>
-            <td data-label="Model Name">DeepSeek: DeepSeek V3 0324 (free)</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-24</td>
         </tr>
 <tr data-description="DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team.\n\nIt succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well on a variety of tasks.">
             <td data-label="Developer">deepseek</td>
@@ -1905,7 +1842,7 @@
             <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/mistral-small-3.1-24b-instruct:free</td>
             <td data-label="Model Name">Mistral: Mistral Small 3.1 24B (free)</td>
-            <td data-label="Context">96000</td>
+            <td data-label="Context">128000</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-03-18</td>
@@ -2218,15 +2155,6 @@
         </tr>
 <tr data-description="Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment.\n\nThe model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware. [Read the blog post about the model here.](https://mistral.ai/news/mistral-small-3/)">
             <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/mistral-small-24b-instruct-2501:free</td>
-            <td data-label="Model Name">Mistral: Mistral Small 3 (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-01-30</td>
-        </tr>
-<tr data-description="Mistral Small 3 is a 24B-parameter language model optimized for low-latency performance across common AI tasks. Released under the Apache 2.0 license, it features both pre-trained and instruction-tuned versions designed for efficient local deployment.\n\nThe model achieves 81% accuracy on the MMLU benchmark and performs competitively with larger models like Llama 3.3 70B and Qwen 32B, while operating at three times the speed on equivalent hardware. [Read the blog post about the model here.](https://mistral.ai/news/mistral-small-3/)">
-            <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/mistral-small-24b-instruct-2501</td>
             <td data-label="Model Name">Mistral: Mistral Small 3</td>
             <td data-label="Context">32768</td>
@@ -2287,15 +2215,6 @@
             <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
             <td data-label="Price (Completion)">$0.13 / 1M tok</td>
             <td data-label="Latest Update">2025-01-24</td>
-        </tr>
-<tr data-description="DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It&#39;s 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model &amp; [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill &amp; commercialize freely!">
-            <td data-label="Developer">deepseek</td>
-            <td data-label="Technical Name (ID)">deepseek/deepseek-r1:free</td>
-            <td data-label="Model Name">DeepSeek: R1 (free)</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-01-20</td>
         </tr>
 <tr data-description="DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It&#39;s 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model &amp; [technical report](https://api-docs.deepseek.com/news/news250120).\n\nMIT licensed: Distill &amp; commercialize freely!">
             <td data-label="Developer">deepseek</td>
@@ -2470,15 +2389,6 @@
         </tr>
 <tr data-description="Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder&#39;s blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).">
             <td data-label="Developer">qwen</td>
-            <td data-label="Technical Name (ID)">qwen/qwen-2.5-coder-32b-instruct:free</td>
-            <td data-label="Model Name">Qwen2.5 Coder 32B Instruct (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2024-11-12</td>
-        </tr>
-<tr data-description="Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:\n\n- Significantly improvements in **code generation**, **code reasoning** and **code fixing**. \n- A more comprehensive foundation for real-world applications such as **Code Agents**. Not only enhancing coding capabilities but also maintaining its strengths in mathematics and general competencies.\n\nTo read more about its evaluation results, check out [Qwen 2.5 Coder&#39;s blog](https://qwenlm.github.io/blog/qwen2.5-coder-family/).">
-            <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen-2.5-coder-32b-instruct</td>
             <td data-label="Model Name">Qwen2.5 Coder 32B Instruct</td>
             <td data-label="Context">32768</td>
@@ -2650,15 +2560,6 @@
         </tr>
 <tr data-description="Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).">
             <td data-label="Developer">qwen</td>
-            <td data-label="Technical Name (ID)">qwen/qwen-2.5-72b-instruct:free</td>
-            <td data-label="Model Name">Qwen2.5 72B Instruct (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2024-09-19</td>
-        </tr>
-<tr data-description="Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).">
-            <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen-2.5-72b-instruct</td>
             <td data-label="Model Name">Qwen2.5 72B Instruct</td>
             <td data-label="Context">32768</td>
@@ -2818,15 +2719,6 @@
             <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2024-07-23</td>
-        </tr>
-<tr data-description="A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.">
-            <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/mistral-nemo:free</td>
-            <td data-label="Model Name">Mistral: Mistral Nemo (free)</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2024-07-19</td>
         </tr>
 <tr data-description="A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.">
             <td data-label="Developer">mistralai</td>
