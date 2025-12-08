@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (335 models)</title>
+    <title>OpenRouter Model Catalog (339 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (335 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 08-12-2025</p>
+        <h1>OpenRouter Model Catalog (339 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 09-12-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,43 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="GPT-5.1-Codex-Max is OpenAI’s latest agentic coding model, designed for long-running, high-context software development tasks. It is based on an updated version of the 5.1 reasoning stack and trained on agentic workflows spanning software engineering, mathematics, and research. \nGPT-5.1-Codex-Max delivers faster performance, improved reasoning, and higher token efficiency across the development lifecycle. ">
+                <tr data-description="The relace-search model uses 4-12 `view_file` and `grep` tools in parallel to explore a codebase and return relevant files to the user request. \n\nIn contrast to RAG, relace-search performs agentic multi-step reasoning to produce highly precise results 4x faster than any frontier model. It&#39;s designed to serve as a subagent that passes its findings to an &quot;oracle&quot; coding agent, who orchestrates/performs the rest of the coding task.\n\nTo use relace-search you need to build an appropriate agent harness, and parse the response for relevant information to hand off to the oracle. Read more about it in the [Relace documentation](https://docs.relace.ai/docs/fast-agentic-search/agent).">
+            <td data-label="Developer">relace</td>
+            <td data-label="Technical Name (ID)">relace/relace-search</td>
+            <td data-label="Model Name">Relace: Relace Search</td>
+            <td data-label="Context">256000</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$3 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-09</td>
+        </tr>
+<tr data-description="GLM-4.6V is a large multimodal model designed for high-fidelity visual understanding and long-context reasoning across images, documents, and mixed media. It supports up to 128K tokens, processes complex page layouts and charts directly as visual inputs, and integrates native multimodal function calling to connect perception with downstream tool execution. The model also enables interleaved image-text generation and UI reconstruction workflows, including screenshot-to-HTML synthesis and iterative visual editing.">
+            <td data-label="Developer">z-ai</td>
+            <td data-label="Technical Name (ID)">z-ai/glm-4.6v</td>
+            <td data-label="Model Name">Z.AI: GLM 4.6V</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.9 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-08</td>
+        </tr>
+<tr data-description="Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning. The model demonstrates strong performance across multiple programming languages, tool-use workflows, and agentic execution environments (e.g., mini-SWE-agent). ">
+            <td data-label="Developer">essentialai</td>
+            <td data-label="Technical Name (ID)">essentialai/rnj-1-instruct</td>
+            <td data-label="Model Name">EssentialAI: Rnj 1 Instruct</td>
+            <td data-label="Context">32768</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.15 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-07</td>
+        </tr>
+<tr data-description="Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example: &quot;count to 10 using gemini and opus.&quot;\n\nThis is useful for creating multi-model requests, custom model routers, or programmatic generation of API calls from human descriptions.">
+            <td data-label="Developer">openrouter</td>
+            <td data-label="Technical Name (ID)">openrouter/bodybuilder</td>
+            <td data-label="Model Name">Body Builder</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">Variable</td>
+            <td data-label="Price (Completion)">Variable</td>
+            <td data-label="Latest Update">2025-12-05</td>
+        </tr>
+<tr data-description="GPT-5.1-Codex-Max is OpenAI’s latest agentic coding model, designed for long-running, high-context software development tasks. It is based on an updated version of the 5.1 reasoning stack and trained on agentic workflows spanning software engineering, mathematics, and research. \nGPT-5.1-Codex-Max delivers faster performance, improved reasoning, and higher token efficiency across the development lifecycle. ">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-5.1-codex-max</td>
             <td data-label="Model Name">OpenAI: GPT-5.1-Codex-Max</td>
@@ -2013,9 +2049,9 @@
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemma-3-27b-it</td>
             <td data-label="Model Name">Google: Gemma 3 27B</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.45 / 1M tok</td>
+            <td data-label="Context">96000</td>
+            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.22 / 1M tok</td>
             <td data-label="Latest Update">2025-03-12</td>
         </tr>
 <tr data-description="Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling.">
