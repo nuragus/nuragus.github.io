@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (340 models)</title>
+    <title>OpenRouter Model Catalog (342 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (340 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 10-12-2025</p>
+        <h1>OpenRouter Model Catalog (342 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 11-12-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -146,6 +146,15 @@
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-12-09</td>
         </tr>
+<tr data-description="Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window.\n\nDevstral 2 supports exploring codebases and orchestrating changes across multiple files while maintaining architecture-level context. It tracks framework dependencies, detects failures, and retries with corrections—solving challenges like bug fixing and modernizing legacy systems. The model can be fine-tuned to prioritize specific languages or optimize for large enterprise codebases. It is available under a modified MIT license.">
+            <td data-label="Developer">mistralai</td>
+            <td data-label="Technical Name (ID)">mistralai/devstral-2512</td>
+            <td data-label="Model Name">Mistral: Devstral 2 2512</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-09</td>
+        </tr>
 <tr data-description="The relace-search model uses 4-12 `view_file` and `grep` tools in parallel to explore a codebase and return relevant files to the user request. \n\nIn contrast to RAG, relace-search performs agentic multi-step reasoning to produce highly precise results 4x faster than any frontier model. It&#39;s designed to serve as a subagent that passes its findings to an &quot;oracle&quot; coding agent, who orchestrates/performs the rest of the coding task.\n\nTo use relace-search you need to build an appropriate agent harness, and parse the response for relevant information to hand off to the oracle. Read more about it in the [Relace documentation](https://docs.relace.ai/docs/fast-agentic-search/agent).">
             <td data-label="Developer">relace</td>
             <td data-label="Technical Name (ID)">relace/relace-search</td>
@@ -162,6 +171,15 @@
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$0.9 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-08</td>
+        </tr>
+<tr data-description="DeepSeek V3.1 Nex-N1 is the flagship release of the Nex-N1 series — a post-trained model designed to highlight agent autonomy, tool use, and real-world productivity. \n\nNex-N1 demonstrates competitive performance across all evaluation scenarios, showing particularly strong results in practical coding and HTML generation tasks.">
+            <td data-label="Developer">nex-agi</td>
+            <td data-label="Technical Name (ID)">nex-agi/deepseek-v3.1-nex-n1:free</td>
+            <td data-label="Model Name">Nex AGI: DeepSeek V3.1 Nex N1 (free)</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-12-08</td>
         </tr>
 <tr data-description="Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning. The model demonstrates strong performance across multiple programming languages, tool-use workflows, and agentic execution environments (e.g., mini-SWE-agent). ">
@@ -835,8 +853,8 @@
             <td data-label="Technical Name (ID)">opengvlab/internvl3-78b</td>
             <td data-label="Model Name">OpenGVLab: InternVL3 78B</td>
             <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.39 / 1M tok</td>
             <td data-label="Latest Update">2025-09-16</td>
         </tr>
 <tr data-description="Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic planning, and reports strong results across knowledge, reasoning, coding, alignment, and multilingual evaluations. Compared with prior Qwen3 variants, it emphasizes stability under long chains of thought and efficient scaling during inference, and it is tuned to follow complex instructions while reducing repetitive or off-task behavior.\n\nThe model is suitable for agent frameworks and tool use (function calling), retrieval-heavy workflows, and standardized benchmarking where step-by-step solutions are required. It supports long, detailed completions and leverages throughput-oriented techniques (e.g., multi-token prediction) for faster generation. Note that it operates in thinking-only mode.">
@@ -1915,8 +1933,8 @@
             <td data-label="Technical Name (ID)">meta-llama/llama-4-maverick</td>
             <td data-label="Model Name">Meta: Llama 4 Maverick</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.136 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.68 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
             <td data-label="Latest Update">2025-04-06</td>
         </tr>
 <tr data-description="Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input (text and image) and multilingual output (text and code) across 12 supported languages. Designed for assistant-style interaction and visual reasoning, Scout uses 16 experts per forward pass and features a context length of 10 million tokens, with a training corpus of ~40 trillion tokens.\n\nBuilt for high efficiency and local or commercial deployment, Llama 4 Scout incorporates early fusion for seamless modality integration. It is instruction-tuned for use in multilingual chat, captioning, and image understanding tasks. Released under the Llama 4 Community License, it was last trained on data up to August 2024 and launched publicly on April 5, 2025.">
@@ -2549,15 +2567,6 @@
             <td data-label="Price (Completion)">$30 / 1M tok</td>
             <td data-label="Latest Update">2024-10-22</td>
         </tr>
-<tr data-description="Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.">
-            <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/ministral-3b</td>
-            <td data-label="Model Name">Mistral: Ministral 3B</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.04 / 1M tok</td>
-            <td data-label="Latest Update">2024-10-17</td>
-        </tr>
 <tr data-description="Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.">
             <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/ministral-8b</td>
@@ -2565,6 +2574,15 @@
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.1 / 1M tok</td>
+            <td data-label="Latest Update">2024-10-17</td>
+        </tr>
+<tr data-description="Ministral 3B is a 3B parameter model optimized for on-device and edge computing. It excels in knowledge, commonsense reasoning, and function-calling, outperforming larger models like Mistral 7B on most benchmarks. Supporting up to 128k context length, it’s ideal for orchestrating agentic workflows and specialist tasks with efficient inference.">
+            <td data-label="Developer">mistralai</td>
+            <td data-label="Technical Name (ID)">mistralai/ministral-3b</td>
+            <td data-label="Model Name">Mistral: Ministral 3B</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.04 / 1M tok</td>
             <td data-label="Latest Update">2024-10-17</td>
         </tr>
 <tr data-description="Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).">
@@ -2585,19 +2603,19 @@
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2024-10-15</td>
         </tr>
-<tr data-description="Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection&#39;s announcement](https://inflection.ai/blog/enterprise) for more details.">
+<tr data-description="Inflection 3 Pi powers Inflection&#39;s [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.">
             <td data-label="Developer">inflection</td>
-            <td data-label="Technical Name (ID)">inflection/inflection-3-productivity</td>
-            <td data-label="Model Name">Inflection: Inflection 3 Productivity</td>
+            <td data-label="Technical Name (ID)">inflection/inflection-3-pi</td>
+            <td data-label="Model Name">Inflection: Inflection 3 Pi</td>
             <td data-label="Context">8000</td>
             <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2024-10-11</td>
         </tr>
-<tr data-description="Inflection 3 Pi powers Inflection&#39;s [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay.\n\nPi has been trained to mirror your tone and style, if you use more emojis, so will Pi! Try experimenting with various prompts and conversation styles.">
+<tr data-description="Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news.\n\nFor emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)\n\nSee [Inflection&#39;s announcement](https://inflection.ai/blog/enterprise) for more details.">
             <td data-label="Developer">inflection</td>
-            <td data-label="Technical Name (ID)">inflection/inflection-3-pi</td>
-            <td data-label="Model Name">Inflection: Inflection 3 Pi</td>
+            <td data-label="Technical Name (ID)">inflection/inflection-3-productivity</td>
+            <td data-label="Model Name">Inflection: Inflection 3 Productivity</td>
             <td data-label="Context">8000</td>
             <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
@@ -2630,15 +2648,6 @@
             <td data-label="Price (Completion)">$0.02 / 1M tok</td>
             <td data-label="Latest Update">2024-09-25</td>
         </tr>
-<tr data-description="Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and visual question answering, bridging the gap between language generation and visual reasoning. Pre-trained on a massive dataset of image-text pairs, it performs well in complex, high-accuracy image analysis.\n\nIts ability to integrate visual understanding with language processing makes it an ideal solution for industries requiring comprehensive visual-linguistic AI applications, such as content creation, AI-driven customer service, and research.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-11b-vision-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3.2 11B Vision Instruct</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.049 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.049 / 1M tok</td>
-            <td data-label="Latest Update">2024-09-25</td>
-        </tr>
 <tr data-description="Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.\n\nSupporting eight core languages and fine-tunable for more, Llama 1.3B is ideal for businesses or developers seeking lightweight yet powerful AI solutions that can operate in diverse multilingual settings without the high computational demand of larger models.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md).\n\nUsage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).">
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-3.2-1b-instruct</td>
@@ -2655,6 +2664,15 @@
             <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.35 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Latest Update">2024-09-25</td>
+        </tr>
+<tr data-description="Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and visual question answering, bridging the gap between language generation and visual reasoning. Pre-trained on a massive dataset of image-text pairs, it performs well in complex, high-accuracy image analysis.\n\nIts ability to integrate visual understanding with language processing makes it an ideal solution for industries requiring comprehensive visual-linguistic AI applications, such as content creation, AI-driven customer service, and research.\n\nClick here for the [original model card](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md).\n\nUsage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-11b-vision-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3.2 11B Vision Instruct</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.049 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.049 / 1M tok</td>
             <td data-label="Latest Update">2024-09-25</td>
         </tr>
 <tr data-description="Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:\n\n- Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.\n\n- Significant improvements in instruction following, generating long texts (over 8K tokens), understanding structured data (e.g, tables), and generating structured outputs especially JSON. More resilient to the diversity of system prompts, enhancing role-play implementation and condition-setting for chatbots.\n\n- Long-context Support up to 128K tokens and can generate up to 8K tokens.\n\n- Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.\n\nUsage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).">
@@ -2792,6 +2810,15 @@
             <td data-label="Price (Completion)">$4 / 1M tok</td>
             <td data-label="Latest Update">2024-08-02</td>
         </tr>
+<tr data-description="Meta&#39;s latest class of model (Llama 3.1) launched with a variety of sizes &amp; flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3.1-8b-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3.1 8B Instruct</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.02 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.03 / 1M tok</td>
+            <td data-label="Latest Update">2024-07-23</td>
+        </tr>
 <tr data-description="The highly anticipated 400B class of Llama3 is here! Clocking in at 128k context with impressive eval scores, the Meta AI team continues to push the frontier of open-source LLMs.\n\nMeta&#39;s latest class of model (Llama 3.1) launched with a variety of sizes &amp; flavors. This 405B instruct-tuned version is optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models including GPT-4o and Claude 3.5 Sonnet in evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-3.1-405b-instruct</td>
@@ -2808,15 +2835,6 @@
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
-            <td data-label="Latest Update">2024-07-23</td>
-        </tr>
-<tr data-description="Meta&#39;s latest class of model (Llama 3.1) launched with a variety of sizes &amp; flavors. This 8B instruct-tuned version is fast and efficient.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3-1/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3.1-8b-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3.1 8B Instruct</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.02 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.03 / 1M tok</td>
             <td data-label="Latest Update">2024-07-23</td>
         </tr>
 <tr data-description="A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.\n\nThe model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.\n\nIt supports function calling and is released under the Apache 2.0 license.">
@@ -2873,15 +2891,6 @@
             <td data-label="Price (Completion)">$1.48 / 1M tok</td>
             <td data-label="Latest Update">2024-06-18</td>
         </tr>
-<tr data-description="A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct v0.2](/models/mistralai/mistral-7b-instruct-v0.2), with the following changes:\n\n- Extended vocabulary to 32768\n- Supports v3 Tokenizer\n- Supports function calling\n\nNOTE: Support for function calling depends on the provider.">
-            <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/mistral-7b-instruct-v0.3</td>
-            <td data-label="Model Name">Mistral: Mistral 7B Instruct v0.3</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
-            <td data-label="Latest Update">2024-05-27</td>
-        </tr>
 <tr data-description="Hermes 2 Pro is an upgraded, retrained version of Nous Hermes 2, consisting of an updated and cleaned version of the OpenHermes 2.5 Dataset, as well as a newly introduced Function Calling and JSON Mode dataset developed in-house.">
             <td data-label="Developer">nousresearch</td>
             <td data-label="Technical Name (ID)">nousresearch/hermes-2-pro-llama-3-8b</td>
@@ -2907,6 +2916,15 @@
             <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.028 / 1M tok</td>
             <td data-label="Price (Completion)">$0.054 / 1M tok</td>
+            <td data-label="Latest Update">2024-05-27</td>
+        </tr>
+<tr data-description="A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.\n\nAn improved version of [Mistral 7B Instruct v0.2](/models/mistralai/mistral-7b-instruct-v0.2), with the following changes:\n\n- Extended vocabulary to 32768\n- Supports v3 Tokenizer\n- Supports function calling\n\nNOTE: Support for function calling depends on the provider.">
+            <td data-label="Developer">mistralai</td>
+            <td data-label="Technical Name (ID)">mistralai/mistral-7b-instruct-v0.3</td>
+            <td data-label="Model Name">Mistral: Mistral 7B Instruct v0.3</td>
+            <td data-label="Context">32768</td>
+            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
             <td data-label="Latest Update">2024-05-27</td>
         </tr>
 <tr data-description="Phi-3 Mini is a powerful 3.8B parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.\n\nAt time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. This model is static, trained on an offline dataset with an October 2023 cutoff date.">
@@ -2938,6 +2956,15 @@
         </tr>
 <tr data-description="GPT-4o (&quot;o&quot; for &quot;omni&quot;) is OpenAI&#39;s latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.\n\nFor benchmarking against other models, it was briefly called [&quot;im-also-a-good-gpt2-chatbot&quot;](https://twitter.com/LiamFedus/status/1790064963966370209)\n\n#multimodal">
             <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-4o-2024-05-13</td>
+            <td data-label="Model Name">OpenAI: GPT-4o (2024-05-13)</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$5 / 1M tok</td>
+            <td data-label="Price (Completion)">$15 / 1M tok</td>
+            <td data-label="Latest Update">2024-05-13</td>
+        </tr>
+<tr data-description="GPT-4o (&quot;o&quot; for &quot;omni&quot;) is OpenAI&#39;s latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.\n\nFor benchmarking against other models, it was briefly called [&quot;im-also-a-good-gpt2-chatbot&quot;](https://twitter.com/LiamFedus/status/1790064963966370209)\n\n#multimodal">
+            <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-4o</td>
             <td data-label="Model Name">OpenAI: GPT-4o</td>
             <td data-label="Context">128000</td>
@@ -2954,14 +2981,14 @@
             <td data-label="Price (Completion)">$18 / 1M tok</td>
             <td data-label="Latest Update">2024-05-13</td>
         </tr>
-<tr data-description="GPT-4o (&quot;o&quot; for &quot;omni&quot;) is OpenAI&#39;s latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.\n\nFor benchmarking against other models, it was briefly called [&quot;im-also-a-good-gpt2-chatbot&quot;](https://twitter.com/LiamFedus/status/1790064963966370209)\n\n#multimodal">
-            <td data-label="Developer">openai</td>
-            <td data-label="Technical Name (ID)">openai/gpt-4o-2024-05-13</td>
-            <td data-label="Model Name">OpenAI: GPT-4o (2024-05-13)</td>
-            <td data-label="Context">128000</td>
-            <td data-label="Price (Prompt)">$5 / 1M tok</td>
-            <td data-label="Price (Completion)">$15 / 1M tok</td>
-            <td data-label="Latest Update">2024-05-13</td>
+<tr data-description="Meta&#39;s latest class of model (Llama 3) launched with a variety of sizes &amp; flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3-70b-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3 70B Instruct</td>
+            <td data-label="Context">8192</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Latest Update">2024-04-18</td>
         </tr>
 <tr data-description="Meta&#39;s latest class of model (Llama 3) launched with a variety of sizes &amp; flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
             <td data-label="Developer">meta-llama</td>
@@ -2970,15 +2997,6 @@
             <td data-label="Context">8192</td>
             <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
             <td data-label="Price (Completion)">$0.06 / 1M tok</td>
-            <td data-label="Latest Update">2024-04-18</td>
-        </tr>
-<tr data-description="Meta&#39;s latest class of model (Llama 3) launched with a variety of sizes &amp; flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases.\n\nIt has demonstrated strong performance compared to leading closed-source models in human evaluations.\n\nTo read more about the model release, [click here](https://ai.meta.com/blog/meta-llama-3/). Usage of this model is subject to [Meta&#39;s Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3-70b-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3 70B Instruct</td>
-            <td data-label="Context">8192</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2024-04-18</td>
         </tr>
 <tr data-description="Mistral&#39;s official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include:\n- strong math, coding, and reasoning\n- large context length (64k)\n- fluency in English, French, Italian, German, and Spanish\n\nSee benchmarks on the launch announcement [here](https://mistral.ai/news/mixtral-8x22b/).\n#moe">
@@ -3035,15 +3053,6 @@
             <td data-label="Price (Completion)">$6 / 1M tok</td>
             <td data-label="Latest Update">2024-02-26</td>
         </tr>
-<tr data-description="The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023.\n\n**Note:** heavily rate limited by OpenAI while in preview.">
-            <td data-label="Developer">openai</td>
-            <td data-label="Technical Name (ID)">openai/gpt-4-turbo-preview</td>
-            <td data-label="Model Name">OpenAI: GPT-4 Turbo Preview</td>
-            <td data-label="Context">128000</td>
-            <td data-label="Price (Prompt)">$10 / 1M tok</td>
-            <td data-label="Price (Completion)">$30 / 1M tok</td>
-            <td data-label="Latest Update">2024-01-25</td>
-        </tr>
 <tr data-description="GPT-3.5 Turbo is OpenAI&#39;s fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-3.5-turbo-0613</td>
@@ -3051,6 +3060,15 @@
             <td data-label="Context">4095</td>
             <td data-label="Price (Prompt)">$1 / 1M tok</td>
             <td data-label="Price (Completion)">$2 / 1M tok</td>
+            <td data-label="Latest Update">2024-01-25</td>
+        </tr>
+<tr data-description="The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023.\n\n**Note:** heavily rate limited by OpenAI while in preview.">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-4-turbo-preview</td>
+            <td data-label="Model Name">OpenAI: GPT-4 Turbo Preview</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$10 / 1M tok</td>
+            <td data-label="Price (Completion)">$30 / 1M tok</td>
             <td data-label="Latest Update">2024-01-25</td>
         </tr>
 <tr data-description="Note: This model is being deprecated. Recommended replacement is the newer [Ministral 8B](/mistral/ministral-8b)\n\nThis model is currently powered by Mistral-7B-v0.2, and incorporates a &quot;better&quot; fine-tuning than [Mistral 7B](/models/mistralai/mistral-7b-instruct-v0.1), inspired by community work. It&#39;s best used for large batch processing tasks where cost is a significant factor but reasoning capabilities are not crucial.">
@@ -3116,15 +3134,6 @@
             <td data-label="Price (Completion)">$30 / 1M tok</td>
             <td data-label="Latest Update">2023-11-06</td>
         </tr>
-<tr data-description="A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.">
-            <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/mistral-7b-instruct-v0.1</td>
-            <td data-label="Model Name">Mistral: Mistral 7B Instruct v0.1</td>
-            <td data-label="Context">2824</td>
-            <td data-label="Price (Prompt)">$0.11 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.19 / 1M tok</td>
-            <td data-label="Latest Update">2023-09-28</td>
-        </tr>
 <tr data-description="This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021.">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-3.5-turbo-instruct</td>
@@ -3132,6 +3141,15 @@
             <td data-label="Context">4095</td>
             <td data-label="Price (Prompt)">$1.5 / 1M tok</td>
             <td data-label="Price (Completion)">$2 / 1M tok</td>
+            <td data-label="Latest Update">2023-09-28</td>
+        </tr>
+<tr data-description="A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.">
+            <td data-label="Developer">mistralai</td>
+            <td data-label="Technical Name (ID)">mistralai/mistral-7b-instruct-v0.1</td>
+            <td data-label="Model Name">Mistral: Mistral 7B Instruct v0.1</td>
+            <td data-label="Context">2824</td>
+            <td data-label="Price (Prompt)">$0.11 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.19 / 1M tok</td>
             <td data-label="Latest Update">2023-09-28</td>
         </tr>
 <tr data-description="This model offers four times the context length of gpt-3.5-turbo, allowing it to support approximately 20 pages of text in a single request at a higher cost. Training data: up to Sep 2021.">
@@ -3170,6 +3188,15 @@
             <td data-label="Price (Completion)">$0.06 / 1M tok</td>
             <td data-label="Latest Update">2023-07-02</td>
         </tr>
+<tr data-description="GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-4-0314</td>
+            <td data-label="Model Name">OpenAI: GPT-4 (older v0314)</td>
+            <td data-label="Context">8191</td>
+            <td data-label="Price (Prompt)">$30 / 1M tok</td>
+            <td data-label="Price (Completion)">$60 / 1M tok</td>
+            <td data-label="Latest Update">2023-05-28</td>
+        </tr>
 <tr data-description="OpenAI&#39;s flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning capabilities. Training data: up to Sep 2021.">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-4</td>
@@ -3186,15 +3213,6 @@
             <td data-label="Context">16385</td>
             <td data-label="Price (Prompt)">$0.5 / 1M tok</td>
             <td data-label="Price (Completion)">$1.5 / 1M tok</td>
-            <td data-label="Latest Update">2023-05-28</td>
-        </tr>
-<tr data-description="GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.">
-            <td data-label="Developer">openai</td>
-            <td data-label="Technical Name (ID)">openai/gpt-4-0314</td>
-            <td data-label="Model Name">OpenAI: GPT-4 (older v0314)</td>
-            <td data-label="Context">8191</td>
-            <td data-label="Price (Prompt)">$30 / 1M tok</td>
-            <td data-label="Price (Completion)">$60 / 1M tok</td>
             <td data-label="Latest Update">2023-05-28</td>
         </tr>
             </tbody>
