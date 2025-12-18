@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (349 models)</title>
+    <title>OpenRouter Model Catalog (350 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (349 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 18-12-2025</p>
+        <h1>OpenRouter Model Catalog (350 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 19-12-2025</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -164,7 +164,7 @@
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-12-17</td>
         </tr>
-<tr data-description="MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.">
+<tr data-description="MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.\n\nNote: when integrating with agentic tools such as Claude Code, Cline, or Roo Code, **turn off reasoning mode** for the best and fastest performance—this model is deeply optimized for this scenario.\n\nUsers can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config).">
             <td data-label="Developer">xiaomi</td>
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2-flash:free</td>
             <td data-label="Model Name">Xiaomi: MiMo-V2-Flash (free)</td>
@@ -180,6 +180,15 @@
             <td data-label="Context">256000</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-14</td>
+        </tr>
+<tr data-description="NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems.\n\nThe model is fully open with open-weights, datasets and recipes so developers can easily\ncustomize, optimize, and deploy the model on their infrastructure for maximum privacy and\nsecurity.\n\nNote: For the free endpoint, all prompts and output are logged to improve the provider&#39;s model and its product and services. Please do not upload any personal, confidential, or otherwise sensitive information. This is a trial use only. Do not use for production or business-critical systems.">
+            <td data-label="Developer">nvidia</td>
+            <td data-label="Technical Name (ID)">nvidia/nemotron-3-nano-30b-a3b</td>
+            <td data-label="Model Name">NVIDIA: Nemotron 3 Nano 30B A3B</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0.06 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.24 / 1M tok</td>
             <td data-label="Latest Update">2025-12-14</td>
         </tr>
 <tr data-description="GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on harder queries, improving accuracy on math, coding, and multi-step tasks without slowing down typical conversations. The model is warmer and more conversational by default, with better instruction following and more stable short-form reasoning. GPT-5.2 Chat is designed for high-throughput, interactive workloads where responsiveness and consistency matter more than deep deliberation.">
@@ -358,7 +367,7 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v3.2</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3.2</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.26 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.24 / 1M tok</td>
             <td data-label="Price (Completion)">$0.38 / 1M tok</td>
             <td data-label="Latest Update">2025-12-01</td>
         </tr>
@@ -1681,8 +1690,8 @@
             <td data-label="Technical Name (ID)">nousresearch/deephermes-3-mistral-24b-preview</td>
             <td data-label="Model Name">Nous: DeepHermes 3 Mistral 24B Preview</td>
             <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.02 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2025-05-10</td>
         </tr>
 <tr data-description="Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost compared to traditional large models, making it suitable for scalable deployments across professional and industrial use cases.\n\nThe model excels in domains such as coding, STEM reasoning, and enterprise adaptation. It supports hybrid, on-prem, and in-VPC deployments and is optimized for integration into custom workflows. Mistral Medium 3 offers competitive accuracy relative to larger models like Claude Sonnet 3.5/3.7, Llama 4 Maverick, and Command R+, while maintaining broad compatibility across cloud environments.">
