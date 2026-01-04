@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (353 models)</title>
+    <title>OpenRouter Model Catalog (350 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (353 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 04-01-2026</p>
+        <h1>OpenRouter Model Catalog (350 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 05-01-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -159,9 +159,9 @@
             <td data-label="Developer">minimax</td>
             <td data-label="Technical Name (ID)">minimax/minimax-m2.1</td>
             <td data-label="Model Name">MiniMax: MiniMax M2.1</td>
-            <td data-label="Context">204800</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Context">196608</td>
+            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.48 / 1M tok</td>
             <td data-label="Latest Update">2025-12-23</td>
         </tr>
 <tr data-description="GLM-4.7 is Z.AI’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while delivering more natural conversational experiences and superior front-end aesthetics.">
@@ -169,8 +169,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-4.7</td>
             <td data-label="Model Name">Z.AI: GLM 4.7</td>
             <td data-label="Context">202752</td>
-            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.5 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.16 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.8 / 1M tok</td>
             <td data-label="Latest Update">2025-12-22</td>
         </tr>
 <tr data-description="Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool use performance with substantially lower latency than larger Gemini variants, making it well suited for interactive development, long running agent loops, and collaborative coding tasks. Compared to Gemini 2.5 Flash, it provides broad quality improvements across reasoning, multimodal understanding, and reliability.\n\nThe model supports a 1M token context window and multimodal inputs including text, images, audio, video, and PDFs, with text output. It includes configurable reasoning via thinking levels (minimal, low, medium, high), structured output, tool use, and automatic context caching. Gemini 3 Flash Preview is optimized for users who want strong reasoning and agentic behavior without the cost or latency of full scale frontier models.">
@@ -403,8 +403,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v3.2</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3.2</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.38 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.112 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.16 / 1M tok</td>
             <td data-label="Latest Update">2025-12-01</td>
         </tr>
 <tr data-description="INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL). It offers state-of-the-art performance for its size across math, code, science, and general reasoning, consistently outperforming many larger frontier models. Designed for strong multi-step problem solving, it maintains high accuracy on structured tasks while remaining efficient at inference thanks to its MoE architecture.">
@@ -414,15 +414,6 @@
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
             <td data-label="Price (Completion)">$1.1 / 1M tok</td>
-            <td data-label="Latest Update">2025-11-27</td>
-        </tr>
-<tr data-description="TNG-R1T-Chimera is an experimental LLM with a faible for creative storytelling and character interaction. It is a derivate of the original TNG/DeepSeek-R1T-Chimera released in April 2025 and is available exclusively via Chutes and OpenRouter.\n\nCharacteristics and improvements include:\n\nWe think that it has a creative and pleasant personality.\nIt has a preliminary EQ-Bench3 value of about 1305.\nIt is quite a bit more intelligent than the original, albeit a slightly slower.\nIt is much more think-token consistent, i.e. reasoning and answer blocks are properly delineated.\nTool calling is much improved.\n\nTNG Tech, the model authors, ask that users follow the careful guidelines that Microsoft has created for their &quot;MAI-DS-R1&quot; DeepSeek-based model. These guidelines are available on Hugging Face (https://huggingface.co/microsoft/MAI-DS-R1).">
-            <td data-label="Developer">tngtech</td>
-            <td data-label="Technical Name (ID)">tngtech/tng-r1t-chimera:free</td>
-            <td data-label="Model Name">TNG: R1T Chimera (free)</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-11-27</td>
         </tr>
 <tr data-description="TNG-R1T-Chimera is an experimental LLM with a faible for creative storytelling and character interaction. It is a derivate of the original TNG/DeepSeek-R1T-Chimera released in April 2025 and is available exclusively via Chutes and OpenRouter.\n\nCharacteristics and improvements include:\n\nWe think that it has a creative and pleasant personality.\nIt has a preliminary EQ-Bench3 value of about 1305.\nIt is quite a bit more intelligent than the original, albeit a slightly slower.\nIt is much more think-token consistent, i.e. reasoning and answer blocks are properly delineated.\nTool calling is much improved.\n\nTNG Tech, the model authors, ask that users follow the careful guidelines that Microsoft has created for their &quot;MAI-DS-R1&quot; DeepSeek-based model. These guidelines are available on Hugging Face (https://huggingface.co/microsoft/MAI-DS-R1).">
@@ -556,8 +547,8 @@
             <td data-label="Technical Name (ID)">moonshotai/kimi-k2-thinking</td>
             <td data-label="Model Name">MoonshotAI: Kimi K2 Thinking</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.75 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.32 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.48 / 1M tok</td>
             <td data-label="Latest Update">2025-11-06</td>
         </tr>
 <tr data-description="Amazon Nova Premier is the most capable of Amazon’s multimodal models for complex reasoning tasks and for use as the best teacher for distilling custom models.">
@@ -862,8 +853,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-235b-a22b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 235B A22B Thinking</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.45 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.5 / 1M tok</td>
             <td data-label="Latest Update">2025-09-24</td>
         </tr>
 <tr data-description="Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table extraction, multilingual OCR). The series emphasizes robust perception (recognition of diverse real-world and synthetic categories), spatial understanding (2D/3D grounding), and long-form visual comprehension, with competitive results on public multimodal benchmarks for both perception and reasoning.\n\nBeyond analysis, Qwen3-VL supports agentic interaction and tool use: it can follow complex instructions over multi-image, multi-turn dialogues; align text to video timelines for precise temporal queries; and operate GUI elements for automation tasks. The models also enable visual coding workflows—turning sketches or mockups into code and assisting with UI debugging—while maintaining strong text-only performance comparable to the flagship Qwen3 language models. This makes Qwen3-VL suitable for production scenarios spanning document AI, multilingual OCR, software/UI assistance, spatial/embodied tasks, and research on vision-language agents.">
@@ -871,8 +862,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-235b-a22b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 235B A22B Instruct</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.56 / 1M tok</td>
             <td data-label="Latest Update">2025-09-24</td>
         </tr>
 <tr data-description="Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It delivers higher accuracy in math, coding, logic, and science tasks, follows complex instructions in Chinese and English more reliably, reduces hallucinations, and produces higher-quality responses for open-ended Q&amp;A, writing, and conversation. The model supports over 100 languages with stronger translation and commonsense reasoning, and is optimized for retrieval-augmented generation (RAG) and tool calling, though it does not include a dedicated “thinking” mode.">
@@ -928,15 +919,6 @@
             <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
             <td data-label="Price (Completion)">$0.5 / 1M tok</td>
             <td data-label="Latest Update">2025-09-19</td>
-        </tr>
-<tr data-description="Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It&#39;s optimized for long-horizon, deep information-seeking tasks and delivers state-of-the-art performance on benchmarks like Humanity&#39;s Last Exam, BrowserComp, BrowserComp-ZH, WebWalkerQA, GAIA, xbench-DeepSearch, and FRAMES. This makes it superior for complex agentic search, reasoning, and multi-step problem-solving compared to prior models.\n\nThe model includes a fully automated synthetic data pipeline for scalable pre-training, fine-tuning, and reinforcement learning. It uses large-scale continual pre-training on diverse agentic data to boost reasoning and stay fresh. It also features end-to-end on-policy RL with a customized Group Relative Policy Optimization, including token-level gradients and negative sample filtering for stable training. The model supports ReAct for core ability checks and an IterResearch-based &#39;Heavy&#39; mode for max performance through test-time scaling. It&#39;s ideal for advanced research agents, tool use, and heavy inference workflows.">
-            <td data-label="Developer">alibaba</td>
-            <td data-label="Technical Name (ID)">alibaba/tongyi-deepresearch-30b-a3b:free</td>
-            <td data-label="Model Name">Tongyi DeepResearch 30B A3B (free)</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-09-18</td>
         </tr>
 <tr data-description="Tongyi DeepResearch is an agentic large language model developed by Tongyi Lab, with 30 billion total parameters activating only 3 billion per token. It&#39;s optimized for long-horizon, deep information-seeking tasks and delivers state-of-the-art performance on benchmarks like Humanity&#39;s Last Exam, BrowserComp, BrowserComp-ZH, WebWalkerQA, GAIA, xbench-DeepSearch, and FRAMES. This makes it superior for complex agentic search, reasoning, and multi-step problem-solving compared to prior models.\n\nThe model includes a fully automated synthetic data pipeline for scalable pre-training, fine-tuning, and reinforcement learning. It uses large-scale continual pre-training on diverse agentic data to boost reasoning and stay fresh. It also features end-to-end on-policy RL with a customized Group Relative Policy Optimization, including token-level gradients and negative sample filtering for stable training. The model supports ReAct for core ability checks and an IterResearch-based &#39;Heavy&#39; mode for max performance through test-time scaling. It&#39;s ideal for advanced research agents, tool use, and heavy inference workflows.">
             <td data-label="Developer">alibaba</td>
@@ -1105,8 +1087,8 @@
             <td data-label="Technical Name (ID)">nousresearch/hermes-4-405b</td>
             <td data-label="Model Name">Nous: Hermes 4 405B</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$3 / 1M tok</td>
             <td data-label="Latest Update">2025-08-27</td>
         </tr>
 <tr data-description="Gemini 2.5 Flash Image Preview, a.k.a. &quot;Nano Banana,&quot; is a state of the art image generation model with contextual understanding. It is capable of image generation, edits, and multi-turn conversations.">
@@ -1330,8 +1312,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-4.5-air</td>
             <td data-label="Model Name">Z.AI: GLM 4.5 Air</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.85 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.22 / 1M tok</td>
             <td data-label="Latest Update">2025-07-26</td>
         </tr>
 <tr data-description="Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144 tokens of context. This &quot;thinking-only&quot; variant enhances structured logical reasoning, mathematics, science, and long-form generation, showing strong benchmark performance across AIME, SuperGPQA, LiveCodeBench, and MMLU-Redux. It enforces a special reasoning mode (&lt;/think&gt;) and is designed for high-token outputs (up to 81,920 tokens) in challenging domains.\n\nThe model is instruction-tuned and excels at step-by-step reasoning, tool use, agentic workflows, and multilingual tasks. This release represents the most capable open-source variant in the Qwen3-235B series, surpassing many closed models in structured reasoning use cases.">
@@ -1429,8 +1411,8 @@
             <td data-label="Technical Name (ID)">moonshotai/kimi-k2</td>
             <td data-label="Model Name">MoonshotAI: Kimi K2 0711</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.456 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.84 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.4 / 1M tok</td>
             <td data-label="Latest Update">2025-07-12</td>
         </tr>
 <tr data-description="GLM-4.1V-9B-Thinking is a 9B parameter vision-language model developed by THUDM, based on the GLM-4-9B foundation. It introduces a reasoning-centric &quot;thinking paradigm&quot; enhanced with reinforcement learning to improve multimodal reasoning, long-context understanding (up to 64K tokens), and complex problem solving. It achieves state-of-the-art performance among models in its class, outperforming even larger models like Qwen-2.5-VL-72B on a majority of benchmark tasks. ">
@@ -1973,15 +1955,6 @@
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2025-04-14</td>
         </tr>
-<tr data-description="QwQ-32B-ArliAI-RpR-v1 is a 32B parameter model fine-tuned from Qwen/QwQ-32B using a curated creative writing and roleplay dataset originally developed for the RPMax series. It is designed to maintain coherence and reasoning across long multi-turn conversations by introducing explicit reasoning steps per dialogue turn, generated and refined using the base model itself.\n\nThe model was trained using RS-QLORA+ on 8K sequence lengths and supports up to 128K context windows (with practical performance around 32K). It is optimized for creative roleplay and dialogue generation, with an emphasis on minimizing cross-context repetition while preserving stylistic diversity.">
-            <td data-label="Developer">arliai</td>
-            <td data-label="Technical Name (ID)">arliai/qwq-32b-arliai-rpr-v1</td>
-            <td data-label="Model Name">ArliAI: QwQ 32B RpR v1</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.11 / 1M tok</td>
-            <td data-label="Latest Update">2025-04-13</td>
-        </tr>
 <tr data-description="Grok 3 Mini is a lightweight, smaller thinking model. Unlike traditional models that generate answers immediately, Grok 3 Mini thinks before responding. It’s ideal for reasoning-heavy tasks that don’t demand extensive domain knowledge, and shines in math-specific and quantitative use cases, such as solving challenging puzzles or math problems.\n\nTransparent &quot;thinking&quot; traces accessible. Defaults to low reasoning, can boost with setting `reasoning: { effort: &quot;high&quot; }`\n\nNote: That there are two xAI endpoints for this model. By default when using this model we will always route you to the base endpoint. If you want the fast endpoint you can add `provider: { sort: throughput}`, to sort by throughput instead. \n">
             <td data-label="Developer">x-ai</td>
             <td data-label="Technical Name (ID)">x-ai/grok-3-mini-beta</td>
@@ -2041,8 +2014,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-chat-v3-0324</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3 0324</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.88 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.19 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.87 / 1M tok</td>
             <td data-label="Latest Update">2025-03-24</td>
         </tr>
 <tr data-description="The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide consistently better answers.">
@@ -2338,8 +2311,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen2.5-vl-72b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen2.5 VL 72B Instruct</td>
             <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.26 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
             <td data-label="Latest Update">2025-02-01</td>
         </tr>
 <tr data-description="Qwen-Plus, based on the Qwen2.5 foundation model, is a 131K context model with a balanced performance, speed, and cost combination.">
@@ -2428,8 +2401,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-r1</td>
             <td data-label="Model Name">DeepSeek: R1</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.7 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.4 / 1M tok</td>
             <td data-label="Latest Update">2025-01-20</td>
         </tr>
 <tr data-description="MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context of up to 4 million tokens.\n\nThe text model adopts a hybrid architecture that combines Lightning Attention, Softmax Attention, and Mixture-of-Experts (MoE). The image model adopts the “ViT-MLP-LLM” framework and is trained on top of the text model.\n\nTo read more about the release, see: https://www.minimaxi.com/en/news/minimax-01-series-2">
