@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (345 models)</title>
+    <title>OpenRouter Model Catalog (346 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (345 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 04-02-2026</p>
+        <h1>OpenRouter Model Catalog (346 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 05-02-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that support features needed for your request such as image understanding, tool calling, structured outputs and more. ">
+                <tr data-description="Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per token, delivering performance comparable to models with 10 to 20x higher active compute, which makes it well suited for cost-sensitive, always-on agent deployment.\n\nThe model is trained with a strong agentic focus and performs reliably on long-horizon coding tasks, complex tool usage, and recovery from execution failures. With a native 256k context window, it integrates cleanly into real-world CLI and IDE environments and adapts well to common agent scaffolds used by modern coding tools. The model operates exclusively in non-thinking mode and does not emit &lt;think&gt; blocks, simplifying integration for production coding agents.">
+            <td data-label="Developer">qwen</td>
+            <td data-label="Technical Name (ID)">qwen/qwen3-coder-next</td>
+            <td data-label="Model Name">Qwen: Qwen3 Coder Next</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.3 / 1M tok</td>
+            <td data-label="Latest Update">2026-02-04</td>
+        </tr>
+<tr data-description="The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that support features needed for your request such as image understanding, tool calling, structured outputs and more. ">
             <td data-label="Developer">openrouter</td>
             <td data-label="Technical Name (ID)">openrouter/free</td>
             <td data-label="Model Name">Free Models Router</td>
@@ -256,11 +265,11 @@
         </tr>
 <tr data-description="Molmo2-8B is an open vision-language model developed by the Allen Institute for AI (Ai2) as part of the Molmo2 family, supporting image, video, and multi-image understanding and grounding. It is based on Qwen3-8B and uses SigLIP 2 as its vision backbone, outperforming other open-weight, open-data models on short videos, counting, and captioning, while remaining competitive on long-video tasks.">
             <td data-label="Developer">allenai</td>
-            <td data-label="Technical Name (ID)">allenai/molmo-2-8b:free</td>
-            <td data-label="Model Name">AllenAI: Molmo2 8B (free)</td>
+            <td data-label="Technical Name (ID)">allenai/molmo-2-8b</td>
+            <td data-label="Model Name">AllenAI: Molmo2 8B</td>
             <td data-label="Context">36864</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
             <td data-label="Latest Update">2026-01-10</td>
         </tr>
 <tr data-description="Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction following. As part of the Olmo 3.1 family, this variant emphasizes responsiveness to complex user directions and robust chat interactions while retaining strong capabilities on reasoning and coding benchmarks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Instruct reflects the Olmo initiative’s commitment to openness and transparency.">
@@ -296,7 +305,7 @@
             <td data-label="Model Name">MiniMax: MiniMax M2.1</td>
             <td data-label="Context">196608</td>
             <td data-label="Price (Prompt)">$0.27 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.95 / 1M tok</td>
             <td data-label="Latest Update">2025-12-23</td>
         </tr>
 <tr data-description="GLM-4.7 is Z.AI’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while delivering more natural conversational experiences and superior front-end aesthetics.">
@@ -998,7 +1007,7 @@
             <td data-label="Model Name">Qwen: Qwen3 VL 235B A22B Instruct</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.88 / 1M tok</td>
             <td data-label="Latest Update">2025-09-24</td>
         </tr>
 <tr data-description="Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It delivers higher accuracy in math, coding, logic, and science tasks, follows complex instructions in Chinese and English more reliably, reduces hallucinations, and produces higher-quality responses for open-ended Q&amp;A, writing, and conversation. The model supports over 100 languages with stronger translation and commonsense reasoning, and is optimized for retrieval-augmented generation (RAG) and tool calling, though it does not include a dedicated “thinking” mode.">
@@ -1520,7 +1529,7 @@
             <td data-label="Model Name">Qwen: Qwen3 235B A22B Instruct 2507</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.071 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.463 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2025-07-22</td>
         </tr>
 <tr data-description="Switchpoint AI&#39;s router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library. \n\nAs the world of LLMs advances, our router gets smarter, ensuring you always benefit from the industry&#39;s newest models without changing your workflow.\n\nThis model is configured for a simple, flat rate per response here on OpenRouter. It&#39;s powered by the full routing engine from [Switchpoint AI](https://www.switchpoint.dev).">
