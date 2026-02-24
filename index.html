@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (337 models)</title>
+    <title>OpenRouter Model Catalog (338 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (337 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 24-02-2026</p>
+        <h1>OpenRouter Model Catalog (338 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 25-02-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,25 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation of the Gemini 3 series, it combines high-precision reasoning across text, image, video, audio, and code with a 1M-token context window. Reasoning Details must be preserved when using multi-turn tool calling, see our docs here: https://openrouter.ai/docs/use-cases/reasoning-tokens#preserving-reasoning. The 3.1 update introduces measurable gains in SWE benchmarks and real-world coding environments, along with stronger autonomous task execution in structured domains such as finance and spreadsheet-based workflows.\n\nDesigned for advanced development and agentic systems, Gemini 3.1 Pro Preview improves long-horizon stability and tool orchestration while increasing token efficiency. It introduces a new medium thinking level to better balance cost, speed, and performance. The model excels in agentic coding, structured planning, multimodal analysis, and workflow automation, making it well-suited for autonomous agents, financial modeling, spreadsheet automation, and high-context enterprise tasks.">
+                <tr data-description="GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2. It achieves state-of-the-art results on SWE-Bench Pro and strong performance on Terminal-Bench 2.0 and OSWorld-Verified, reflecting improved multi-language coding, terminal proficiency, and real-world computer-use skills. The model is optimized for long-running, tool-using workflows and supports interactive steering during execution, making it suitable for complex development tasks, debugging, deployment, and iterative product work.\n\nBeyond coding, GPT-5.3-Codex performs strongly on structured knowledge-work benchmarks such as GDPval, supporting tasks like document drafting, spreadsheet analysis, slide creation, and operational research across domains. It is trained with enhanced cybersecurity awareness, including vulnerability identification capabilities, and deployed with additional safeguards for high-risk use cases. Compared to prior Codex models, it is more token-efficient and approximately 25% faster, targeting professional end-to-end workflows that span reasoning, execution, and computer interaction.">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.3-codex</td>
+            <td data-label="Model Name">OpenAI: GPT-5.3-Codex</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$1.75 / 1M tok</td>
+            <td data-label="Price (Completion)">$14 / 1M tok</td>
+            <td data-label="Latest Update">2026-02-25</td>
+        </tr>
+<tr data-description="Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging. It also handles mature and darker themes with more nuance and depth.">
+            <td data-label="Developer">aion-labs</td>
+            <td data-label="Technical Name (ID)">aion-labs/aion-2.0</td>
+            <td data-label="Model Name">AionLabs: Aion-2.0</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.8 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.6 / 1M tok</td>
+            <td data-label="Latest Update">2026-02-24</td>
+        </tr>
+<tr data-description="Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation of the Gemini 3 series, it combines high-precision reasoning across text, image, video, audio, and code with a 1M-token context window. Reasoning Details must be preserved when using multi-turn tool calling, see our docs here: https://openrouter.ai/docs/use-cases/reasoning-tokens#preserving-reasoning. The 3.1 update introduces measurable gains in SWE benchmarks and real-world coding environments, along with stronger autonomous task execution in structured domains such as finance and spreadsheet-based workflows.\n\nDesigned for advanced development and agentic systems, Gemini 3.1 Pro Preview improves long-horizon stability and tool orchestration while increasing token efficiency. It introduces a new medium thinking level to better balance cost, speed, and performance. The model excels in agentic coding, structured planning, multimodal analysis, and workflow automation, making it well-suited for autonomous agents, financial modeling, spreadsheet automation, and high-context enterprise tasks.">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-3.1-pro-preview</td>
             <td data-label="Model Name">Google: Gemini 3.1 Pro Preview</td>
@@ -169,8 +187,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3.5-397b-a17b</td>
             <td data-label="Model Name">Qwen: Qwen3.5 397B A17B</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.55 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.5 / 1M tok</td>
             <td data-label="Latest Update">2026-02-16</td>
         </tr>
 <tr data-description="MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1 to extend into general office work, reaching fluency in generating and operating Word, Excel, and Powerpoint files, context switching between diverse software environments, and working across different agent and human teams. Scoring 80.2% on SWE-Bench Verified, 51.3% on Multi-SWE-Bench, and 76.3% on BrowseComp, M2.5 is also more token efficient than previous generations, having been trained to optimize its actions and output through planning.">
@@ -394,8 +412,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-4.7</td>
             <td data-label="Model Name">Z.ai: GLM 4.7</td>
             <td data-label="Context">202752</td>
-            <td data-label="Price (Prompt)">$0.38 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.7 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.4 / 1M tok</td>
             <td data-label="Latest Update">2025-12-22</td>
         </tr>
 <tr data-description="Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool use performance with substantially lower latency than larger Gemini variants, making it well suited for interactive development, long running agent loops, and collaborative coding tasks. Compared to Gemini 2.5 Flash, it provides broad quality improvements across reasoning, multimodal understanding, and reliability.\n\nThe model supports a 1M token context window and multimodal inputs including text, images, audio, video, and PDFs, with text output. It includes configurable reasoning via thinking levels (minimal, low, medium, high), structured output, tool use, and automatic context caching. Gemini 3 Flash Preview is optimized for users who want strong reasoning and agentic behavior without the cost or latency of full scale frontier models.">
@@ -619,8 +637,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v3.2</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3.2</td>
             <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.26 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.38 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2025-12-01</td>
         </tr>
 <tr data-description="INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL). It offers state-of-the-art performance for its size across math, code, science, and general reasoning, consistently outperforming many larger frontier models. Designed for strong multi-step problem solving, it maintains high accuracy on structured tasks while remaining efficient at inference thanks to its MoE architecture.">
@@ -1738,15 +1756,6 @@
             <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2025-06-05</td>
-        </tr>
-<tr data-description="May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It&#39;s 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model.">
-            <td data-label="Developer">deepseek</td>
-            <td data-label="Technical Name (ID)">deepseek/deepseek-r1-0528:free</td>
-            <td data-label="Model Name">DeepSeek: R1 0528 (free)</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-05-29</td>
         </tr>
 <tr data-description="May 28th update to the [original DeepSeek R1](/deepseek/deepseek-r1) Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It&#39;s 671B parameters in size, with 37B active in an inference pass.\n\nFully open-source model.">
             <td data-label="Developer">deepseek</td>
