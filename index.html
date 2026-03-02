@@ -119,7 +119,7 @@
 <body>
     <div class="container">
         <h1>OpenRouter Model Catalog (342 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 02-03-2026</p>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 03-03-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -161,7 +161,7 @@
             <td data-label="Model Name">Qwen: Qwen3.5-35B-A3B</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
-            <td data-label="Price (Completion)">$2 / 1M tok</td>
+            <td data-label="Price (Completion)">$1 / 1M tok</td>
             <td data-label="Latest Update">2026-02-26</td>
         </tr>
 <tr data-description="The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to those of the Qwen3.5-122B-A10B.">
@@ -276,9 +276,9 @@
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-5</td>
             <td data-label="Model Name">Z.ai: GLM 5</td>
-            <td data-label="Context">204800</td>
-            <td data-label="Price (Prompt)">$0.95 / 1M tok</td>
-            <td data-label="Price (Completion)">$2.55 / 1M tok</td>
+            <td data-label="Context">202752</td>
+            <td data-label="Price (Prompt)">$0.8 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.56 / 1M tok</td>
             <td data-label="Latest Update">2026-02-11</td>
         </tr>
 <tr data-description="Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it delivers major gains in factual accuracy, complex reasoning, instruction following, alignment with human preferences, and agentic behavior.">
@@ -506,6 +506,15 @@
             <td data-label="Price (Completion)">$0.3 / 1M tok</td>
             <td data-label="Latest Update">2025-12-17</td>
         </tr>
+<tr data-description="Olmo 3.1 32B Think is a large-scale, 32-billion-parameter model designed for deep reasoning, complex multi-step logic, and advanced instruction following. Building on the Olmo 3 series, version 3.1 delivers refined reasoning behavior and stronger performance across demanding evaluations and nuanced conversational tasks. Developed by Ai2 under the Apache 2.0 license, Olmo 3.1 32B Think continues the Olmo initiative’s commitment to openness, providing full transparency across model weights, code, and training methodology.">
+            <td data-label="Developer">allenai</td>
+            <td data-label="Technical Name (ID)">allenai/olmo-3.1-32b-think</td>
+            <td data-label="Model Name">AllenAI: Olmo 3.1 32B Think</td>
+            <td data-label="Context">65536</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-17</td>
+        </tr>
 <tr data-description="MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash supports a hybrid-thinking toggle and a 256K context window, and excels at reasoning, coding, and agent scenarios. On SWE-bench Verified and SWE-bench Multilingual, MiMo-V2-Flash ranks as the top #1 open-source model globally, delivering performance comparable to Claude Sonnet 4.5 while costing only about 3.5% as much.\n\nUsers can control the reasoning behaviour with the `reasoning` `enabled` boolean. [Learn more in our docs](https://openrouter.ai/docs/use-cases/reasoning-tokens#enable-reasoning-with-default-config).">
             <td data-label="Developer">xiaomi</td>
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2-flash</td>
@@ -675,15 +684,6 @@
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-12-01</td>
-        </tr>
-<tr data-description="Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function calling and multi-step agent workflows.">
-            <td data-label="Developer">arcee-ai</td>
-            <td data-label="Technical Name (ID)">arcee-ai/trinity-mini</td>
-            <td data-label="Model Name">Arcee AI: Trinity Mini</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.045 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.15 / 1M tok</td>
             <td data-label="Latest Update">2025-12-01</td>
         </tr>
 <tr data-description="DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 optimized for maximum reasoning and agentic performance. It builds on DeepSeek Sparse Attention (DSA) for efficient long-context processing, then scales post-training reinforcement learning to push capability beyond the base model. Reported evaluations place Speciale ahead of GPT-5 on difficult reasoning workloads, with proficiency comparable to Gemini-3.0-Pro, while retaining strong coding and tool-use reliability. Like V3.2, it benefits from a large-scale agentic task synthesis pipeline that improves compliance and generalization in interactive environments.">
@@ -3116,7 +3116,7 @@
             <td data-label="Price (Completion)">$7.5 / 1M tok</td>
             <td data-label="Latest Update">2023-11-10</td>
         </tr>
-<tr data-description="Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.\n\nTo see which model was used, visit [Activity](/activity), or read the `model` attribute of the response. Your response will be priced at the same rate as the routed model.\n\nLearn more, including how to customize the models for routing, in our [docs](/docs/guides/routing/routers/auto-router).\n\nRequests will be routed to the following models:\n- [anthropic/claude-haiku-4.5](/anthropic/claude-haiku-4.5)\n- [anthropic/claude-opus-4.6](/anthropic/claude-opus-4.6)\n- [anthropic/claude-sonnet-4.5](/anthropic/claude-sonnet-4.5)\n- [deepseek/deepseek-r1](/deepseek/deepseek-r1)\n- [google/gemini-2.5-flash-lite](/google/gemini-2.5-flash-lite)\n- [google/gemini-3-flash-preview](/google/gemini-3-flash-preview)\n- [google/gemini-3-pro-preview](/google/gemini-3-pro-preview)\n- [meta-llama/llama-3.3-70b-instruct](/meta-llama/llama-3.3-70b-instruct)\n- [mistralai/codestral-2508](/mistralai/codestral-2508)\n- [mistralai/mistral-large](/mistralai/mistral-large)\n- [mistralai/mistral-medium-3.1](/mistralai/mistral-medium-3.1)\n- [mistralai/mistral-small-3.2-24b-instruct-2506](/mistralai/mistral-small-3.2-24b-instruct-2506)\n- [moonshotai/kimi-k2-thinking](/moonshotai/kimi-k2-thinking)\n- [moonshotai/kimi-k2.5](/moonshotai/kimi-k2.5)\n- [openai/gpt-5](/openai/gpt-5)\n- [openai/gpt-5-mini](/openai/gpt-5-mini)\n- [openai/gpt-5-nano](/openai/gpt-5-nano)\n- [openai/gpt-5.1](/openai/gpt-5.1)\n- [openai/gpt-5.2](/openai/gpt-5.2)\n- [openai/gpt-5.2-pro](/openai/gpt-5.2-pro)\n- [openai/gpt-oss-120b](/openai/gpt-oss-120b)\n- [perplexity/sonar](/perplexity/sonar)\n- [qwen/qwen3-235b-a22b](/qwen/qwen3-235b-a22b)\n- [x-ai/grok-3](/x-ai/grok-3)\n- [x-ai/grok-3-mini](/x-ai/grok-3-mini)\n- [x-ai/grok-4](/x-ai/grok-4)">
+<tr data-description="Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.\n\nTo see which model was used, visit [Activity](/activity), or read the `model` attribute of the response. Your response will be priced at the same rate as the routed model.\n\nLearn more, including how to customize the models for routing, in our [docs](/docs/guides/routing/routers/auto-router).\n\nRequests will be routed to the following models:\n- [anthropic/claude-haiku-4.5](/anthropic/claude-haiku-4.5)\n- [anthropic/claude-opus-4.6](/anthropic/claude-opus-4.6)\n- [anthropic/claude-sonnet-4.5](/anthropic/claude-sonnet-4.5)\n- [anthropic/claude-sonnet-4.6](/anthropic/claude-sonnet-4.6)\n- [deepseek/deepseek-r1](/deepseek/deepseek-r1)\n- [google/gemini-2.5-flash-lite](/google/gemini-2.5-flash-lite)\n- [google/gemini-3-flash-preview](/google/gemini-3-flash-preview)\n- [google/gemini-3-pro-preview](/google/gemini-3-pro-preview)\n- [google/gemini-3.1-pro-preview](/google/gemini-3.1-pro-preview)\n- [meta-llama/llama-3.3-70b-instruct](/meta-llama/llama-3.3-70b-instruct)\n- [minimax/minimax-m2.5](/minimax/minimax-m2.5)\n- [mistralai/codestral-2508](/mistralai/codestral-2508)\n- [mistralai/mistral-large](/mistralai/mistral-large)\n- [mistralai/mistral-medium-3.1](/mistralai/mistral-medium-3.1)\n- [mistralai/mistral-small-3.2-24b-instruct-2506](/mistralai/mistral-small-3.2-24b-instruct-2506)\n- [moonshotai/kimi-k2-thinking](/moonshotai/kimi-k2-thinking)\n- [moonshotai/kimi-k2.5](/moonshotai/kimi-k2.5)\n- [openai/gpt-5](/openai/gpt-5)\n- [openai/gpt-5-mini](/openai/gpt-5-mini)\n- [openai/gpt-5-nano](/openai/gpt-5-nano)\n- [openai/gpt-5.1](/openai/gpt-5.1)\n- [openai/gpt-5.2](/openai/gpt-5.2)\n- [openai/gpt-5.2-pro](/openai/gpt-5.2-pro)\n- [openai/gpt-oss-120b](/openai/gpt-oss-120b)\n- [perplexity/sonar](/perplexity/sonar)\n- [qwen/qwen3-235b-a22b](/qwen/qwen3-235b-a22b)\n- [x-ai/grok-3](/x-ai/grok-3)\n- [x-ai/grok-3-mini](/x-ai/grok-3-mini)\n- [x-ai/grok-4](/x-ai/grok-4)\n- [z-ai/glm-5](/z-ai/glm-5)">
             <td data-label="Developer">openrouter</td>
             <td data-label="Technical Name (ID)">openrouter/auto</td>
             <td data-label="Model Name">Auto Router</td>
