@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (348 models)</title>
+    <title>OpenRouter Model Catalog (352 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (348 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 07-04-2026</p>
+        <h1>OpenRouter Model Catalog (352 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 08-04-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,34 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...">
+                <tr data-description="Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic&#39;s docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-opus-4.6-fast</td>
+            <td data-label="Model Name">Anthropic: Claude Opus 4.6 (Fast)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$30 / 1M tok</td>
+            <td data-label="Price (Completion)">$150 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-08</td>
+        </tr>
+<tr data-description="GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...">
+            <td data-label="Developer">z-ai</td>
+            <td data-label="Technical Name (ID)">z-ai/glm-5.1</td>
+            <td data-label="Model Name">Z.ai: GLM 5.1</td>
+            <td data-label="Context">202752</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.2 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-07</td>
+        </tr>
+<tr data-description="Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemma-4-26b-a4b-it:free</td>
+            <td data-label="Model Name">Google: Gemma 4 26B A4B  (free)</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-03</td>
+        </tr>
+<tr data-description="Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemma-4-26b-a4b-it</td>
             <td data-label="Model Name">Google: Gemma 4 26B A4B </td>
@@ -145,6 +172,15 @@
             <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2026-04-03</td>
+        </tr>
+<tr data-description="Gemma 4 31B Instruct is Google DeepMind&#39;s 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemma-4-31b-it:free</td>
+            <td data-label="Model Name">Google: Gemma 4 31B (free)</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-02</td>
         </tr>
 <tr data-description="Gemma 4 31B Instruct is Google DeepMind&#39;s 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...">
             <td data-label="Developer">google</td>
