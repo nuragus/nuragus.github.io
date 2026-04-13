@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (349 models)</title>
+    <title>OpenRouter Model Catalog (350 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (349 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 13-04-2026</p>
+        <h1>OpenRouter Model Catalog (350 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 14-04-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic&#39;s docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode">
+                <tr data-description="Elephant Alpha is a 100B-parameter text model focused on intelligence efficiency, delivering strong reasoning performance while minimizing token usage. It supports a 256K context window with up to 32K output...">
+            <td data-label="Developer">openrouter</td>
+            <td data-label="Technical Name (ID)">openrouter/elephant-alpha</td>
+            <td data-label="Model Name">Elephant</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-13</td>
+        </tr>
+<tr data-description="Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic&#39;s docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode">
             <td data-label="Developer">anthropic</td>
             <td data-label="Technical Name (ID)">anthropic/claude-opus-4.6-fast</td>
             <td data-label="Model Name">Anthropic: Claude Opus 4.6 (Fast)</td>
@@ -169,8 +178,8 @@
             <td data-label="Technical Name (ID)">google/gemma-4-26b-a4b-it</td>
             <td data-label="Model Name">Google: Gemma 4 26B A4B </td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.35 / 1M tok</td>
             <td data-label="Latest Update">2026-04-03</td>
         </tr>
 <tr data-description="Gemma 4 31B Instruct is Google DeepMind&#39;s 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...">
@@ -187,8 +196,8 @@
             <td data-label="Technical Name (ID)">google/gemma-4-31b-it</td>
             <td data-label="Model Name">Google: Gemma 4 31B</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.38 / 1M tok</td>
             <td data-label="Latest Update">2026-04-02</td>
         </tr>
 <tr data-description="Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it delivers...">
@@ -294,7 +303,7 @@
             <td data-label="Developer">minimax</td>
             <td data-label="Technical Name (ID)">minimax/minimax-m2.7</td>
             <td data-label="Model Name">MiniMax: MiniMax M2.7</td>
-            <td data-label="Context">204800</td>
+            <td data-label="Context">196608</td>
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2026-03-18</td>
@@ -2828,19 +2837,19 @@
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2024-10-15</td>
         </tr>
-<tr data-description="Inflection 3 Pi powers Inflection&#39;s [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...">
+<tr data-description="Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...">
             <td data-label="Developer">inflection</td>
-            <td data-label="Technical Name (ID)">inflection/inflection-3-pi</td>
-            <td data-label="Model Name">Inflection: Inflection 3 Pi</td>
+            <td data-label="Technical Name (ID)">inflection/inflection-3-productivity</td>
+            <td data-label="Model Name">Inflection: Inflection 3 Productivity</td>
             <td data-label="Context">8000</td>
             <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2024-10-11</td>
         </tr>
-<tr data-description="Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...">
+<tr data-description="Inflection 3 Pi powers Inflection&#39;s [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...">
             <td data-label="Developer">inflection</td>
-            <td data-label="Technical Name (ID)">inflection/inflection-3-productivity</td>
-            <td data-label="Model Name">Inflection: Inflection 3 Productivity</td>
+            <td data-label="Technical Name (ID)">inflection/inflection-3-pi</td>
+            <td data-label="Model Name">Inflection: Inflection 3 Pi</td>
             <td data-label="Context">8000</td>
             <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
@@ -2854,6 +2863,15 @@
             <td data-label="Price (Prompt)">$0.17 / 1M tok</td>
             <td data-label="Price (Completion)">$0.43 / 1M tok</td>
             <td data-label="Latest Update">2024-09-30</td>
+        </tr>
+<tr data-description="Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-1b-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3.2 1B Instruct</td>
+            <td data-label="Context">60000</td>
+            <td data-label="Price (Prompt)">$0.027 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
+            <td data-label="Latest Update">2024-09-25</td>
         </tr>
 <tr data-description="Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...">
             <td data-label="Developer">meta-llama</td>
@@ -2882,15 +2900,6 @@
             <td data-label="Price (Completion)">$0.34 / 1M tok</td>
             <td data-label="Latest Update">2024-09-25</td>
         </tr>
-<tr data-description="Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-1b-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3.2 1B Instruct</td>
-            <td data-label="Context">60000</td>
-            <td data-label="Price (Prompt)">$0.027 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
-            <td data-label="Latest Update">2024-09-25</td>
-        </tr>
 <tr data-description="Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...">
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen-2.5-72b-instruct</td>
@@ -2900,15 +2909,6 @@
             <td data-label="Price (Completion)">$0.39 / 1M tok</td>
             <td data-label="Latest Update">2024-09-19</td>
         </tr>
-<tr data-description="command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...">
-            <td data-label="Developer">cohere</td>
-            <td data-label="Technical Name (ID)">cohere/command-r-plus-08-2024</td>
-            <td data-label="Model Name">Cohere: Command R+ (08-2024)</td>
-            <td data-label="Context">128000</td>
-            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
-            <td data-label="Price (Completion)">$10 / 1M tok</td>
-            <td data-label="Latest Update">2024-08-30</td>
-        </tr>
 <tr data-description="command-r-08-2024 is an update of the [Command R](/models/cohere/command-r) with improved performance for multilingual retrieval-augmented generation (RAG) and tool use. More broadly, it is better at math, code and reasoning and...">
             <td data-label="Developer">cohere</td>
             <td data-label="Technical Name (ID)">cohere/command-r-08-2024</td>
@@ -2916,6 +2916,15 @@
             <td data-label="Context">128000</td>
             <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
             <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Latest Update">2024-08-30</td>
+        </tr>
+<tr data-description="command-r-plus-08-2024 is an update of the [Command R+](/models/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint...">
+            <td data-label="Developer">cohere</td>
+            <td data-label="Technical Name (ID)">cohere/command-r-plus-08-2024</td>
+            <td data-label="Model Name">Cohere: Command R+ (08-2024)</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2024-08-30</td>
         </tr>
 <tr data-description="Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b).">
