@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (370 models)</title>
+    <title>OpenRouter Model Catalog (371 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (370 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 01-05-2026</p>
+        <h1>OpenRouter Model Catalog (371 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 02-05-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...">
+                <tr data-description="Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...">
+            <td data-label="Developer">x-ai</td>
+            <td data-label="Technical Name (ID)">x-ai/grok-4.3</td>
+            <td data-label="Model Name">xAI: Grok 4.3</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-01</td>
+        </tr>
+<tr data-description="Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...">
             <td data-label="Developer">ibm-granite</td>
             <td data-label="Technical Name (ID)">ibm-granite/granite-4.1-8b</td>
             <td data-label="Model Name">IBM: Granite 4.1 8B</td>
@@ -520,8 +529,8 @@
             <td data-label="Technical Name (ID)">x-ai/grok-4.20</td>
             <td data-label="Model Name">xAI: Grok 4.20</td>
             <td data-label="Context">2000000</td>
-            <td data-label="Price (Prompt)">$2 / 1M tok</td>
-            <td data-label="Price (Completion)">$6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.5 / 1M tok</td>
             <td data-label="Latest Update">2026-04-01</td>
         </tr>
 <tr data-description="Full-length songs are priced at $0.08 per song. Lyria 3 is Google&#39;s family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz...">
@@ -880,7 +889,7 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-coder-next</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder Next</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
             <td data-label="Price (Completion)">$0.8 / 1M tok</td>
             <td data-label="Latest Update">2026-02-04</td>
         </tr>
@@ -2697,7 +2706,7 @@
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-2.0-flash-001</td>
             <td data-label="Model Name">Google: Gemini 2.0 Flash</td>
-            <td data-label="Context">1000000</td>
+            <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2025-02-05</td>
@@ -3062,24 +3071,6 @@
             <td data-label="Price (Completion)">$0.43 / 1M tok</td>
             <td data-label="Latest Update">2024-09-30</td>
         </tr>
-<tr data-description="Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-11b-vision-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3.2 11B Vision Instruct</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.245 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.245 / 1M tok</td>
-            <td data-label="Latest Update">2024-09-25</td>
-        </tr>
-<tr data-description="Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-1b-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3.2 1B Instruct</td>
-            <td data-label="Context">60000</td>
-            <td data-label="Price (Prompt)">$0.027 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
-            <td data-label="Latest Update">2024-09-25</td>
-        </tr>
 <tr data-description="Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...">
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-3.2-3b-instruct:free</td>
@@ -3096,6 +3087,24 @@
             <td data-label="Context">80000</td>
             <td data-label="Price (Prompt)">$0.051 / 1M tok</td>
             <td data-label="Price (Completion)">$0.34 / 1M tok</td>
+            <td data-label="Latest Update">2024-09-25</td>
+        </tr>
+<tr data-description="Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-1b-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3.2 1B Instruct</td>
+            <td data-label="Context">60000</td>
+            <td data-label="Price (Prompt)">$0.027 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
+            <td data-label="Latest Update">2024-09-25</td>
+        </tr>
+<tr data-description="Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and...">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3.2-11b-vision-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3.2 11B Vision Instruct</td>
+            <td data-label="Context">131072</td>
+            <td data-label="Price (Prompt)">$0.245 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.245 / 1M tok</td>
             <td data-label="Latest Update">2024-09-25</td>
         </tr>
 <tr data-description="Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...">
@@ -3269,15 +3278,6 @@
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2024-05-13</td>
         </tr>
-<tr data-description="Meta&#39;s latest class of model (Llama 3) launched with a variety of sizes &amp; flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...">
-            <td data-label="Developer">meta-llama</td>
-            <td data-label="Technical Name (ID)">meta-llama/llama-3-70b-instruct</td>
-            <td data-label="Model Name">Meta: Llama 3 70B Instruct</td>
-            <td data-label="Context">8192</td>
-            <td data-label="Price (Prompt)">$0.51 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.74 / 1M tok</td>
-            <td data-label="Latest Update">2024-04-18</td>
-        </tr>
 <tr data-description="Meta&#39;s latest class of model (Llama 3) launched with a variety of sizes &amp; flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...">
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-3-8b-instruct</td>
@@ -3285,6 +3285,15 @@
             <td data-label="Context">8192</td>
             <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
             <td data-label="Price (Completion)">$0.04 / 1M tok</td>
+            <td data-label="Latest Update">2024-04-18</td>
+        </tr>
+<tr data-description="Meta&#39;s latest class of model (Llama 3) launched with a variety of sizes &amp; flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...">
+            <td data-label="Developer">meta-llama</td>
+            <td data-label="Technical Name (ID)">meta-llama/llama-3-70b-instruct</td>
+            <td data-label="Model Name">Meta: Llama 3 70B Instruct</td>
+            <td data-label="Context">8192</td>
+            <td data-label="Price (Prompt)">$0.51 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.74 / 1M tok</td>
             <td data-label="Latest Update">2024-04-18</td>
         </tr>
 <tr data-description="Mistral&#39;s official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include: - strong math, coding,...">
@@ -3332,15 +3341,6 @@
             <td data-label="Price (Completion)">$6 / 1M tok</td>
             <td data-label="Latest Update">2024-02-26</td>
         </tr>
-<tr data-description="GPT-3.5 Turbo is OpenAI&#39;s fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.">
-            <td data-label="Developer">openai</td>
-            <td data-label="Technical Name (ID)">openai/gpt-3.5-turbo-0613</td>
-            <td data-label="Model Name">OpenAI: GPT-3.5 Turbo (older v0613)</td>
-            <td data-label="Context">4095</td>
-            <td data-label="Price (Prompt)">$1 / 1M tok</td>
-            <td data-label="Price (Completion)">$2 / 1M tok</td>
-            <td data-label="Latest Update">2024-01-25</td>
-        </tr>
 <tr data-description="The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while...">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-4-turbo-preview</td>
@@ -3348,6 +3348,15 @@
             <td data-label="Context">128000</td>
             <td data-label="Price (Prompt)">$10 / 1M tok</td>
             <td data-label="Price (Completion)">$30 / 1M tok</td>
+            <td data-label="Latest Update">2024-01-25</td>
+        </tr>
+<tr data-description="GPT-3.5 Turbo is OpenAI&#39;s fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-3.5-turbo-0613</td>
+            <td data-label="Model Name">OpenAI: GPT-3.5 Turbo (older v0613)</td>
+            <td data-label="Context">4095</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$2 / 1M tok</td>
             <td data-label="Latest Update">2024-01-25</td>
         </tr>
 <tr data-description="Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion...">
@@ -3440,19 +3449,19 @@
             <td data-label="Price (Completion)">$0.06 / 1M tok</td>
             <td data-label="Latest Update">2023-07-02</td>
         </tr>
-<tr data-description="OpenAI&#39;s flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...">
+<tr data-description="GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.">
             <td data-label="Developer">openai</td>
-            <td data-label="Technical Name (ID)">openai/gpt-4</td>
-            <td data-label="Model Name">OpenAI: GPT-4</td>
+            <td data-label="Technical Name (ID)">openai/gpt-4-0314</td>
+            <td data-label="Model Name">OpenAI: GPT-4 (older v0314)</td>
             <td data-label="Context">8191</td>
             <td data-label="Price (Prompt)">$30 / 1M tok</td>
             <td data-label="Price (Completion)">$60 / 1M tok</td>
             <td data-label="Latest Update">2023-05-28</td>
         </tr>
-<tr data-description="GPT-4-0314 is the first version of GPT-4 released, with a context length of 8,192 tokens, and was supported until June 14. Training data: up to Sep 2021.">
+<tr data-description="OpenAI&#39;s flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning...">
             <td data-label="Developer">openai</td>
-            <td data-label="Technical Name (ID)">openai/gpt-4-0314</td>
-            <td data-label="Model Name">OpenAI: GPT-4 (older v0314)</td>
+            <td data-label="Technical Name (ID)">openai/gpt-4</td>
+            <td data-label="Model Name">OpenAI: GPT-4</td>
             <td data-label="Context">8191</td>
             <td data-label="Price (Prompt)">$30 / 1M tok</td>
             <td data-label="Price (Completion)">$60 / 1M tok</td>
