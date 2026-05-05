@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (372 models)</title>
+    <title>OpenRouter Model Catalog (369 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (372 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 05-05-2026</p>
+        <h1>OpenRouter Model Catalog (369 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 06-05-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...">
+                <tr data-description="GPT Chat Latest points to OpenAI&#39;s stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-chat-latest</td>
+            <td data-label="Model Name">OpenAI: GPT Chat Latest</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$5 / 1M tok</td>
+            <td data-label="Price (Completion)">$30 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-05</td>
+        </tr>
+<tr data-description="Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...">
             <td data-label="Developer">x-ai</td>
             <td data-label="Technical Name (ID)">x-ai/grok-4.3</td>
             <td data-label="Model Name">xAI: Grok 4.3</td>
@@ -1442,6 +1451,15 @@
             <td data-label="Price (Completion)">$0.11 / 1M tok</td>
             <td data-label="Latest Update">2025-10-20</td>
         </tr>
+<tr data-description="Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...">
+            <td data-label="Developer">microsoft</td>
+            <td data-label="Technical Name (ID)">microsoft/phi-4-mini-instruct</td>
+            <td data-label="Model Name">Microsoft: Phi 4 Mini Instruct</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.35 / 1M tok</td>
+            <td data-label="Latest Update">2025-10-18</td>
+        </tr>
 <tr data-description="GPT-5 Image Mini combines OpenAI&#39;s advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model features superior instruction following, text...">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-5-image-mini</td>
@@ -2117,15 +2135,6 @@
             <td data-label="Price (Completion)">$15 / 1M tok</td>
             <td data-label="Latest Update">2025-07-10</td>
         </tr>
-<tr data-description="Gemma 3n E2B IT is a multimodal, instruction-tuned model developed by Google DeepMind, designed to operate efficiently at an effective parameter size of 2B while leveraging a 6B architecture. Based...">
-            <td data-label="Developer">google</td>
-            <td data-label="Technical Name (ID)">google/gemma-3n-e2b-it:free</td>
-            <td data-label="Model Name">Google: Gemma 3n 2B (free)</td>
-            <td data-label="Context">8192</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-07-09</td>
-        </tr>
 <tr data-description="Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark...">
             <td data-label="Developer">tencent</td>
             <td data-label="Technical Name (ID)">tencent/hunyuan-a13b-instruct</td>
@@ -2278,15 +2287,6 @@
             <td data-label="Price (Prompt)">$3 / 1M tok</td>
             <td data-label="Price (Completion)">$15 / 1M tok</td>
             <td data-label="Latest Update">2025-05-22</td>
-        </tr>
-<tr data-description="Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks...">
-            <td data-label="Developer">google</td>
-            <td data-label="Technical Name (ID)">google/gemma-3n-e4b-it:free</td>
-            <td data-label="Model Name">Google: Gemma 3n 4B (free)</td>
-            <td data-label="Context">8192</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-05-21</td>
         </tr>
 <tr data-description="Gemma 3n E4B-it is optimized for efficient execution on mobile and low-resource devices, such as phones, laptops, and tablets. It supports multimodal inputs—including text, visual data, and audio—enabling diverse tasks...">
             <td data-label="Developer">google</td>
@@ -2533,29 +2533,11 @@
         </tr>
 <tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
             <td data-label="Developer">google</td>
-            <td data-label="Technical Name (ID)">google/gemma-3-4b-it:free</td>
-            <td data-label="Model Name">Google: Gemma 3 4B (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-14</td>
-        </tr>
-<tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
-            <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemma-3-4b-it</td>
             <td data-label="Model Name">Google: Gemma 3 4B</td>
             <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
             <td data-label="Price (Completion)">$0.08 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-14</td>
-        </tr>
-<tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
-            <td data-label="Developer">google</td>
-            <td data-label="Technical Name (ID)">google/gemma-3-12b-it:free</td>
-            <td data-label="Model Name">Google: Gemma 3 12B (free)</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2025-03-14</td>
         </tr>
 <tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
@@ -2602,15 +2584,6 @@
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.2 / 1M tok</td>
             <td data-label="Latest Update">2025-03-13</td>
-        </tr>
-<tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
-            <td data-label="Developer">google</td>
-            <td data-label="Technical Name (ID)">google/gemma-3-27b-it:free</td>
-            <td data-label="Model Name">Google: Gemma 3 27B (free)</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2025-03-12</td>
         </tr>
 <tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
             <td data-label="Developer">google</td>
