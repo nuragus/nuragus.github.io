@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (369 models)</title>
+    <title>OpenRouter Model Catalog (367 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (369 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 08-05-2026</p>
+        <h1>OpenRouter Model Catalog (367 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 09-05-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...">
+                <tr data-description="Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...">
+            <td data-label="Developer">inclusionai</td>
+            <td data-label="Technical Name (ID)">inclusionai/ring-2.6-1t:free</td>
+            <td data-label="Model Name">inclusionAI: Ring-2.6-1T (free)</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-08</td>
+        </tr>
+<tr data-description="Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-3.1-flash-lite</td>
             <td data-label="Model Name">Google: Gemini 3.1 Flash Lite</td>
@@ -382,11 +391,11 @@
         </tr>
 <tr data-description="Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...">
             <td data-label="Developer">tencent</td>
-            <td data-label="Technical Name (ID)">tencent/hy3-preview:free</td>
-            <td data-label="Model Name">Tencent: Hy3 preview (free)</td>
+            <td data-label="Technical Name (ID)">tencent/hy3-preview</td>
+            <td data-label="Model Name">Tencent: Hy3 preview</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.066 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.26 / 1M tok</td>
             <td data-label="Latest Update">2026-04-23</td>
         </tr>
 <tr data-description="MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....">
@@ -434,7 +443,7 @@
             <td data-label="Price (Completion)">$25 / 1M tok</td>
             <td data-label="Latest Update">2026-04-22</td>
         </tr>
-<tr data-description="The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one. You express a single `min_coding_score` preference...">
+<tr data-description="The Pareto Router maintains a tiered shortlist of strong coding models, ranked by [Artificial Analysis](https://artificialanalysis.ai/) coding percentiles. Set min_coding_score between 0 and 1 on the [pareto-router plugin](https://openrouter.ai/docs/guides/routing/routers/pareto-router#the-min_coding_score-parameter) to control how...">
             <td data-label="Developer">openrouter</td>
             <td data-label="Technical Name (ID)">openrouter/pareto-code</td>
             <td data-label="Model Name">Pareto Code Router</td>
@@ -628,7 +637,7 @@
             <td data-label="Technical Name (ID)">minimax/minimax-m2.7</td>
             <td data-label="Model Name">MiniMax: MiniMax M2.7</td>
             <td data-label="Context">196608</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.299 / 1M tok</td>
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2026-03-18</td>
         </tr>
@@ -1078,8 +1087,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-4.7</td>
             <td data-label="Model Name">Z.ai: GLM 4.7</td>
             <td data-label="Context">202752</td>
-            <td data-label="Price (Prompt)">$0.38 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.74 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.75 / 1M tok</td>
             <td data-label="Latest Update">2025-12-22</td>
         </tr>
 <tr data-description="Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...">
@@ -1096,8 +1105,8 @@
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2-flash</td>
             <td data-label="Model Name">Xiaomi: MiMo-V2-Flash</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.09 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.29 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.3 / 1M tok</td>
             <td data-label="Latest Update">2025-12-14</td>
         </tr>
 <tr data-description="NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully...">
@@ -2144,15 +2153,6 @@
             <td data-label="Price (Completion)">$0.57 / 1M tok</td>
             <td data-label="Latest Update">2025-07-08</td>
         </tr>
-<tr data-description="DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an Assembly-of-Experts merge. The...">
-            <td data-label="Developer">tngtech</td>
-            <td data-label="Technical Name (ID)">tngtech/deepseek-r1t2-chimera</td>
-            <td data-label="Model Name">TNG: DeepSeek R1T2 Chimera</td>
-            <td data-label="Context">163840</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.1 / 1M tok</td>
-            <td data-label="Latest Update">2025-07-08</td>
-        </tr>
 <tr data-description="Morph&#39;s high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: &lt;instruction&gt;{instruction}&lt;/instruction&gt; &lt;code&gt;{initial_code}&lt;/code&gt;...">
             <td data-label="Developer">morph</td>
             <td data-label="Technical Name (ID)">morph/morph-v3-large</td>
@@ -2393,7 +2393,7 @@
             <td data-label="Model Name">Qwen: Qwen3 32B</td>
             <td data-label="Context">40960</td>
             <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.24 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.28 / 1M tok</td>
             <td data-label="Latest Update">2025-04-29</td>
         </tr>
 <tr data-description="Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a &quot;thinking&quot; mode for complex reasoning, math, and...">
@@ -3017,15 +3017,6 @@
             <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2024-10-16</td>
         </tr>
-<tr data-description="NVIDIA&#39;s Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses. Leveraging [Llama 3.1 70B](/models/meta-llama/llama-3.1-70b-instruct) architecture and Reinforcement Learning from Human Feedback (RLHF), it excels...">
-            <td data-label="Developer">nvidia</td>
-            <td data-label="Technical Name (ID)">nvidia/llama-3.1-nemotron-70b-instruct</td>
-            <td data-label="Model Name">NVIDIA: Llama 3.1 Nemotron 70B Instruct</td>
-            <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$1.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
-            <td data-label="Latest Update">2024-10-15</td>
-        </tr>
 <tr data-description="Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...">
             <td data-label="Developer">inflection</td>
             <td data-label="Technical Name (ID)">inflection/inflection-3-productivity</td>
@@ -3341,15 +3332,6 @@
             <td data-label="Price (Completion)">$2 / 1M tok</td>
             <td data-label="Latest Update">2024-01-25</td>
         </tr>
-<tr data-description="Mixtral 8x7B Instruct is a pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and instruction use. Incorporates 8 experts (feed-forward networks) for a total of 47 billion...">
-            <td data-label="Developer">mistralai</td>
-            <td data-label="Technical Name (ID)">mistralai/mixtral-8x7b-instruct</td>
-            <td data-label="Model Name">Mistral: Mixtral 8x7B Instruct</td>
-            <td data-label="Context">32768</td>
-            <td data-label="Price (Prompt)">$0.54 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.54 / 1M tok</td>
-            <td data-label="Latest Update">2023-12-10</td>
-        </tr>
 <tr data-description="A large LLM created by combining two fine-tuned Llama 70B models into one 120B model. Combines Xwin and Euryale. Credits to - [@chargoddard](https://huggingface.co/chargoddard) for developing the framework used to merge...">
             <td data-label="Developer">alpindale</td>
             <td data-label="Technical Name (ID)">alpindale/goliath-120b</td>
@@ -3359,7 +3341,7 @@
             <td data-label="Price (Completion)">$7.5 / 1M tok</td>
             <td data-label="Latest Update">2023-11-10</td>
         </tr>
-<tr data-description="&quot;Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output. To see which model was used,...">
+<tr data-description="&quot;Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output.\n\nTo see which model was used, visit...">
             <td data-label="Developer">openrouter</td>
             <td data-label="Technical Name (ID)">openrouter/auto</td>
             <td data-label="Model Name">Auto Router</td>
