@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (339 models)</title>
+    <title>OpenRouter Model Catalog (342 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (339 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 21-07-2026</p>
+        <h1>OpenRouter Model Catalog (342 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 22-07-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,43 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic...">
+                <tr data-description="Laguna S 2.1 is the latest coding agent model from [Poolside](&lt;https://poolside.ai/&gt;). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...">
+            <td data-label="Developer">poolside</td>
+            <td data-label="Technical Name (ID)">poolside/laguna-s-2.1</td>
+            <td data-label="Model Name">Poolside: Laguna S 2.1</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-21</td>
+        </tr>
+<tr data-description="Laguna S 2.1 is the latest coding agent model from [Poolside](&lt;https://poolside.ai/&gt;). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...">
+            <td data-label="Developer">poolside</td>
+            <td data-label="Technical Name (ID)">poolside/laguna-s-2.1:free</td>
+            <td data-label="Model Name">Poolside: Laguna S 2.1 (free)</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0 / 1M tok</td>
+            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-21</td>
+        </tr>
+<tr data-description="Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.6-flash</td>
+            <td data-label="Model Name">Google: Gemini 3.6 Flash</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$1.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$7.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-21</td>
+        </tr>
+<tr data-description="Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.5-flash-lite</td>
+            <td data-label="Model Name">Google: Gemini 3.5 Flash-Lite</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-21</td>
+        </tr>
+<tr data-description="LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic...">
             <td data-label="Developer">meituan</td>
             <td data-label="Technical Name (ID)">meituan/longcat-2.0</td>
             <td data-label="Model Name">Meituan: LongCat 2.0</td>
@@ -150,7 +186,7 @@
             <td data-label="Developer">thinkingmachines</td>
             <td data-label="Technical Name (ID)">thinkingmachines/inkling</td>
             <td data-label="Model Name">Thinking Machines: Inkling</td>
-            <td data-label="Context">1048576</td>
+            <td data-label="Context">524288</td>
             <td data-label="Price (Prompt)">$1 / 1M tok</td>
             <td data-label="Price (Completion)">$4.05 / 1M tok</td>
             <td data-label="Latest Update">2026-07-18</td>
@@ -295,17 +331,8 @@
             <td data-label="Technical Name (ID)">tencent/hy3</td>
             <td data-label="Model Name">Tencent: Hy3</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.8 / 1M tok</td>
-            <td data-label="Latest Update">2026-07-06</td>
-        </tr>
-<tr data-description="Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...">
-            <td data-label="Developer">tencent</td>
-            <td data-label="Technical Name (ID)">tencent/hy3:free</td>
-            <td data-label="Model Name">Tencent: Hy3 (free)</td>
-            <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.58 / 1M tok</td>
             <td data-label="Latest Update">2026-07-06</td>
         </tr>
 <tr data-description="Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...">
@@ -375,7 +402,7 @@
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-3-pro-image</td>
             <td data-label="Model Name">Google: Nano Banana Pro (Gemini 3 Pro Image)</td>
-            <td data-label="Context">65536</td>
+            <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$2 / 1M tok</td>
             <td data-label="Price (Completion)">$12 / 1M tok</td>
             <td data-label="Latest Update">2026-06-18</td>
@@ -394,8 +421,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-5.2</td>
             <td data-label="Model Name">Z.ai: GLM 5.2</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.98 / 1M tok</td>
-            <td data-label="Price (Completion)">$3.08 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.7714 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.4244 / 1M tok</td>
             <td data-label="Latest Update">2026-06-17</td>
         </tr>
 <tr data-description="Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...">
@@ -456,7 +483,7 @@
             <td data-label="Developer">nvidia</td>
             <td data-label="Technical Name (ID)">nvidia/nemotron-3-ultra-550b-a55b</td>
             <td data-label="Model Name">NVIDIA: Nemotron 3 Ultra</td>
-            <td data-label="Context">1000000</td>
+            <td data-label="Context">512288</td>
             <td data-label="Price (Prompt)">$0.6 / 1M tok</td>
             <td data-label="Price (Completion)">$3.6 / 1M tok</td>
             <td data-label="Latest Update">2026-06-04</td>
@@ -492,7 +519,7 @@
             <td data-label="Developer">stepfun</td>
             <td data-label="Technical Name (ID)">stepfun/step-3.7-flash</td>
             <td data-label="Model Name">StepFun: Step 3.7 Flash</td>
-            <td data-label="Context">256000</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
             <td data-label="Price (Completion)">$1.15 / 1M tok</td>
             <td data-label="Latest Update">2026-05-28</td>
@@ -683,7 +710,7 @@
             <td data-label="Model Name">Google Gemini Flash Latest</td>
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$1.5 / 1M tok</td>
-            <td data-label="Price (Completion)">$9 / 1M tok</td>
+            <td data-label="Price (Completion)">$7.5 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
 <tr data-description="This model always redirects to the latest model in the Anthropic Claude Sonnet family.">
@@ -781,8 +808,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-flash</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Flash</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.098 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.196 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.0938 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.1876 / 1M tok</td>
             <td data-label="Latest Update">2026-04-24</td>
         </tr>
 <tr data-description="Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast...">
@@ -807,7 +834,7 @@
             <td data-label="Developer">xiaomi</td>
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2.5-pro</td>
             <td data-label="Model Name">Xiaomi: MiMo-V2.5-Pro</td>
-            <td data-label="Context">1048576</td>
+            <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$0.435 / 1M tok</td>
             <td data-label="Price (Completion)">$0.87 / 1M tok</td>
             <td data-label="Latest Update">2026-04-22</td>
@@ -816,7 +843,7 @@
             <td data-label="Developer">xiaomi</td>
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2.5</td>
             <td data-label="Model Name">Xiaomi: MiMo-V2.5</td>
-            <td data-label="Context">1048576</td>
+            <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
             <td data-label="Price (Completion)">$0.28 / 1M tok</td>
             <td data-label="Latest Update">2026-04-22</td>
@@ -879,7 +906,7 @@
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-5.1</td>
             <td data-label="Model Name">Z.ai: GLM 5.1</td>
-            <td data-label="Context">202752</td>
+            <td data-label="Context">204800</td>
             <td data-label="Price (Prompt)">$0.966 / 1M tok</td>
             <td data-label="Price (Completion)">$3.036 / 1M tok</td>
             <td data-label="Latest Update">2026-04-07</td>
@@ -987,7 +1014,7 @@
             <td data-label="Developer">kwaipilot</td>
             <td data-label="Technical Name (ID)">kwaipilot/kat-coder-pro-v2</td>
             <td data-label="Model Name">Kwaipilot: KAT-Coder-Pro V2</td>
-            <td data-label="Context">256000</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2026-03-28</td>
@@ -1051,15 +1078,15 @@
             <td data-label="Technical Name (ID)">nvidia/nemotron-3-super-120b-a12b</td>
             <td data-label="Model Name">NVIDIA: Nemotron 3 Super</td>
             <td data-label="Context">1000000</td>
-            <td data-label="Price (Prompt)">$0.085 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.45 / 1M tok</td>
             <td data-label="Latest Update">2026-03-11</td>
         </tr>
 <tr data-description="NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...">
             <td data-label="Developer">nvidia</td>
             <td data-label="Technical Name (ID)">nvidia/nemotron-3-super-120b-a12b:free</td>
             <td data-label="Model Name">NVIDIA: Nemotron 3 Super (free)</td>
-            <td data-label="Context">1000000</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2026-03-11</td>
@@ -1185,7 +1212,7 @@
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-3.1-pro-preview-customtools</td>
             <td data-label="Model Name">Google: Gemini 3.1 Pro Preview Custom Tools</td>
-            <td data-label="Context">1048756</td>
+            <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$2 / 1M tok</td>
             <td data-label="Price (Completion)">$12 / 1M tok</td>
             <td data-label="Latest Update">2026-02-26</td>
@@ -1365,7 +1392,7 @@
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-4.7-flash</td>
             <td data-label="Model Name">Z.ai: GLM 4.7 Flash</td>
-            <td data-label="Context">200000</td>
+            <td data-label="Context">202752</td>
             <td data-label="Price (Prompt)">$0.0605 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2026-01-19</td>
@@ -1410,7 +1437,7 @@
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-4.7</td>
             <td data-label="Model Name">Z.ai: GLM 4.7</td>
-            <td data-label="Context">202752</td>
+            <td data-label="Context">204800</td>
             <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
             <td data-label="Price (Completion)">$1.75 / 1M tok</td>
             <td data-label="Latest Update">2025-12-22</td>
@@ -1707,7 +1734,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-32b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 32B Instruct</td>
-            <td data-label="Context">262144</td>
+            <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.104 / 1M tok</td>
             <td data-label="Price (Completion)">$0.416 / 1M tok</td>
             <td data-label="Latest Update">2025-10-23</td>
@@ -1743,7 +1770,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-8b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 8B Thinking</td>
-            <td data-label="Context">256000</td>
+            <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.117 / 1M tok</td>
             <td data-label="Price (Completion)">$1.365 / 1M tok</td>
             <td data-label="Latest Update">2025-10-15</td>
@@ -1752,7 +1779,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-8b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 8B Instruct</td>
-            <td data-label="Context">256000</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.117 / 1M tok</td>
             <td data-label="Price (Completion)">$0.455 / 1M tok</td>
             <td data-label="Latest Update">2025-10-15</td>
@@ -1797,7 +1824,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-30b-a3b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 30B A3B Thinking</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
             <td data-label="Price (Completion)">$1.56 / 1M tok</td>
             <td data-label="Latest Update">2025-10-07</td>
@@ -1824,7 +1851,7 @@
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-4.6</td>
             <td data-label="Model Name">Z.ai: GLM 4.6</td>
-            <td data-label="Context">202752</td>
+            <td data-label="Context">204800</td>
             <td data-label="Price (Prompt)">$0.5 / 1M tok</td>
             <td data-label="Price (Completion)">$2 / 1M tok</td>
             <td data-label="Latest Update">2025-09-30</td>
@@ -1878,7 +1905,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-235b-a22b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 235B A22B Instruct</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.21 / 1M tok</td>
             <td data-label="Price (Completion)">$1.9 / 1M tok</td>
             <td data-label="Latest Update">2025-09-24</td>
@@ -1914,7 +1941,7 @@
             <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-v3.1-terminus</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3.1 Terminus</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">163840</td>
             <td data-label="Price (Prompt)">$0.27 / 1M tok</td>
             <td data-label="Price (Completion)">$1 / 1M tok</td>
             <td data-label="Latest Update">2025-09-22</td>
@@ -1942,8 +1969,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-next-80b-a3b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 Next 80B A3B Instruct</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.0975 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.78 / 1M tok</td>
             <td data-label="Latest Update">2025-09-12</td>
         </tr>
 <tr data-description="Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.">
@@ -1986,7 +2013,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-30b-a3b-thinking-2507</td>
             <td data-label="Model Name">Qwen: Qwen3 30B A3B Thinking 2507</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">81920</td>
             <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
             <td data-label="Price (Completion)">$1.56 / 1M tok</td>
             <td data-label="Latest Update">2025-08-28</td>
@@ -2130,7 +2157,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-coder-30b-a3b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder 30B A3B Instruct</td>
-            <td data-label="Context">160000</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.07 / 1M tok</td>
             <td data-label="Price (Completion)">$0.27 / 1M tok</td>
             <td data-label="Latest Update">2025-07-31</td>
@@ -2175,7 +2202,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-coder</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder 480B A35B</td>
-            <td data-label="Context">1048576</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$1 / 1M tok</td>
             <td data-label="Latest Update">2025-07-23</td>
@@ -2256,7 +2283,7 @@
             <td data-label="Developer">baidu</td>
             <td data-label="Technical Name (ID)">baidu/ernie-4.5-vl-424b-a47b</td>
             <td data-label="Model Name">Baidu: ERNIE 4.5 VL 424B A47B </td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">123000</td>
             <td data-label="Price (Prompt)">$0.42 / 1M tok</td>
             <td data-label="Price (Completion)">$1.25 / 1M tok</td>
             <td data-label="Latest Update">2025-06-30</td>
@@ -2265,7 +2292,7 @@
             <td data-label="Developer">mistralai</td>
             <td data-label="Technical Name (ID)">mistralai/mistral-small-3.2-24b-instruct</td>
             <td data-label="Model Name">Mistral: Mistral Small 3.2 24B</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">256000</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.3 / 1M tok</td>
             <td data-label="Latest Update">2025-06-21</td>
@@ -2382,7 +2409,7 @@
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-guard-4-12b</td>
             <td data-label="Model Name">Meta: Llama Guard 4 12B</td>
-            <td data-label="Context">163840</td>
+            <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$0.18 / 1M tok</td>
             <td data-label="Price (Completion)">$0.18 / 1M tok</td>
             <td data-label="Latest Update">2025-04-30</td>
@@ -2409,7 +2436,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-14b</td>
             <td data-label="Model Name">Qwen: Qwen3 14B</td>
-            <td data-label="Context">131702</td>
+            <td data-label="Context">131072</td>
             <td data-label="Price (Prompt)">$0.12 / 1M tok</td>
             <td data-label="Price (Completion)">$0.24 / 1M tok</td>
             <td data-label="Latest Update">2025-04-29</td>
@@ -2499,7 +2526,7 @@
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-4-scout</td>
             <td data-label="Model Name">Meta: Llama 4 Scout</td>
-            <td data-label="Context">10000000</td>
+            <td data-label="Context">1310720</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.3 / 1M tok</td>
             <td data-label="Latest Update">2025-04-06</td>
@@ -2589,7 +2616,7 @@
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemma-3-27b-it</td>
             <td data-label="Model Name">Google: Gemma 3 27B</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.3 / 1M tok</td>
             <td data-label="Latest Update">2025-03-12</td>
@@ -2661,7 +2688,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen2.5-vl-72b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen2.5 VL 72B Instruct</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">128000</td>
             <td data-label="Price (Prompt)">$0.8 / 1M tok</td>
             <td data-label="Price (Completion)">$1 / 1M tok</td>
             <td data-label="Latest Update">2025-02-01</td>
@@ -2706,7 +2733,7 @@
             <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-r1-distill-llama-70b</td>
             <td data-label="Model Name">DeepSeek: R1 Distill Llama 70B</td>
-            <td data-label="Context">128000</td>
+            <td data-label="Context">8192</td>
             <td data-label="Price (Prompt)">$0.8 / 1M tok</td>
             <td data-label="Price (Completion)">$0.8 / 1M tok</td>
             <td data-label="Latest Update">2025-01-24</td>
@@ -2742,7 +2769,7 @@
             <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-chat</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V3</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">163840</td>
             <td data-label="Price (Prompt)">$0.2002 / 1M tok</td>
             <td data-label="Price (Completion)">$0.8001 / 1M tok</td>
             <td data-label="Latest Update">2024-12-27</td>
@@ -2832,7 +2859,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen-2.5-coder-32b-instruct</td>
             <td data-label="Model Name">Qwen2.5 Coder 32B Instruct</td>
-            <td data-label="Context">128000</td>
+            <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.66 / 1M tok</td>
             <td data-label="Price (Completion)">$1 / 1M tok</td>
             <td data-label="Latest Update">2024-11-12</td>
@@ -2850,7 +2877,7 @@
             <td data-label="Developer">anthracite-org</td>
             <td data-label="Technical Name (ID)">anthracite-org/magnum-v4-72b</td>
             <td data-label="Model Name">Magnum v4 72B</td>
-            <td data-label="Context">32768</td>
+            <td data-label="Context">16384</td>
             <td data-label="Price (Prompt)">$3 / 1M tok</td>
             <td data-label="Price (Completion)">$5 / 1M tok</td>
             <td data-label="Latest Update">2024-10-22</td>
@@ -2859,7 +2886,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen-2.5-7b-instruct</td>
             <td data-label="Model Name">Qwen: Qwen2.5 7B Instruct</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
             <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2024-10-16</td>
@@ -2895,7 +2922,7 @@
             <td data-label="Developer">meta-llama</td>
             <td data-label="Technical Name (ID)">meta-llama/llama-3.2-1b-instruct</td>
             <td data-label="Model Name">Meta: Llama 3.2 1B Instruct</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">60000</td>
             <td data-label="Price (Prompt)">$0.027 / 1M tok</td>
             <td data-label="Price (Completion)">$0.201 / 1M tok</td>
             <td data-label="Latest Update">2024-09-25</td>
@@ -2913,7 +2940,7 @@
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen-2.5-72b-instruct</td>
             <td data-label="Model Name">Qwen2.5 72B Instruct</td>
-            <td data-label="Context">131072</td>
+            <td data-label="Context">32768</td>
             <td data-label="Price (Prompt)">$0.36 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
             <td data-label="Latest Update">2024-09-19</td>
@@ -3066,7 +3093,7 @@
             <td data-label="Developer">microsoft</td>
             <td data-label="Technical Name (ID)">microsoft/wizardlm-2-8x22b</td>
             <td data-label="Model Name">WizardLM-2 8x22B</td>
-            <td data-label="Context">65536</td>
+            <td data-label="Context">65535</td>
             <td data-label="Price (Prompt)">$0.62 / 1M tok</td>
             <td data-label="Price (Completion)">$0.62 / 1M tok</td>
             <td data-label="Latest Update">2024-04-16</td>
@@ -3165,7 +3192,7 @@
             <td data-label="Developer">gryphe</td>
             <td data-label="Technical Name (ID)">gryphe/mythomax-l2-13b</td>
             <td data-label="Model Name">MythoMax 13B</td>
-            <td data-label="Context">4096</td>
+            <td data-label="Context">8192</td>
             <td data-label="Price (Prompt)">$0.06 / 1M tok</td>
             <td data-label="Price (Completion)">$0.06 / 1M tok</td>
             <td data-label="Latest Update">2023-07-02</td>
