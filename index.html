@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (340 models)</title>
+    <title>OpenRouter Model Catalog (367 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (340 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 28-07-2026</p>
+        <h1>OpenRouter Model Catalog (367 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 29-07-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,16 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.\n\nLearn more in Anthropic&#39;s docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode">
+                <tr data-description="Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real-world...">
+            <td data-label="Developer">qwen</td>
+            <td data-label="Technical Name (ID)">qwen/qwen3.7-flash</td>
+            <td data-label="Model Name">Qwen: Qwen3.7 Flash</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.13 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-28</td>
+        </tr>
+<tr data-description="Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.\n\nLearn more in Anthropic&#39;s docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode">
             <td data-label="Developer">anthropic</td>
             <td data-label="Technical Name (ID)">anthropic/claude-opus-5-fast</td>
             <td data-label="Model Name">Claude Opus 5 (Fast)</td>
@@ -191,6 +200,15 @@
             <td data-label="Price (Completion)">$7.5 / 1M tok</td>
             <td data-label="Latest Update">2026-07-21</td>
         </tr>
+<tr data-description="Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.6-flash:batch</td>
+            <td data-label="Model Name">Google: Gemini 3.6 Flash (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.75 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.75 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-21</td>
+        </tr>
 <tr data-description="Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-3.5-flash-lite</td>
@@ -198,6 +216,15 @@
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
             <td data-label="Price (Completion)">$2.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-21</td>
+        </tr>
+<tr data-description="Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.5-flash-lite:batch</td>
+            <td data-label="Model Name">Google: Gemini 3.5 Flash Lite (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.25 / 1M tok</td>
             <td data-label="Latest Update">2026-07-21</td>
         </tr>
 <tr data-description="LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic...">
@@ -389,6 +416,15 @@
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2026-07-01</td>
         </tr>
+<tr data-description="Sonnet 5 is Anthropic&#39;s most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-sonnet-5:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Sonnet 5 (batch)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
+            <td data-label="Latest Update">2026-07-01</td>
+        </tr>
 <tr data-description="Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google&#39;s fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image generation...">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-3.1-flash-lite-image</td>
@@ -448,8 +484,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-5.2</td>
             <td data-label="Model Name">Z.ai: GLM 5.2</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.7448 / 1M tok</td>
-            <td data-label="Price (Completion)">$2.3408 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.7686 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.4156 / 1M tok</td>
             <td data-label="Latest Update">2026-06-17</td>
         </tr>
 <tr data-description="Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a...">
@@ -486,6 +522,15 @@
             <td data-label="Context">1000000</td>
             <td data-label="Price (Prompt)">$10 / 1M tok</td>
             <td data-label="Price (Completion)">$50 / 1M tok</td>
+            <td data-label="Latest Update">2026-06-09</td>
+        </tr>
+<tr data-description="Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-fable-5:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Fable 5 (batch)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$5 / 1M tok</td>
+            <td data-label="Price (Completion)">$25 / 1M tok</td>
             <td data-label="Latest Update">2026-06-09</td>
         </tr>
 <tr data-description="Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces...">
@@ -542,6 +587,15 @@
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2026-05-31</td>
         </tr>
+<tr data-description="MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...">
+            <td data-label="Developer">minimax</td>
+            <td data-label="Technical Name (ID)">minimax/minimax-m3:batch</td>
+            <td data-label="Model Name">MiniMax: MiniMax M3 (batch)</td>
+            <td data-label="Context">524288</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.6 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-31</td>
+        </tr>
 <tr data-description="Step 3.7 Flash is StepFun&#39;s latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters...">
             <td data-label="Developer">stepfun</td>
             <td data-label="Technical Name (ID)">stepfun/step-3.7-flash</td>
@@ -569,13 +623,22 @@
             <td data-label="Price (Completion)">$25 / 1M tok</td>
             <td data-label="Latest Update">2026-05-28</td>
         </tr>
+<tr data-description="Claude Opus 4.8 is Anthropic&#39;s most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-opus-4.8:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Opus 4.8 (batch)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$12.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-28</td>
+        </tr>
 <tr data-description="Qwen3.7-Max is the flagship model in Alibaba&#39;s Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,...">
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3.7-max</td>
             <td data-label="Model Name">Qwen: Qwen3.7 Max</td>
             <td data-label="Context">1000000</td>
-            <td data-label="Price (Prompt)">$1.475 / 1M tok</td>
-            <td data-label="Price (Completion)">$4.425 / 1M tok</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.75 / 1M tok</td>
             <td data-label="Latest Update">2026-05-21</td>
         </tr>
 <tr data-description="Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding...">
@@ -594,6 +657,15 @@
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$1.5 / 1M tok</td>
             <td data-label="Price (Completion)">$9 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-19</td>
+        </tr>
+<tr data-description="Gemini 3.5 Flash is Google&#39;s high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.5-flash:batch</td>
+            <td data-label="Model Name">Google: Gemini 3.5 Flash (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.75 / 1M tok</td>
+            <td data-label="Price (Completion)">$4.5 / 1M tok</td>
             <td data-label="Latest Update">2026-05-19</td>
         </tr>
 <tr data-description="Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic&#39;s docs: https://platform.claude.com/docs/en/build-with-claude/fast-mode">
@@ -630,6 +702,15 @@
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
             <td data-label="Price (Completion)">$1.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-05-07</td>
+        </tr>
+<tr data-description="Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.1-flash-lite:batch</td>
+            <td data-label="Model Name">Google: Gemini 3.1 Flash Lite (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.125 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.75 / 1M tok</td>
             <td data-label="Latest Update">2026-05-07</td>
         </tr>
 <tr data-description="GPT Chat Latest points to OpenAI&#39;s stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates...">
@@ -673,24 +754,6 @@
             <td data-label="Technical Name (ID)">nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free</td>
             <td data-label="Model Name">NVIDIA: Nemotron 3 Nano Omni (free)</td>
             <td data-label="Context">256000</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2026-04-28</td>
-        </tr>
-<tr data-description="Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...">
-            <td data-label="Developer">poolside</td>
-            <td data-label="Technical Name (ID)">poolside/laguna-m.1</td>
-            <td data-label="Model Name">Poolside: Laguna M.1</td>
-            <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
-            <td data-label="Latest Update">2026-04-28</td>
-        </tr>
-<tr data-description="Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a 256K...">
-            <td data-label="Developer">poolside</td>
-            <td data-label="Technical Name (ID)">poolside/laguna-m.1:free</td>
-            <td data-label="Model Name">Poolside: Laguna M.1 (free)</td>
-            <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0 / 1M tok</td>
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
@@ -781,8 +844,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3.6-35b-a3b</td>
             <td data-label="Model Name">Qwen: Qwen3.6 35B A3B</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
-            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.95 / 1M tok</td>
             <td data-label="Latest Update">2026-04-27</td>
         </tr>
 <tr data-description="Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...">
@@ -819,6 +882,15 @@
             <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$5 / 1M tok</td>
             <td data-label="Price (Completion)">$30 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-25</td>
+        </tr>
+<tr data-description="GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.5:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5.5 (batch)</td>
+            <td data-label="Context">1050000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$15 / 1M tok</td>
             <td data-label="Latest Update">2026-04-25</td>
         </tr>
 <tr data-description="DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...">
@@ -929,6 +1001,15 @@
             <td data-label="Price (Completion)">$25 / 1M tok</td>
             <td data-label="Latest Update">2026-04-16</td>
         </tr>
+<tr data-description="Opus 4.7 is the next generation of Anthropic&#39;s Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-opus-4.7:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Opus 4.7 (batch)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$12.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-04-16</td>
+        </tr>
 <tr data-description="GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...">
             <td data-label="Developer">z-ai</td>
             <td data-label="Technical Name (ID)">z-ai/glm-5.1</td>
@@ -943,8 +1024,8 @@
             <td data-label="Technical Name (ID)">google/gemma-4-26b-a4b-it</td>
             <td data-label="Model Name">Google: Gemma 4 26B A4B </td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.42 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.45 / 1M tok</td>
             <td data-label="Latest Update">2026-04-03</td>
         </tr>
 <tr data-description="Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...">
@@ -1073,6 +1154,15 @@
             <td data-label="Price (Completion)">$1.25 / 1M tok</td>
             <td data-label="Latest Update">2026-03-17</td>
         </tr>
+<tr data-description="GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.4-nano:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5.4 Nano (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.625 / 1M tok</td>
+            <td data-label="Latest Update">2026-03-17</td>
+        </tr>
 <tr data-description="GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-5.4-mini</td>
@@ -1080,6 +1170,15 @@
             <td data-label="Context">400000</td>
             <td data-label="Price (Prompt)">$0.75 / 1M tok</td>
             <td data-label="Price (Completion)">$4.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-03-17</td>
+        </tr>
+<tr data-description="GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.4-mini:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5.4 Mini (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.375 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.25 / 1M tok</td>
             <td data-label="Latest Update">2026-03-17</td>
         </tr>
 <tr data-description="Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from...">
@@ -1152,6 +1251,15 @@
             <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
             <td data-label="Price (Completion)">$15 / 1M tok</td>
+            <td data-label="Latest Update">2026-03-06</td>
+        </tr>
+<tr data-description="GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.4:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5.4 (batch)</td>
+            <td data-label="Context">1050000</td>
+            <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$7.5 / 1M tok</td>
             <td data-label="Latest Update">2026-03-06</td>
         </tr>
 <tr data-description="Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving...">
@@ -1271,6 +1379,15 @@
             <td data-label="Price (Completion)">$12 / 1M tok</td>
             <td data-label="Latest Update">2026-02-19</td>
         </tr>
+<tr data-description="Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3.1-pro-preview:batch</td>
+            <td data-label="Model Name">Google: Gemini 3.1 Pro Preview (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$6 / 1M tok</td>
+            <td data-label="Latest Update">2026-02-19</td>
+        </tr>
 <tr data-description="Sonnet 4.6 is Anthropic&#39;s most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...">
             <td data-label="Developer">anthropic</td>
             <td data-label="Technical Name (ID)">anthropic/claude-sonnet-4.6</td>
@@ -1334,13 +1451,22 @@
             <td data-label="Price (Completion)">$25 / 1M tok</td>
             <td data-label="Latest Update">2026-02-04</td>
         </tr>
+<tr data-description="Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-opus-4.6:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Opus 4.6 (batch)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$12.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-02-04</td>
+        </tr>
 <tr data-description="Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per...">
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-coder-next</td>
             <td data-label="Model Name">Qwen: Qwen3 Coder Next</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.11 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.8 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.18 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.9 / 1M tok</td>
             <td data-label="Latest Update">2026-02-04</td>
         </tr>
 <tr data-description="The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...">
@@ -1478,6 +1604,15 @@
             <td data-label="Price (Completion)">$3 / 1M tok</td>
             <td data-label="Latest Update">2025-12-17</td>
         </tr>
+<tr data-description="Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-3-flash-preview:batch</td>
+            <td data-label="Model Name">Google: Gemini 3 Flash Preview (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.25 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-17</td>
+        </tr>
 <tr data-description="NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully...">
             <td data-label="Developer">nvidia</td>
             <td data-label="Technical Name (ID)">nvidia/nemotron-3-nano-30b-a3b</td>
@@ -1521,6 +1656,15 @@
             <td data-label="Context">400000</td>
             <td data-label="Price (Prompt)">$1.75 / 1M tok</td>
             <td data-label="Price (Completion)">$14 / 1M tok</td>
+            <td data-label="Latest Update">2025-12-11</td>
+        </tr>
+<tr data-description="GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.2:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5.2 (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.875 / 1M tok</td>
+            <td data-label="Price (Completion)">$7 / 1M tok</td>
             <td data-label="Latest Update">2025-12-11</td>
         </tr>
 <tr data-description="Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...">
@@ -1631,6 +1775,15 @@
             <td data-label="Price (Completion)">$25 / 1M tok</td>
             <td data-label="Latest Update">2025-11-25</td>
         </tr>
+<tr data-description="Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-opus-4.5:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Opus 4.5 (batch)</td>
+            <td data-label="Context">200000</td>
+            <td data-label="Price (Prompt)">$2.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$12.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-25</td>
+        </tr>
 <tr data-description="Olmo 3 32B Think is a large-scale, 32-billion-parameter model purpose-built for deep reasoning, complex logic chains and advanced instruction-following scenarios. Its capacity enables strong performance on demanding evaluation tasks and...">
             <td data-label="Developer">allenai</td>
             <td data-label="Technical Name (ID)">allenai/olmo-3-32b-think</td>
@@ -1665,6 +1818,15 @@
             <td data-label="Context">400000</td>
             <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
+            <td data-label="Latest Update">2025-11-14</td>
+        </tr>
+<tr data-description="GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5.1:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5.1 (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.625 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
             <td data-label="Latest Update">2025-11-14</td>
         </tr>
 <tr data-description="GPT-5.1 Chat (AKA Instant is the fast, lightweight member of the 5.1 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on...">
@@ -1793,13 +1955,22 @@
             <td data-label="Price (Completion)">$5 / 1M tok</td>
             <td data-label="Latest Update">2025-10-16</td>
         </tr>
+<tr data-description="Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-haiku-4.5:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Haiku 4.5 (batch)</td>
+            <td data-label="Context">200000</td>
+            <td data-label="Price (Prompt)">$0.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-10-16</td>
+        </tr>
 <tr data-description="Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...">
             <td data-label="Developer">qwen</td>
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-8b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 8B Thinking</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.117 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.365 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.18 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.1 / 1M tok</td>
             <td data-label="Latest Update">2025-10-15</td>
         </tr>
 <tr data-description="Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...">
@@ -1852,8 +2023,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-30b-a3b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 30B A3B Thinking</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.56 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.4 / 1M tok</td>
             <td data-label="Latest Update">2025-10-07</td>
         </tr>
 <tr data-description="Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception...">
@@ -1892,6 +2063,15 @@
             <td data-label="Price (Completion)">$15 / 1M tok</td>
             <td data-label="Latest Update">2025-09-29</td>
         </tr>
+<tr data-description="Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-sonnet-4.5:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Sonnet 4.5 (batch)</td>
+            <td data-label="Context">1000000</td>
+            <td data-label="Price (Prompt)">$1.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$7.5 / 1M tok</td>
+            <td data-label="Latest Update">2025-09-29</td>
+        </tr>
 <tr data-description="DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...">
             <td data-label="Developer">deepseek</td>
             <td data-label="Technical Name (ID)">deepseek/deepseek-v3.2-exp</td>
@@ -1924,8 +2104,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-vl-235b-a22b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 VL 235B A22B Thinking</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.26 / 1M tok</td>
-            <td data-label="Price (Completion)">$2.6 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
+            <td data-label="Price (Completion)">$4 / 1M tok</td>
             <td data-label="Latest Update">2025-09-24</td>
         </tr>
 <tr data-description="Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table...">
@@ -1987,8 +2167,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-next-80b-a3b-thinking</td>
             <td data-label="Model Name">Qwen: Qwen3 Next 80B A3B Thinking</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.0975 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.78 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2025-09-12</td>
         </tr>
 <tr data-description="Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...">
@@ -2014,8 +2194,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen-plus-2025-07-28:thinking</td>
             <td data-label="Model Name">Qwen: Qwen Plus 0728 (thinking)</td>
             <td data-label="Context">1000000</td>
-            <td data-label="Price (Prompt)">$0.26 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.78 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
             <td data-label="Latest Update">2025-09-08</td>
         </tr>
 <tr data-description="NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and...">
@@ -2041,8 +2221,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-30b-a3b-thinking-2507</td>
             <td data-label="Model Name">Qwen: Qwen3 30B A3B Thinking 2507</td>
             <td data-label="Context">81920</td>
-            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.56 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.4 / 1M tok</td>
             <td data-label="Latest Update">2025-08-28</td>
         </tr>
 <tr data-description="Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B. It introduces the same hybrid mode as the larger 405B release, allowing the model to either...">
@@ -2108,6 +2288,15 @@
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2025-08-08</td>
         </tr>
+<tr data-description="GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5 (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.625 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
+            <td data-label="Latest Update">2025-08-08</td>
+        </tr>
 <tr data-description="GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-5-mini</td>
@@ -2117,6 +2306,15 @@
             <td data-label="Price (Completion)">$2 / 1M tok</td>
             <td data-label="Latest Update">2025-08-08</td>
         </tr>
+<tr data-description="GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5-mini:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5 Mini (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.125 / 1M tok</td>
+            <td data-label="Price (Completion)">$1 / 1M tok</td>
+            <td data-label="Latest Update">2025-08-08</td>
+        </tr>
 <tr data-description="GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-5-nano</td>
@@ -2124,6 +2322,15 @@
             <td data-label="Context">400000</td>
             <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Latest Update">2025-08-08</td>
+        </tr>
+<tr data-description="GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-5-nano:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-5 Nano (batch)</td>
+            <td data-label="Context">400000</td>
+            <td data-label="Price (Prompt)">$0.025 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
             <td data-label="Latest Update">2025-08-08</td>
         </tr>
 <tr data-description="gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized...">
@@ -2160,6 +2367,15 @@
             <td data-label="Context">200000</td>
             <td data-label="Price (Prompt)">$15 / 1M tok</td>
             <td data-label="Price (Completion)">$75 / 1M tok</td>
+            <td data-label="Latest Update">2025-08-05</td>
+        </tr>
+<tr data-description="Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...">
+            <td data-label="Developer">anthropic</td>
+            <td data-label="Technical Name (ID)">anthropic/claude-opus-4.1:batch</td>
+            <td data-label="Model Name">Anthropic: Claude Opus 4.1 (batch)</td>
+            <td data-label="Context">200000</td>
+            <td data-label="Price (Prompt)">$7.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$37.5 / 1M tok</td>
             <td data-label="Latest Update">2025-08-05</td>
         </tr>
 <tr data-description="Mistral&#39;s cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)">
@@ -2241,6 +2457,15 @@
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Latest Update">2025-07-22</td>
+        </tr>
+<tr data-description="Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-2.5-flash-lite:batch</td>
+            <td data-label="Model Name">Google: Gemini 2.5 Flash Lite (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.2 / 1M tok</td>
             <td data-label="Latest Update">2025-07-22</td>
         </tr>
 <tr data-description="Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following,...">
@@ -2333,6 +2558,15 @@
             <td data-label="Price (Completion)">$2.5 / 1M tok</td>
             <td data-label="Latest Update">2025-06-17</td>
         </tr>
+<tr data-description="Gemini 2.5 Flash is Google&#39;s state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in &quot;thinking&quot; capabilities, enabling it to provide responses with greater...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-2.5-flash:batch</td>
+            <td data-label="Model Name">Google: Gemini 2.5 Flash (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.15 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.25 / 1M tok</td>
+            <td data-label="Latest Update">2025-06-17</td>
+        </tr>
 <tr data-description="Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...">
             <td data-label="Developer">google</td>
             <td data-label="Technical Name (ID)">google/gemini-2.5-pro</td>
@@ -2340,6 +2574,15 @@
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$1.25 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
+            <td data-label="Latest Update">2025-06-17</td>
+        </tr>
+<tr data-description="Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy...">
+            <td data-label="Developer">google</td>
+            <td data-label="Technical Name (ID)">google/gemini-2.5-pro:batch</td>
+            <td data-label="Model Name">Google: Gemini 2.5 Pro (batch)</td>
+            <td data-label="Context">1048576</td>
+            <td data-label="Price (Prompt)">$0.625 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
             <td data-label="Latest Update">2025-06-17</td>
         </tr>
 <tr data-description="The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o3-pro model uses more compute to think harder and provide consistently...">
@@ -2806,8 +3049,8 @@
             <td data-label="Technical Name (ID)">meta-llama/llama-3.3-70b-instruct</td>
             <td data-label="Model Name">Meta: Llama 3.3 70B Instruct</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.13 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.32 / 1M tok</td>
             <td data-label="Latest Update">2024-12-07</td>
         </tr>
 <tr data-description="Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite...">
