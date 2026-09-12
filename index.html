@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (443 models)</title>
+    <title>OpenRouter Model Catalog (445 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (443 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 12-09-2026</p>
+        <h1>OpenRouter Model Catalog (445 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 13-09-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,37 +137,55 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="This model always redirects to the latest model in the OpenAI GPT Astra family.">
+                <tr data-description="Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...">
+            <td data-label="Developer">inference-net</td>
+            <td data-label="Technical Name (ID)">inference-net/schematron-v2-turbo</td>
+            <td data-label="Model Name">Inference.net: Schematron V2 Turbo</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.15 / 1M tok</td>
+            <td data-label="Latest Update">2026-09-12</td>
+        </tr>
+<tr data-description="Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...">
+            <td data-label="Developer">inference-net</td>
+            <td data-label="Technical Name (ID)">inference-net/schematron-v2-small</td>
+            <td data-label="Model Name">Inference.net: Schematron V2 Small</td>
+            <td data-label="Context">128000</td>
+            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.23 / 1M tok</td>
+            <td data-label="Latest Update">2026-09-12</td>
+        </tr>
+<tr data-description="This model always redirects to the latest model in the GPT Astra family.">
             <td data-label="Developer">~openai</td>
             <td data-label="Technical Name (ID)">~openai/gpt-astra-latest</td>
-            <td data-label="Model Name">OpenAI GPT Astra Latest</td>
+            <td data-label="Model Name">OpenAI: GPT Astra Latest</td>
             <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$10 / 1M tok</td>
             <td data-label="Price (Completion)">$50 / 1M tok</td>
             <td data-label="Latest Update">2026-09-11</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the OpenAI GPT Sol family.">
+<tr data-description="This model always redirects to the latest model in the GPT Sol family.">
             <td data-label="Developer">~openai</td>
             <td data-label="Technical Name (ID)">~openai/gpt-sol-latest</td>
-            <td data-label="Model Name">OpenAI GPT Sol Latest</td>
+            <td data-label="Model Name">OpenAI: GPT Sol Latest</td>
             <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$2 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2026-09-11</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the OpenAI GPT Terra family.">
+<tr data-description="This model always redirects to the latest model in the GPT Terra family.">
             <td data-label="Developer">~openai</td>
             <td data-label="Technical Name (ID)">~openai/gpt-terra-latest</td>
-            <td data-label="Model Name">OpenAI GPT Terra Latest</td>
+            <td data-label="Model Name">OpenAI: GPT Terra Latest</td>
             <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$2 / 1M tok</td>
             <td data-label="Price (Completion)">$12 / 1M tok</td>
             <td data-label="Latest Update">2026-09-11</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the OpenAI GPT Luna family.">
+<tr data-description="This model always redirects to the latest model in the GPT Luna family.">
             <td data-label="Developer">~openai</td>
             <td data-label="Technical Name (ID)">~openai/gpt-luna-latest</td>
-            <td data-label="Model Name">OpenAI GPT Luna Latest</td>
+            <td data-label="Model Name">OpenAI: GPT Luna Latest</td>
             <td data-label="Context">1050000</td>
             <td data-label="Price (Prompt)">$0.2 / 1M tok</td>
             <td data-label="Price (Completion)">$1.2 / 1M tok</td>
@@ -511,8 +529,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3.8-27b</td>
             <td data-label="Model Name">Qwen: Qwen3.8 27B</td>
             <td data-label="Context">1000000</td>
-            <td data-label="Price (Prompt)">$0.42 / 1M tok</td>
-            <td data-label="Price (Completion)">$3 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.214 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.55 / 1M tok</td>
             <td data-label="Latest Update">2026-08-14</td>
         </tr>
 <tr data-description="Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...">
@@ -680,10 +698,10 @@
 <tr data-description="This model always redirects to the latest model in the DeepSeek V4 Flash family.">
             <td data-label="Developer">~deepseek</td>
             <td data-label="Technical Name (ID)">~deepseek/deepseek-v4-flash-latest</td>
-            <td data-label="Model Name">DeepSeek V4 Flash Latest</td>
+            <td data-label="Model Name">DeepSeek: DeepSeek V4 Flash Latest</td>
             <td data-label="Context">1310720</td>
-            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.16 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.03 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.07 / 1M tok</td>
             <td data-label="Latest Update">2026-08-02</td>
         </tr>
 <tr data-description="DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....">
@@ -691,8 +709,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-flash-0731</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Flash 0731</td>
             <td data-label="Context">1310720</td>
-            <td data-label="Price (Prompt)">$0.065 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.18 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.08 / 1M tok</td>
             <td data-label="Latest Update">2026-07-31</td>
         </tr>
 <tr data-description="DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....">
@@ -871,8 +889,8 @@
             <td data-label="Technical Name (ID)">moonshotai/kimi-k3</td>
             <td data-label="Model Name">MoonshotAI: Kimi K3</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$1.7955 / 1M tok</td>
-            <td data-label="Price (Completion)">$9.006 / 1M tok</td>
+            <td data-label="Price (Prompt)">$2.64814 / 1M tok</td>
+            <td data-label="Price (Completion)">$13.2827 / 1M tok</td>
             <td data-label="Latest Update">2026-07-16</td>
         </tr>
 <tr data-description="Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...">
@@ -1406,55 +1424,55 @@
             <td data-label="Price (Completion)">$0 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the Anthropic Claude Haiku family.">
+<tr data-description="This model always redirects to the latest model in the Claude Haiku family.">
             <td data-label="Developer">~anthropic</td>
             <td data-label="Technical Name (ID)">~anthropic/claude-haiku-latest</td>
-            <td data-label="Model Name">Anthropic Claude Haiku Latest</td>
+            <td data-label="Model Name">Anthropic: Claude Haiku Latest</td>
             <td data-label="Context">200000</td>
             <td data-label="Price (Prompt)">$1 / 1M tok</td>
             <td data-label="Price (Completion)">$5 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the OpenAI GPT Mini family.">
+<tr data-description="This model always redirects to the latest model in the GPT Mini family.">
             <td data-label="Developer">~openai</td>
             <td data-label="Technical Name (ID)">~openai/gpt-mini-latest</td>
-            <td data-label="Model Name">OpenAI GPT Mini Latest</td>
+            <td data-label="Model Name">OpenAI: GPT Mini Latest</td>
             <td data-label="Context">400000</td>
             <td data-label="Price (Prompt)">$0.75 / 1M tok</td>
             <td data-label="Price (Completion)">$4.5 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the Google Gemini Pro family.">
+<tr data-description="This model always redirects to the latest model in the Gemini Pro family.">
             <td data-label="Developer">~google</td>
             <td data-label="Technical Name (ID)">~google/gemini-pro-latest</td>
-            <td data-label="Model Name">Google Gemini Pro Latest</td>
+            <td data-label="Model Name">Google: Gemini Pro Latest</td>
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$2 / 1M tok</td>
             <td data-label="Price (Completion)">$12 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the MoonshotAI Kimi family.">
+<tr data-description="This model always redirects to the latest model in the Kimi family.">
             <td data-label="Developer">~moonshotai</td>
             <td data-label="Technical Name (ID)">~moonshotai/kimi-latest</td>
-            <td data-label="Model Name">MoonshotAI Kimi Latest</td>
+            <td data-label="Model Name">MoonshotAI: Kimi Latest</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$1.7955 / 1M tok</td>
-            <td data-label="Price (Completion)">$9.006 / 1M tok</td>
+            <td data-label="Price (Prompt)">$2.375 / 1M tok</td>
+            <td data-label="Price (Completion)">$13.3 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the Google Gemini Flash family.">
+<tr data-description="This model always redirects to the latest model in the Gemini Flash family.">
             <td data-label="Developer">~google</td>
             <td data-label="Technical Name (ID)">~google/gemini-flash-latest</td>
-            <td data-label="Model Name">Google Gemini Flash Latest</td>
+            <td data-label="Model Name">Google: Gemini Flash Latest</td>
             <td data-label="Context">1048576</td>
             <td data-label="Price (Prompt)">$0.75 / 1M tok</td>
             <td data-label="Price (Completion)">$3.75 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
-<tr data-description="This model always redirects to the latest model in the Anthropic Claude Sonnet family.">
+<tr data-description="This model always redirects to the latest model in the Claude Sonnet family.">
             <td data-label="Developer">~anthropic</td>
             <td data-label="Technical Name (ID)">~anthropic/claude-sonnet-latest</td>
-            <td data-label="Model Name">Anthropic Claude Sonnet Latest</td>
+            <td data-label="Model Name">Anthropic: Claude Sonnet Latest</td>
             <td data-label="Context">1000000</td>
             <td data-label="Price (Prompt)">$2 / 1M tok</td>
             <td data-label="Price (Completion)">$10 / 1M tok</td>
@@ -1546,8 +1564,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-pro</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Pro 0423</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.849816 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.69963 / 1M tok</td>
+            <td data-label="Price (Prompt)">$1.6 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.2 / 1M tok</td>
             <td data-label="Latest Update">2026-04-24</td>
         </tr>
 <tr data-description="DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...">
@@ -1555,8 +1573,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-flash</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Flash 0423</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.06762 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.13524 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.06566 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.13132 / 1M tok</td>
             <td data-label="Latest Update">2026-04-24</td>
         </tr>
 <tr data-description="Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...">
@@ -3094,8 +3112,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3-235b-a22b-2507</td>
             <td data-label="Model Name">Qwen: Qwen3 235B A22B Instruct 2507</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.22 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.88 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.0875 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.35 / 1M tok</td>
             <td data-label="Latest Update">2025-07-22</td>
         </tr>
 <tr data-description="Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for...">
