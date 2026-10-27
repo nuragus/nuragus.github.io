@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter Model Catalog (463 models)</title>
+    <title>OpenRouter Model Catalog (464 models)</title>
     <style>
         :root {
             --bg-color: #121212; --primary-text: #e0e0e0; --secondary-text: #b0b0b0; --border-color: #333; --table-header-bg: #252525; --table-bg: #1e1e1e; --hover-bg: #2a2a2a; --link-color: #4a90e2; --modal-bg: #282828;
@@ -118,8 +118,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>OpenRouter Model Catalog (463 models)</h1>
-        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 27-10-2026</p>
+        <h1>OpenRouter Model Catalog (464 models)</h1>
+        <p class="subtitle">Data fetched from <a href="https://openrouter.ai/api/v1/models" target="_blank">https://openrouter.ai/api/v1/models</a>. Click a column header to sort.<br>Last Fetch: 28-10-2026</p>
         <div class="filter-container">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
             <input type="text" id="filter-input" oninput="filterTable()" placeholder="Search models by name, developer, id...">
@@ -137,7 +137,25 @@
                 </tr>
             </thead>
             <tbody>
-                <tr data-description="GPT-6.1 Terra is the mid-tier model in OpenAI&#39;s GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots...">
+                <tr data-description="GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-6.1-terra-pro</td>
+            <td data-label="Model Name">OpenAI: GPT-6.1 Terra Pro</td>
+            <td data-label="Context">1050000</td>
+            <td data-label="Price (Prompt)">$1 / 1M tok</td>
+            <td data-label="Price (Completion)">$5 / 1M tok</td>
+            <td data-label="Latest Update">2026-10-27</td>
+        </tr>
+<tr data-description="GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...">
+            <td data-label="Developer">openai</td>
+            <td data-label="Technical Name (ID)">openai/gpt-6.1-terra-pro:batch</td>
+            <td data-label="Model Name">OpenAI: GPT-6.1 Terra Pro (batch)</td>
+            <td data-label="Context">1050000</td>
+            <td data-label="Price (Prompt)">$0.5 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.5 / 1M tok</td>
+            <td data-label="Latest Update">2026-10-27</td>
+        </tr>
+<tr data-description="GPT-6.1 Terra is the mid-tier model in OpenAI&#39;s GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots...">
             <td data-label="Developer">openai</td>
             <td data-label="Technical Name (ID)">openai/gpt-6.1-terra</td>
             <td data-label="Model Name">OpenAI: GPT-6.1 Terra</td>
@@ -225,6 +243,15 @@
             <td data-label="Context">1000000</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
             <td data-label="Price (Completion)">$0.35 / 1M tok</td>
+            <td data-label="Latest Update">2026-10-16</td>
+        </tr>
+<tr data-description="Ternary Bonsai 2 9B is PrismML’s compact, open-weight language model for conversational AI, reasoning, and tool use. Built on Qwen3.5, it uses ternary weights packed into 2 bits for efficient...">
+            <td data-label="Developer">prism-ml</td>
+            <td data-label="Technical Name (ID)">prism-ml/ternary-bonsai-2-9b</td>
+            <td data-label="Model Name">PrismML: Ternary Bonsai 2 9B</td>
+            <td data-label="Context">262144</td>
+            <td data-label="Price (Prompt)">$0.08 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.13 / 1M tok</td>
             <td data-label="Latest Update">2026-10-16</td>
         </tr>
 <tr data-description="Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with...">
@@ -632,7 +659,7 @@
             <td data-label="Price (Completion)">$10 / 1M tok</td>
             <td data-label="Latest Update">2026-09-22</td>
         </tr>
-<tr data-description="Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...">
+<tr data-description="Switchyard is an open-source model routing system that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most...">
             <td data-label="Developer">nvidia</td>
             <td data-label="Technical Name (ID)">nvidia/switchyard</td>
             <td data-label="Model Name">NVIDIA: Switchyard</td>
@@ -709,7 +736,7 @@
             <td data-label="Technical Name (ID)">~deepseek/deepseek-pro-latest</td>
             <td data-label="Model Name">DeepSeek: DeepSeek Pro Latest</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.1188 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.1259 / 1M tok</td>
             <td data-label="Price (Completion)">$8 / 1M tok</td>
             <td data-label="Latest Update">2026-09-14</td>
         </tr>
@@ -718,8 +745,8 @@
             <td data-label="Technical Name (ID)">~deepseek/deepseek-flash-latest</td>
             <td data-label="Model Name">DeepSeek: DeepSeek Flash Latest</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.5 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.0182 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.8 / 1M tok</td>
             <td data-label="Latest Update">2026-09-14</td>
         </tr>
 <tr data-description="Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...">
@@ -808,8 +835,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4.1-flash</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4.1 Flash</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.3 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.2 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.14 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.42 / 1M tok</td>
             <td data-label="Latest Update">2026-09-10</td>
         </tr>
 <tr data-description="DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company&#39;s Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...">
@@ -970,8 +997,8 @@
             <td data-label="Technical Name (ID)">~z-ai/glm-flash-latest</td>
             <td data-label="Model Name">Z.ai: GLM Flash Latest</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.0413 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.0758 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.0416 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.0771 / 1M tok</td>
             <td data-label="Latest Update">2026-08-27</td>
         </tr>
 <tr data-description="Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.">
@@ -1240,8 +1267,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-flash-0731</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Flash 0731</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.04444 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.13332 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.119 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.238 / 1M tok</td>
             <td data-label="Latest Update">2026-07-31</td>
         </tr>
 <tr data-description="Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...">
@@ -1393,7 +1420,7 @@
             <td data-label="Technical Name (ID)">moonshotai/kimi-k3</td>
             <td data-label="Model Name">MoonshotAI: Kimi K3</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.189 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.179 / 1M tok</td>
             <td data-label="Price (Completion)">$20 / 1M tok</td>
             <td data-label="Latest Update">2026-07-16</td>
         </tr>
@@ -1942,7 +1969,7 @@
             <td data-label="Technical Name (ID)">~moonshotai/kimi-latest</td>
             <td data-label="Model Name">MoonshotAI: Kimi Latest</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.189 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.179 / 1M tok</td>
             <td data-label="Price (Completion)">$20 / 1M tok</td>
             <td data-label="Latest Update">2026-04-28</td>
         </tr>
@@ -1988,7 +2015,7 @@
             <td data-label="Model Name">Qwen: Qwen3.6 35B A3B</td>
             <td data-label="Context">262144</td>
             <td data-label="Price (Prompt)">$0.1 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.9 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.95 / 1M tok</td>
             <td data-label="Latest Update">2026-04-27</td>
         </tr>
 <tr data-description="Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs...">
@@ -2041,8 +2068,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-pro</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Pro 0423</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.709746 / 1M tok</td>
-            <td data-label="Price (Completion)">$1.41949 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.875394 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.75079 / 1M tok</td>
             <td data-label="Latest Update">2026-04-24</td>
         </tr>
 <tr data-description="DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...">
@@ -2050,8 +2077,8 @@
             <td data-label="Technical Name (ID)">deepseek/deepseek-v4-flash</td>
             <td data-label="Model Name">DeepSeek: DeepSeek V4 Flash 0423</td>
             <td data-label="Context">1048576</td>
-            <td data-label="Price (Prompt)">$0.091 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.182 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.04732 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.09464 / 1M tok</td>
             <td data-label="Latest Update">2026-04-24</td>
         </tr>
 <tr data-description="Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to...">
@@ -2068,8 +2095,8 @@
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2.5-pro</td>
             <td data-label="Model Name">Xiaomi: MiMo-V2.5-Pro</td>
             <td data-label="Context">1050000</td>
-            <td data-label="Price (Prompt)">$0.3045 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.609 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.48 / 1M tok</td>
+            <td data-label="Price (Completion)">$1.8 / 1M tok</td>
             <td data-label="Latest Update">2026-04-22</td>
         </tr>
 <tr data-description="MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...">
@@ -2077,8 +2104,8 @@
             <td data-label="Technical Name (ID)">xiaomi/mimo-v2.5</td>
             <td data-label="Model Name">Xiaomi: MiMo-V2.5</td>
             <td data-label="Context">1050000</td>
-            <td data-label="Price (Prompt)">$0.119 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.238 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.4 / 1M tok</td>
+            <td data-label="Price (Completion)">$2 / 1M tok</td>
             <td data-label="Latest Update">2026-04-22</td>
         </tr>
 <tr data-description="[GPT-5.4](https://openrouter.ai/openai/gpt-5.4) Image 2 combines OpenAI&#39;s GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2. It enables rich multimodal workflows, allowing users to seamlessly move between reasoning, coding, and...">
@@ -2140,8 +2167,8 @@
             <td data-label="Technical Name (ID)">z-ai/glm-5.1</td>
             <td data-label="Model Name">Z.ai: GLM 5.1</td>
             <td data-label="Context">204800</td>
-            <td data-label="Price (Prompt)">$1.4 / 1M tok</td>
-            <td data-label="Price (Completion)">$4.4 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.966 / 1M tok</td>
+            <td data-label="Price (Completion)">$3.036 / 1M tok</td>
             <td data-label="Latest Update">2026-04-07</td>
         </tr>
 <tr data-description="Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at...">
@@ -2315,15 +2342,6 @@
             <td data-label="Price (Completion)">$2.4 / 1M tok</td>
             <td data-label="Latest Update">2026-03-11</td>
         </tr>
-<tr data-description="NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...">
-            <td data-label="Developer">nvidia</td>
-            <td data-label="Technical Name (ID)">nvidia/nemotron-3-super-120b-a12b:free</td>
-            <td data-label="Model Name">NVIDIA: Nemotron 3 Super (free)</td>
-            <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0 / 1M tok</td>
-            <td data-label="Price (Completion)">$0 / 1M tok</td>
-            <td data-label="Latest Update">2026-03-11</td>
-        </tr>
 <tr data-description="Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production workloads across...">
             <td data-label="Developer">bytedance-seed</td>
             <td data-label="Technical Name (ID)">bytedance-seed/seed-2.0-lite</td>
@@ -2428,8 +2446,8 @@
             <td data-label="Technical Name (ID)">qwen/qwen3.5-27b</td>
             <td data-label="Model Name">Qwen: Qwen3.5-27B</td>
             <td data-label="Context">262144</td>
-            <td data-label="Price (Prompt)">$0.27 / 1M tok</td>
-            <td data-label="Price (Completion)">$2.16 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.26 / 1M tok</td>
+            <td data-label="Price (Completion)">$2.6 / 1M tok</td>
             <td data-label="Latest Update">2026-02-26</td>
         </tr>
 <tr data-description="The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of...">
@@ -2989,15 +3007,6 @@
             <td data-label="Price (Prompt)">$0.255 / 1M tok</td>
             <td data-label="Price (Completion)">$1.02 / 1M tok</td>
             <td data-label="Latest Update">2025-10-24</td>
-        </tr>
-<tr data-description="Granite-4.0-H-Micro is a 3B parameter from the Granite 4 family of models. These models are the latest in a series of models released by IBM. They are fine-tuned for long...">
-            <td data-label="Developer">ibm-granite</td>
-            <td data-label="Technical Name (ID)">ibm-granite/granite-4.0-h-micro</td>
-            <td data-label="Model Name">IBM: Granite 4.0 Micro</td>
-            <td data-label="Context">131000</td>
-            <td data-label="Price (Prompt)">$0.017 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.112 / 1M tok</td>
-            <td data-label="Latest Update">2025-10-20</td>
         </tr>
 <tr data-description="GPT-5 Image Mini combines OpenAI&#39;s advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model features superior instruction following, text...">
             <td data-label="Developer">openai</td>
@@ -3733,8 +3742,8 @@
             <td data-label="Technical Name (ID)">google/gemma-3-4b-it</td>
             <td data-label="Model Name">Google: Gemma 3 4B</td>
             <td data-label="Context">131072</td>
-            <td data-label="Price (Prompt)">$0.04 / 1M tok</td>
-            <td data-label="Price (Completion)">$0.05 / 1M tok</td>
+            <td data-label="Price (Prompt)">$0.05 / 1M tok</td>
+            <td data-label="Price (Completion)">$0.1 / 1M tok</td>
             <td data-label="Latest Update">2025-03-14</td>
         </tr>
 <tr data-description="Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...">
